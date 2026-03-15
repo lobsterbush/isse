@@ -112,6 +112,60 @@
       "emergency_type": "governance",
       "confidence": 0.80,
       "notes": "State of emergency declared Feb 24, 2022, extended multiple times."
+    },
+    {
+      "iso3": "AUS",
+      "country": "Australia",
+      "status": "expired",
+      "notes": "False positive: martial law has never been declared in Australia since federation in 1901. Wikipedia Martial_law article describes legal framework, not an active declaration."
+    },
+    {
+      "iso3": "KOR",
+      "country": "South Korea",
+      "status": "expired",
+      "notes": "Martial law declared Dec 3, 2024, lifted ~6 hours later on Dec 4, 2024. President Yoon subsequently impeached."
+    },
+    {
+      "iso3": "DOM",
+      "country": "Dominican Republic",
+      "status": "expired",
+      "notes": "ICCPR derogation was COVID-related (June 2020 – June 2021). No current national state of emergency."
+    },
+    {
+      "iso3": "SEN",
+      "country": "Senegal",
+      "status": "expired",
+      "notes": "ICCPR derogation was COVID-related (March – July 2020). No current state of emergency."
+    },
+    {
+      "iso3": "PSE",
+      "country": "Palestine",
+      "status": "expired",
+      "notes": "ICCPR derogation was COVID-related (March – April 2020). Conflict situation is ongoing but the formal ICCPR derogation notification is stale."
+    },
+    {
+      "iso3": "GEO",
+      "country": "Georgia",
+      "status": "expired",
+      "notes": "ICCPR derogation dates to 2006, latest notification 2023. No confirmed current national state of emergency."
+    },
+    {
+      "iso3": "TGO",
+      "country": "Togo",
+      "status": "active",
+      "title": "State of security emergency in Savanes region (extended since June 2022)",
+      "emergency_type": "conflict",
+      "confidence": 0.90,
+      "notes": "State of emergency in Savanes region due to jihadist insurgency. Extended for 12 months starting March 13, 2026 by National Assembly."
+    },
+    {
+      "iso3": "PRY",
+      "country": "Paraguay",
+      "status": "active",
+      "title": "Penitentiary state of emergency (extended through Dec 2025)",
+      "emergency_type": "governance",
+      "confidence": 0.75,
+      "notes": "Sector-specific penitentiary emergency extended through at least December 2025. Also flooding emergency in Chaco region declared April 2025."
     }
   ]
 }
