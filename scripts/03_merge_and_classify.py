@@ -286,26 +286,15 @@ def build_emergencies(
             entry["title"] = rec.get("title", "")
         entry["_classification_text"] = entry.get("_classification_text", "") + " " + combined_text
 
-    # 3) Process GDACS disaster alerts
+    # 3) Process GDACS disaster alerts — ONLY boost existing entries.
+    #    GDACS tracks disasters, not SoE declarations. A disaster alert
+    #    does NOT mean a state of emergency was declared.
     for rec in gc_records:
         iso3 = rec.get("iso3", "")
         if not iso3 or len(iso3) != 3:
             continue
         if iso3 not in by_country:
-            by_country[iso3] = {
-                "iso3": iso3,
-                "country": rec.get("country", ""),
-                "continent": get_continent(iso3),
-                "emergency_type": "",
-                "title": "",
-                "declared_by": "",
-                "start_date": "",
-                "status": "active",
-                "confidence": 0.0,
-                "sources": [],
-                "recent_events": [],
-                "source_urls": [],
-            }
+            continue  # Skip — no declared SoE for this country
 
         entry = by_country[iso3]
         entry["sources"].append({
@@ -314,25 +303,16 @@ def build_emergencies(
             "date": rec.get("date", ""),
             "url": rec.get("url", ""),
         })
-
-        rec_date = rec.get("date", "")
-        if rec_date and (not entry["start_date"] or rec_date < entry["start_date"]):
-            entry["start_date"] = rec_date[:10]
-
-        # Use GDACS title if entry doesn't have one yet
-        if not entry["title"]:
-            entry["title"] = rec.get("title", "")
-
-        # GDACS events are always disaster-type
         entry["_classification_text"] = (
             entry.get("_classification_text", "") + " " +
             rec.get("title", "") + " " + rec.get("event_type", "")
         )
 
-    # 4) Process GDELT records — use all mentioned countries, not just primary
+    # 4) Process GDELT records — ONLY boost existing entries.
+    #    GDELT news articles confirm that emergencies are being reported on,
+    #    but a news article alone doesn't constitute a declared SoE.
     for rec in gd_records:
         countries = rec.get("mentioned_countries", [])
-        # Fall back to iso3 if mentioned_countries not present
         if not countries:
             iso3 = rec.get("iso3", "")
             countries = [iso3] if iso3 and len(iso3) == 3 else []
@@ -341,20 +321,7 @@ def build_emergencies(
             if not iso3 or len(iso3) != 3:
                 continue
             if iso3 not in by_country:
-                by_country[iso3] = {
-                    "iso3": iso3,
-                    "country": "",
-                    "continent": get_continent(iso3),
-                    "emergency_type": "",
-                    "title": "",
-                    "declared_by": "",
-                    "start_date": "",
-                    "status": "active",
-                    "confidence": 0.0,
-                    "sources": [],
-                    "recent_events": [],
-                    "source_urls": [],
-                }
+                continue  # Skip — no declared SoE for this country
 
             entry = by_country[iso3]
             entry["sources"].append({
@@ -363,11 +330,6 @@ def build_emergencies(
                 "date": rec.get("date", ""),
                 "url": rec.get("url", ""),
             })
-
-            rec_date = rec.get("date", "")
-            if rec_date and (not entry["start_date"] or rec_date < entry["start_date"]):
-                entry["start_date"] = rec_date[:10]
-
             entry["_classification_text"] = entry.get("_classification_text", "") + " " + rec.get("title", "")
 
     # 5) Classify and score
@@ -408,12 +370,18 @@ def build_emergencies(
         del entry["sources"]
 
     # 6) Apply overrides (these take precedence, optional supplements)
+    expired_count = 0
+    boosted_count = 0
     for ov in overrides:
         iso3 = ov.get("iso3", "")
         if not iso3:
             continue
+        ov_status = ov.get("status", "active")
 
         if iso3 not in by_country:
+            # Don't create new entries for expired/lifted overrides
+            if ov_status in ("expired", "lifted"):
+                continue
             by_country[iso3] = {
                 "iso3": iso3,
                 "country": ov.get("country", ""),
@@ -422,7 +390,7 @@ def build_emergencies(
                 "title": ov.get("title", ""),
                 "declared_by": ov.get("declared_by", ""),
                 "start_date": ov.get("start_date", ""),
-                "status": ov.get("status", "active"),
+                "status": ov_status,
                 "confidence": ov.get("confidence", 1.0),
                 "source_urls": [{"title": "Official source", "url": ov.get("source_url", ""), "date": ""}],
                 "recent_events": [],
@@ -430,6 +398,7 @@ def build_emergencies(
                 "notes": ov.get("notes", ""),
                 "override": True,
             }
+            boosted_count += 1
         else:
             entry = by_country[iso3]
             # Override fields where the curated data is better
@@ -441,8 +410,8 @@ def build_emergencies(
                 entry["declared_by"] = ov["declared_by"]
             if ov.get("start_date"):
                 entry["start_date"] = ov["start_date"]
-            if ov.get("status"):
-                entry["status"] = ov["status"]
+            if ov_status:
+                entry["status"] = ov_status
             if ov.get("confidence"):
                 entry["confidence"] = max(entry.get("confidence", 0), ov["confidence"])
             if ov.get("source_url"):
@@ -455,6 +424,12 @@ def build_emergencies(
             entry["override"] = True
             if not entry.get("country"):
                 entry["country"] = ov.get("country", "")
+            if ov_status in ("expired", "lifted"):
+                expired_count += 1
+            elif ov.get("confidence"):
+                boosted_count += 1
+    if expired_count or boosted_count:
+        print(f"  Overrides applied: {expired_count} marked expired, {boosted_count} boosted")
 
     # Resolve country names via pycountry for any missing
     for iso3, entry in by_country.items():

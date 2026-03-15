@@ -1,8 +1,66 @@
 {
-  "generated_at": "2026-03-15T07:21:57.125935+00:00",
-  "active_count": 25,
-  "total_count": 48,
+  "generated_at": "2026-03-15T11:18:22.965016+00:00",
+  "active_count": 8,
+  "total_count": 28,
   "emergencies": [
+    {
+      "iso3": "UKR",
+      "country": "Ukraine",
+      "continent": "Europe",
+      "emergency_type": "conflict",
+      "title": "Martial law (extended 18 times since Feb 2022, currently until May 2026)",
+      "declared_by": "",
+      "start_date": "2022-02-23",
+      "status": "active",
+      "confidence": 0.99,
+      "recent_events": [
+        {
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a natio",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022.",
+      "source_count": 1,
+      "override": true
+    },
+    {
+      "iso3": "SLV",
+      "country": "El Salvador",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "State of exception for gang crackdown (extended 48+ times since March 2022)",
+      "declared_by": "",
+      "start_date": "2022-03-26",
+      "status": "active",
+      "confidence": 0.99,
+      "recent_events": [
+        {
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent da",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026.",
+      "source_count": 1,
+      "override": true
+    },
     {
       "iso3": "VEN",
       "country": "Venezuela",
@@ -32,60 +90,91 @@
       "source_count": 1
     },
     {
-      "iso3": "NGA",
-      "country": "Nigeria",
-      "continent": "Africa",
-      "emergency_type": "conflict",
-      "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-      "declared_by": "President Bola Ahmed Tinubu",
-      "start_date": "2013-05-14",
+      "iso3": "MDA",
+      "country": "Moldova",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "State of emergency due to Ukraine conflict (extended repeatedly since Feb 2022)",
+      "declared_by": "",
+      "start_date": "2022-02-24",
       "status": "active",
-      "confidence": 0.81,
+      "confidence": 0.85,
       "recent_events": [
         {
-          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion,",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
         }
       ],
       "source_urls": [
         {
-          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in respo",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "",
-      "source_count": 1
+      "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025.",
+      "source_count": 1,
+      "override": true
     },
     {
-      "iso3": "USA",
-      "country": "United States",
-      "continent": "Americas",
-      "emergency_type": "conflict",
-      "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuous federal crackdowns on immigrants, aiming to offe",
-      "declared_by": "Governor Jay Inslee",
-      "start_date": "2015-12-10",
+      "iso3": "HUN",
+      "country": "Hungary",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "State of danger due to Ukraine conflict (extended repeatedly since May 2022)",
+      "declared_by": "",
+      "start_date": "2022-05-24",
       "status": "active",
-      "confidence": 0.81,
+      "confidence": 0.85,
       "recent_events": [
         {
-          "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuous federal crackdowns",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
         }
       ],
       "source_urls": [
         {
-          "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuou",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "",
-      "source_count": 1
+      "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025.",
+      "source_count": 1,
+      "override": true
+    },
+    {
+      "iso3": "LTU",
+      "country": "Lithuania",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "State of emergency due to Russian security threat (extended since Feb 2022)",
+      "declared_by": "",
+      "start_date": "2022-02-24",
+      "status": "active",
+      "confidence": 0.8,
+      "recent_events": [
+        {
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large mi",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and prov",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "State of emergency declared Feb 24, 2022, extended multiple times.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "TTO",
@@ -142,621 +231,68 @@
       ],
       "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
       "source_count": 1
-    },
-    {
-      "iso3": "NZL",
-      "country": "New Zealand",
-      "continent": "Oceania",
-      "emergency_type": "disaster",
-      "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a state of eme",
-      "declared_by": "Minister of Civil Defence John Carter",
-      "start_date": "2011-02-23",
-      "status": "active",
-      "confidence": 0.63,
-      "recent_events": [
-        {
-          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and loc",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "MOZ",
-      "country": "Mozambique",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Tropical Cyclone: GEZANI-26",
-      "declared_by": "",
-      "start_date": "2025-12-22",
-      "status": "active",
-      "confidence": 0.6,
-      "recent_events": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06",
-          "source": "gdacs"
-        },
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19",
-          "source": "gdacs"
-        },
-        {
-          "title": "Flood in Mozambique",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
-          "date": "2025-12-22",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06"
-        },
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19"
-        },
-        {
-          "title": "Flood in Mozambique",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
-          "date": "2025-12-22"
-        }
-      ],
-      "source_count": 3
-    },
-    {
-      "iso3": "KAZ",
-      "country": "Kazakhstan",
-      "continent": "Asia",
-      "emergency_type": "governance",
-      "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests…",
-      "declared_by": "",
-      "start_date": "2022-01-05",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh pro",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests.",
-      "source_count": 1
-    },
-    {
-      "iso3": "UKR",
-      "country": "Ukraine",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excl…",
-      "declared_by": "",
-      "start_date": "2022-02-23",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a natio",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excluding the occupied territories in Donbas. On the same day, Russiabegan to evacuate itsembassyin Kyivand also lowered the Russian flag from the top of",
-      "source_count": 1
-    },
-    {
-      "iso3": "MDA",
-      "country": "Moldova",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians fl…",
-      "declared_by": "",
-      "start_date": "2022-02-24",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion,",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in respo",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee into Moldovan territory.",
-      "source_count": 1
-    },
-    {
-      "iso3": "LTU",
-      "country": "Lithuania",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russia…",
-      "declared_by": "",
-      "start_date": "2022-02-24",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large mi",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and prov",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russiaand Belarus.",
-      "source_count": 1
-    },
-    {
-      "iso3": "SLV",
-      "country": "El Salvador",
-      "continent": "Americas",
-      "emergency_type": "conflict",
-      "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil w…",
-      "declared_by": "",
-      "start_date": "2022-03-26",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent da",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war in 1992.",
-      "source_count": 1
-    },
-    {
-      "iso3": "LKA",
-      "country": "Sri Lanka",
-      "continent": "Asia",
-      "emergency_type": "governance",
-      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
-      "declared_by": "",
-      "start_date": "2022-04-02",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests.",
-      "source_count": 1
-    },
-    {
-      "iso3": "POL",
-      "country": "Poland",
-      "continent": "Europe",
-      "emergency_type": "public_health",
-      "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
-      "declared_by": "",
-      "start_date": "2022-05-16",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for C",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19.",
-      "source_count": 1
-    },
-    {
-      "iso3": "HUN",
-      "country": "Hungary",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
-      "declared_by": "",
-      "start_date": "2022-05-24",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine.",
-      "source_count": 1
-    },
-    {
-      "iso3": "ECU",
-      "country": "Ecuador",
-      "continent": "Americas",
-      "emergency_type": "governance",
-      "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
-      "declared_by": "",
-      "start_date": "2022-06-18",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests.",
-      "source_count": 1
-    },
-    {
-      "iso3": "UZB",
-      "country": "Uzbekistan",
-      "continent": "Asia",
-      "emergency_type": "governance",
-      "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
-      "declared_by": "",
-      "start_date": "2022-07-02",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests.",
-      "source_count": 1
-    },
-    {
-      "iso3": "ITA",
-      "country": "Italy",
-      "continent": "Europe",
-      "emergency_type": "disaster",
-      "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade…",
-      "declared_by": "",
-      "start_date": "2022-07-04",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drough",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade.",
-      "source_count": 1
-    },
-    {
-      "iso3": "PRT",
-      "country": "Portugal",
-      "continent": "Europe",
-      "emergency_type": "disaster",
-      "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
-      "declared_by": "",
-      "start_date": "2022-07-11",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 11 July 2022, Portugal declared a state of emergency due to forest fires.",
-      "source_count": 1
-    },
-    {
-      "iso3": "GBR",
-      "country": "UK",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life…",
-      "declared_by": "",
-      "start_date": "2022-07-15",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a d",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warning",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life.",
-      "source_count": 1
-    },
-    {
-      "iso3": "PAK",
-      "country": "Pakistan",
-      "continent": "Asia",
-      "emergency_type": "disaster",
-      "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
-      "declared_by": "",
-      "start_date": "2022-08-25",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding.",
-      "source_count": 1
-    },
-    {
-      "iso3": "CAN",
-      "country": "Canada",
-      "continent": "Americas",
-      "emergency_type": "public_health",
-      "title": "The first usage of the Emergencies Act was invoked by Prime Minister Justin Trudeau on 14 February 2022 in response to the Freedom Convoy 2022 protest",
-      "declared_by": "",
-      "start_date": "2022-02-14",
-      "status": "active",
-      "confidence": 0.54,
-      "recent_events": [
-        {
-          "title": "The first usage of the Emergencies Act was invoked by Prime Minister Justin Trudeau on 14 February 2022 in response to t",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Canada",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "The first usage of the Emergencies Act was invoked by Prime Minister Justin Trudeau on 14 February 2",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Canada",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "ETH",
-      "country": "Ethiopia",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: East Africa-2025",
-      "declared_by": "",
-      "start_date": "2025-04-21",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Flood in Ethiopia",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
-          "date": "2026-03-09",
-          "source": "gdacs"
-        },
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Ethiopia",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
-          "date": "2026-03-09"
-        },
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "iso3": "COD",
-      "country": "Democratic Republic of Congo",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: Angola-2026",
-      "declared_by": "",
-      "start_date": "2025-12-11",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Flood in Democratic Republic of Congo",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
-          "date": "2026-02-11",
-          "source": "gdacs"
-        },
-        {
-          "title": "Drought: Angola-2026",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
-          "date": "2025-12-11",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Democratic Republic of Congo",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
-          "date": "2026-02-11"
-        },
-        {
-          "title": "Drought: Angola-2026",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
-          "date": "2025-12-11"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "iso3": "MDG",
-      "country": "Madagascar",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Tropical Cyclone: GEZANI-26",
-      "declared_by": "",
-      "start_date": "2026-01-29",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06",
-          "source": "gdacs"
-        },
-        {
-          "title": "Tropical Cyclone: FYTIA-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
-          "date": "2026-01-29",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06"
-        },
-        {
-          "title": "Tropical Cyclone: FYTIA-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
-          "date": "2026-01-29"
-        }
-      ],
-      "source_count": 2
     }
   ],
   "all_emergencies": [
     {
+      "iso3": "UKR",
+      "country": "Ukraine",
+      "continent": "Europe",
+      "emergency_type": "conflict",
+      "title": "Martial law (extended 18 times since Feb 2022, currently until May 2026)",
+      "declared_by": "",
+      "start_date": "2022-02-23",
+      "status": "active",
+      "confidence": 0.99,
+      "recent_events": [
+        {
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a natio",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022.",
+      "source_count": 1,
+      "override": true
+    },
+    {
+      "iso3": "SLV",
+      "country": "El Salvador",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "State of exception for gang crackdown (extended 48+ times since March 2022)",
+      "declared_by": "",
+      "start_date": "2022-03-26",
+      "status": "active",
+      "confidence": 0.99,
+      "recent_events": [
+        {
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent da",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026.",
+      "source_count": 1,
+      "override": true
+    },
+    {
       "iso3": "VEN",
       "country": "Venezuela",
       "continent": "Americas",
@@ -785,60 +321,91 @@
       "source_count": 1
     },
     {
-      "iso3": "NGA",
-      "country": "Nigeria",
-      "continent": "Africa",
-      "emergency_type": "conflict",
-      "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-      "declared_by": "President Bola Ahmed Tinubu",
-      "start_date": "2013-05-14",
+      "iso3": "MDA",
+      "country": "Moldova",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "State of emergency due to Ukraine conflict (extended repeatedly since Feb 2022)",
+      "declared_by": "",
+      "start_date": "2022-02-24",
       "status": "active",
-      "confidence": 0.81,
+      "confidence": 0.85,
       "recent_events": [
         {
-          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion,",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
         }
       ],
       "source_urls": [
         {
-          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in respo",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "",
-      "source_count": 1
+      "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025.",
+      "source_count": 1,
+      "override": true
     },
     {
-      "iso3": "USA",
-      "country": "United States",
-      "continent": "Americas",
-      "emergency_type": "conflict",
-      "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuous federal crackdowns on immigrants, aiming to offe",
-      "declared_by": "Governor Jay Inslee",
-      "start_date": "2015-12-10",
+      "iso3": "HUN",
+      "country": "Hungary",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "State of danger due to Ukraine conflict (extended repeatedly since May 2022)",
+      "declared_by": "",
+      "start_date": "2022-05-24",
       "status": "active",
-      "confidence": 0.81,
+      "confidence": 0.85,
       "recent_events": [
         {
-          "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuous federal crackdowns",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
         }
       ],
       "source_urls": [
         {
-          "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuou",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "",
-      "source_count": 1
+      "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025.",
+      "source_count": 1,
+      "override": true
+    },
+    {
+      "iso3": "LTU",
+      "country": "Lithuania",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "State of emergency due to Russian security threat (extended since Feb 2022)",
+      "declared_by": "",
+      "start_date": "2022-02-24",
+      "status": "active",
+      "confidence": 0.8,
+      "recent_events": [
+        {
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large mi",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and prov",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "State of emergency declared Feb 24, 2022, extended multiple times.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "TTO",
@@ -897,83 +464,6 @@
       "source_count": 1
     },
     {
-      "iso3": "NZL",
-      "country": "New Zealand",
-      "continent": "Oceania",
-      "emergency_type": "disaster",
-      "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a state of eme",
-      "declared_by": "Minister of Civil Defence John Carter",
-      "start_date": "2011-02-23",
-      "status": "active",
-      "confidence": 0.63,
-      "recent_events": [
-        {
-          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and loc",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "MOZ",
-      "country": "Mozambique",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Tropical Cyclone: GEZANI-26",
-      "declared_by": "",
-      "start_date": "2025-12-22",
-      "status": "active",
-      "confidence": 0.6,
-      "recent_events": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06",
-          "source": "gdacs"
-        },
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19",
-          "source": "gdacs"
-        },
-        {
-          "title": "Flood in Mozambique",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
-          "date": "2025-12-22",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06"
-        },
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19"
-        },
-        {
-          "title": "Flood in Mozambique",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
-          "date": "2025-12-22"
-        }
-      ],
-      "source_count": 3
-    },
-    {
       "iso3": "KAZ",
       "country": "Kazakhstan",
       "continent": "Asia",
@@ -981,7 +471,7 @@
       "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests…",
       "declared_by": "",
       "start_date": "2022-01-05",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -998,120 +488,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests.",
-      "source_count": 1
-    },
-    {
-      "iso3": "UKR",
-      "country": "Ukraine",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excl…",
-      "declared_by": "",
-      "start_date": "2022-02-23",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a natio",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excluding the occupied territories in Donbas. On the same day, Russiabegan to evacuate itsembassyin Kyivand also lowered the Russian flag from the top of",
-      "source_count": 1
-    },
-    {
-      "iso3": "MDA",
-      "country": "Moldova",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians fl…",
-      "declared_by": "",
-      "start_date": "2022-02-24",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion,",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in respo",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee into Moldovan territory.",
-      "source_count": 1
-    },
-    {
-      "iso3": "LTU",
-      "country": "Lithuania",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russia…",
-      "declared_by": "",
-      "start_date": "2022-02-24",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large mi",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and prov",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russiaand Belarus.",
-      "source_count": 1
-    },
-    {
-      "iso3": "SLV",
-      "country": "El Salvador",
-      "continent": "Americas",
-      "emergency_type": "conflict",
-      "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil w…",
-      "declared_by": "",
-      "start_date": "2022-03-26",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent da",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war in 1992.",
-      "source_count": 1
+      "notes": "State of emergency declared Jan 5, 2022, lifted Jan 19, 2022.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "LKA",
@@ -1121,7 +500,7 @@
       "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
       "declared_by": "",
       "start_date": "2022-04-02",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1138,8 +517,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests.",
-      "source_count": 1
+      "notes": "State of emergency declared April 2022 during economic crisis, lifted after July 2022.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "POL",
@@ -1149,7 +529,7 @@
       "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
       "declared_by": "",
       "start_date": "2022-05-16",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1166,36 +546,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19.",
-      "source_count": 1
-    },
-    {
-      "iso3": "HUN",
-      "country": "Hungary",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
-      "declared_by": "",
-      "start_date": "2022-05-24",
-      "status": "active",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine.",
-      "source_count": 1
+      "notes": "Health state of emergency declared May 2022 for monkeypox. No longer in effect.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "ECU",
@@ -1205,7 +558,7 @@
       "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
       "declared_by": "",
       "start_date": "2022-06-18",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1222,8 +575,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests.",
-      "source_count": 1
+      "notes": "State of emergency declared June 2022 during protests. Lifted after agreement.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "UZB",
@@ -1233,7 +587,7 @@
       "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
       "declared_by": "",
       "start_date": "2022-07-02",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1250,8 +604,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests.",
-      "source_count": 1
+      "notes": "State of emergency July 2022 in Karakalpakstan. Lifted within weeks.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "ITA",
@@ -1261,7 +616,7 @@
       "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade…",
       "declared_by": "",
       "start_date": "2022-07-04",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1278,8 +633,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade.",
-      "source_count": 1
+      "notes": "State of emergency July 2022 for northern drought. Regional and temporary.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "PRT",
@@ -1289,7 +645,7 @@
       "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
       "declared_by": "",
       "start_date": "2022-07-11",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1306,8 +662,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 11 July 2022, Portugal declared a state of emergency due to forest fires.",
-      "source_count": 1
+      "notes": "State of emergency July 2022 for forest fires. No longer in effect.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "GBR",
@@ -1317,7 +674,7 @@
       "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life…",
       "declared_by": "",
       "start_date": "2022-07-15",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1334,8 +691,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life.",
-      "source_count": 1
+      "notes": "National emergency declared July 15, 2022 for extreme heat wave. Lasted ~2 days.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "PAK",
@@ -1345,7 +703,7 @@
       "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
       "declared_by": "",
       "start_date": "2022-08-25",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.59,
       "recent_events": [
         {
@@ -1362,8 +720,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding.",
-      "source_count": 1
+      "notes": "State of emergency August 2022 for catastrophic flooding. No longer in effect.",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "CAN",
@@ -1373,7 +732,7 @@
       "title": "The first usage of the Emergencies Act was invoked by Prime Minister Justin Trudeau on 14 February 2022 in response to the Freedom Convoy 2022 protest",
       "declared_by": "",
       "start_date": "2022-02-14",
-      "status": "active",
+      "status": "expired",
       "confidence": 0.54,
       "recent_events": [
         {
@@ -1390,122 +749,9 @@
           "date": "2026-03-15"
         }
       ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "ETH",
-      "country": "Ethiopia",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: East Africa-2025",
-      "declared_by": "",
-      "start_date": "2025-04-21",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Flood in Ethiopia",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
-          "date": "2026-03-09",
-          "source": "gdacs"
-        },
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Ethiopia",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
-          "date": "2026-03-09"
-        },
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "iso3": "COD",
-      "country": "Democratic Republic of Congo",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: Angola-2026",
-      "declared_by": "",
-      "start_date": "2025-12-11",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Flood in Democratic Republic of Congo",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
-          "date": "2026-02-11",
-          "source": "gdacs"
-        },
-        {
-          "title": "Drought: Angola-2026",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
-          "date": "2025-12-11",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Democratic Republic of Congo",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
-          "date": "2026-02-11"
-        },
-        {
-          "title": "Drought: Angola-2026",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
-          "date": "2025-12-11"
-        }
-      ],
-      "source_count": 2
-    },
-    {
-      "iso3": "MDG",
-      "country": "Madagascar",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Tropical Cyclone: GEZANI-26",
-      "declared_by": "",
-      "start_date": "2026-01-29",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06",
-          "source": "gdacs"
-        },
-        {
-          "title": "Tropical Cyclone: FYTIA-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
-          "date": "2026-01-29",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Tropical Cyclone: GEZANI-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
-          "date": "2026-02-06"
-        },
-        {
-          "title": "Tropical Cyclone: FYTIA-26",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
-          "date": "2026-01-29"
-        }
-      ],
-      "source_count": 2
+      "notes": "Emergencies Act invoked Feb 14, 2022, revoked Feb 23, 2022 (9 days).",
+      "source_count": 1,
+      "override": true
     },
     {
       "iso3": "KGZ",
@@ -1785,357 +1031,6 @@
         }
       ],
       "notes": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the nation for a period of 15 days, to become effective next day after the approval of the Council of Ministersfor the COVID-19 pandemic in Spain.",
-      "source_count": 1
-    },
-    {
-      "iso3": "BOL",
-      "country": "Bolivia",
-      "continent": "Americas",
-      "emergency_type": "disaster",
-      "title": "Drought: South America-2023",
-      "declared_by": "",
-      "start_date": "2022-09-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: South America-2023",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
-          "date": "2022-09-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: South America-2023",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
-          "date": "2022-09-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "BRA",
-      "country": "Brazil",
-      "continent": "Americas",
-      "emergency_type": "disaster",
-      "title": "Drought: South America-2023",
-      "declared_by": "",
-      "start_date": "2022-09-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: South America-2023",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
-          "date": "2022-09-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: South America-2023",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
-          "date": "2022-09-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "PER",
-      "country": "Peru",
-      "continent": "Americas",
-      "emergency_type": "disaster",
-      "title": "Drought: South America-2023",
-      "declared_by": "",
-      "start_date": "2022-09-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: South America-2023",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
-          "date": "2022-09-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: South America-2023",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
-          "date": "2022-09-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "KEN",
-      "country": "Kenya",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: East Africa-2025",
-      "declared_by": "",
-      "start_date": "2025-04-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "SOM",
-      "country": "Somalia",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: East Africa-2025",
-      "declared_by": "",
-      "start_date": "2025-04-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: East Africa-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
-          "date": "2025-04-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "ARG",
-      "country": "Argentina",
-      "continent": "Americas",
-      "emergency_type": "disaster",
-      "title": "Drought: Argentina-Uruguay-2025",
-      "declared_by": "",
-      "start_date": "2025-11-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: Argentina-Uruguay-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
-          "date": "2025-11-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: Argentina-Uruguay-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
-          "date": "2025-11-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "URY",
-      "country": "Uruguay",
-      "continent": "Americas",
-      "emergency_type": "disaster",
-      "title": "Drought: Argentina-Uruguay-2025",
-      "declared_by": "",
-      "start_date": "2025-11-21",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: Argentina-Uruguay-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
-          "date": "2025-11-21",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: Argentina-Uruguay-2025",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
-          "date": "2025-11-21"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "AGO",
-      "country": "Angola",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Drought: Angola-2026",
-      "declared_by": "",
-      "start_date": "2025-12-11",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Drought: Angola-2026",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
-          "date": "2025-12-11",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Drought: Angola-2026",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
-          "date": "2025-12-11"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "BGD",
-      "country": "Bangladesh",
-      "continent": "Asia",
-      "emergency_type": "disaster",
-      "title": "Earthquake in Bangladesh",
-      "declared_by": "",
-      "start_date": "2026-02-27",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Earthquake in Bangladesh",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1526507&episodeid=1690089&eventtype=EQ",
-          "date": "2026-02-27",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Earthquake in Bangladesh",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1526507&episodeid=1690089&eventtype=EQ",
-          "date": "2026-02-27"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "CHL",
-      "country": "Chile",
-      "continent": "Americas",
-      "emergency_type": "disaster",
-      "title": "Wildfire in Chile",
-      "declared_by": "",
-      "start_date": "2026-01-17",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Wildfire in Chile",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027016&episodeid=19&eventtype=WF",
-          "date": "2026-01-17",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Wildfire in Chile",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1027016&episodeid=19&eventtype=WF",
-          "date": "2026-01-17"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "ZAF",
-      "country": "South Africa",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Flood in Mozambique, South Africa, Zimbabwe",
-      "declared_by": "",
-      "start_date": "2026-01-19",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "ZWE",
-      "country": "Zimbabwe",
-      "continent": "Africa",
-      "emergency_type": "disaster",
-      "title": "Flood in Mozambique, South Africa, Zimbabwe",
-      "declared_by": "",
-      "start_date": "2026-01-19",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Mozambique, South Africa, Zimbabwe",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
-          "date": "2026-01-19"
-        }
-      ],
-      "source_count": 1
-    },
-    {
-      "iso3": "IDN",
-      "country": "Indonesia",
-      "continent": "Asia",
-      "emergency_type": "disaster",
-      "title": "Flood in Indonesia",
-      "declared_by": "",
-      "start_date": "2025-11-17",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Flood in Indonesia",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
-          "date": "2025-11-17",
-          "source": "gdacs"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Flood in Indonesia",
-          "url": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
-          "date": "2025-11-17"
-        }
-      ],
       "source_count": 1
     }
   ]

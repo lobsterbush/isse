@@ -1,11 +1,117 @@
 {
   "meta": {
-    "description": "Optional curated override file. Add entries here to correct or supplement auto-detected emergencies. All dashboard data is primarily sourced from international news feeds (GDELT, ReliefWeb).",
-    "last_updated": "2026-03-14",
+    "description": "Curated overrides to correct Wikipedia-sourced entries. Entries with status=expired are excluded from the dashboard. Entries with status=active confirm ongoing emergencies and boost confidence.",
+    "last_updated": "2026-03-15",
     "taxonomy": {
       "types": ["disaster", "public_health", "conflict", "migration", "governance"],
       "statuses": ["active", "extended", "expired", "lifted"]
     }
   },
-  "overrides": []
+  "overrides": [
+    {
+      "iso3": "CAN",
+      "country": "Canada",
+      "status": "expired",
+      "notes": "Emergencies Act invoked Feb 14, 2022, revoked Feb 23, 2022 (9 days)."
+    },
+    {
+      "iso3": "KAZ",
+      "country": "Kazakhstan",
+      "status": "expired",
+      "notes": "State of emergency declared Jan 5, 2022, lifted Jan 19, 2022."
+    },
+    {
+      "iso3": "LKA",
+      "country": "Sri Lanka",
+      "status": "expired",
+      "notes": "State of emergency declared April 2022 during economic crisis, lifted after July 2022."
+    },
+    {
+      "iso3": "GBR",
+      "country": "United Kingdom",
+      "status": "expired",
+      "notes": "National emergency declared July 15, 2022 for extreme heat wave. Lasted ~2 days."
+    },
+    {
+      "iso3": "POL",
+      "country": "Poland",
+      "status": "expired",
+      "notes": "Health state of emergency declared May 2022 for monkeypox. No longer in effect."
+    },
+    {
+      "iso3": "ECU",
+      "country": "Ecuador",
+      "status": "expired",
+      "notes": "State of emergency declared June 2022 during protests. Lifted after agreement."
+    },
+    {
+      "iso3": "UZB",
+      "country": "Uzbekistan",
+      "status": "expired",
+      "notes": "State of emergency July 2022 in Karakalpakstan. Lifted within weeks."
+    },
+    {
+      "iso3": "ITA",
+      "country": "Italy",
+      "status": "expired",
+      "notes": "State of emergency July 2022 for northern drought. Regional and temporary."
+    },
+    {
+      "iso3": "PRT",
+      "country": "Portugal",
+      "status": "expired",
+      "notes": "State of emergency July 2022 for forest fires. No longer in effect."
+    },
+    {
+      "iso3": "PAK",
+      "country": "Pakistan",
+      "status": "expired",
+      "notes": "State of emergency August 2022 for catastrophic flooding. No longer in effect."
+    },
+    {
+      "iso3": "UKR",
+      "country": "Ukraine",
+      "status": "active",
+      "title": "Martial law (extended 18 times since Feb 2022, currently until May 2026)",
+      "emergency_type": "conflict",
+      "confidence": 0.99,
+      "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022."
+    },
+    {
+      "iso3": "SLV",
+      "country": "El Salvador",
+      "status": "active",
+      "title": "State of exception for gang crackdown (extended 48+ times since March 2022)",
+      "emergency_type": "governance",
+      "confidence": 0.99,
+      "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026."
+    },
+    {
+      "iso3": "HUN",
+      "country": "Hungary",
+      "status": "active",
+      "title": "State of danger due to Ukraine conflict (extended repeatedly since May 2022)",
+      "emergency_type": "governance",
+      "confidence": 0.85,
+      "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025."
+    },
+    {
+      "iso3": "MDA",
+      "country": "Moldova",
+      "status": "active",
+      "title": "State of emergency due to Ukraine conflict (extended repeatedly since Feb 2022)",
+      "emergency_type": "governance",
+      "confidence": 0.85,
+      "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025."
+    },
+    {
+      "iso3": "LTU",
+      "country": "Lithuania",
+      "status": "active",
+      "title": "State of emergency due to Russian security threat (extended since Feb 2022)",
+      "emergency_type": "governance",
+      "confidence": 0.80,
+      "notes": "State of emergency declared Feb 24, 2022, extended multiple times."
+    }
+  ]
 }

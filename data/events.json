@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-03-15T07:21:57.125935+00:00",
+  "generated_at": "2026-03-15T11:18:22.965016+00:00",
   "event_count": 23,
   "events": [
     {
       "source": "gdelt",
-      "title": "Governor Evers declares State of Emergency ahead of major snowstorm",
+      "title": "Middle East crisis : How fuel , food & consumers are affected – The best and worst case scenarios",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://www.wxpr.org/local-news/2026-03-14/governor-evers-declares-state-of-emergency-ahead-of-major-snowstorm",
-      "source_name": "wxpr.org",
-      "emergency_type": "disaster"
+      "url": "https://sofokleous10.gr/2026/03/15/middle-east-crisis-how-fuel-food-consumers-are-affected-the-best-and-worst-case-scenarios/",
+      "source_name": "sofokleous10.gr",
+      "emergency_type": "governance"
     },
     {
       "source": "gdacs",

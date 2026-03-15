@@ -34,6 +34,9 @@ _SUBNATIONAL = {
     "california", "texas", "florida", "new york", "ohio",
     "los angeles", "minneapolis", "portland", "seattle", "ottawa",
     "maryland", "west virginia", "grindavík",
+    # Additional sub-national indicators
+    "officials in", "local authorities", "regional government",
+    "municipality", "district of", "parish of",
 }
 
 # Emergency-type keywords (same taxonomy as merge script)
@@ -304,6 +307,15 @@ def parse_active_section(html: str, year: int) -> list[dict]:
         if title_text and not title_text.endswith("."):
             title_text += "…"
 
+        # Skip framework-like entries (describe the law, not an actual declaration)
+        title_lower = title_text.lower()
+        if any(fw in title_lower for fw in (
+            "usually declared", "is usually", "can be declared",
+            "act gives", "act allows", "act 2002", "act 1988",
+            "management act", "response act", "the constitution",
+        )):
+            continue
+
         # Confidence based on recency (0.09/yr decay; 2020 entries fall below 50%)
         current_year = datetime.now().year
         years_ago = current_year - year
@@ -408,6 +420,19 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
             undated_match = line
     best = dated_match or undated_match
     title = _clean_text(best[:150]) if best else f"Emergency powers in {country_name}"
+
+    # Skip framework-like entries (describe the law, not an actual declaration)
+    title_lower = title.lower()
+    if any(fw in title_lower for fw in (
+        "usually declared", "is usually", "can be declared",
+        "act gives", "act allows", "act 2002", "act 1988",
+        "management act", "response act", "the constitution",
+    )):
+        return []
+
+    # Skip sub-national emergencies
+    if _is_subnational(title):
+        return []
 
     return [{
         "iso3": iso3,

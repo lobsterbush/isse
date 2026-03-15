@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-03-15T06:08:02.848088+00:00",
+  "fetched_at": "2026-03-15T11:18:22.832932+00:00",
   "source": "https://en.wikipedia.org/wiki/State_of_emergency",
   "description": "Dynamically scraped from Wikipedia's 'State of emergency' article. Each entry corresponds to a documented emergency declaration.",
-  "entry_count": 31,
+  "entry_count": 28,
   "emergencies": [
     {
       "iso3": "VEN",
@@ -18,36 +18,6 @@
       "last_verified": "2026-03-15",
       "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
       "year_section": 2026
-    },
-    {
-      "iso3": "NGA",
-      "country": "Nigeria",
-      "emergency_type": "conflict",
-      "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
-      "declared_by": "President Bola Ahmed Tinubu",
-      "start_date": "2013-05-14",
-      "status": "active",
-      "confidence": 0.81,
-      "source_url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
-      "source_type": "wikipedia",
-      "last_verified": "2026-03-15",
-      "notes": "",
-      "year_section": 2025
-    },
-    {
-      "iso3": "USA",
-      "country": "United States",
-      "emergency_type": "conflict",
-      "title": "In October 2025, officials in Los Angeles County announced a state of emergency due to the continuous federal crackdowns on immigrants, aiming to offe",
-      "declared_by": "Governor Jay Inslee",
-      "start_date": "2015-12-10",
-      "status": "active",
-      "confidence": 0.81,
-      "source_url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
-      "source_type": "wikipedia",
-      "last_verified": "2026-03-15",
-      "notes": "",
-      "year_section": 2025
     },
     {
       "iso3": "TTO",
@@ -78,21 +48,6 @@
       "last_verified": "2026-03-15",
       "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
       "year_section": 2024
-    },
-    {
-      "iso3": "NZL",
-      "country": "New Zealand",
-      "emergency_type": "disaster",
-      "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a state of eme",
-      "declared_by": "Minister of Civil Defence John Carter",
-      "start_date": "2011-02-23",
-      "status": "active",
-      "confidence": 0.63,
-      "source_url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
-      "source_type": "wikipedia",
-      "last_verified": "2026-03-15",
-      "notes": "",
-      "year_section": 2023
     },
     {
       "iso3": "KAZ",
