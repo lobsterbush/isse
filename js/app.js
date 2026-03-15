@@ -24,8 +24,7 @@
     governance: "Governance",
   };
 
-  const GEOJSON_URL =
-    "https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson";
+  const GEOJSON_URL = "data/countries.geojson";
 
   const EVENTS_PER_PAGE = 50;
 
@@ -36,6 +35,18 @@
   let map = null;
   let tableSort = { key: "confidence", asc: false };
   let eventsShown = EVENTS_PER_PAGE;
+  let storedGeoData = null;
+
+  /* ── Helpers ── */
+  function escapeHtml(str) {
+    if (!str) return "";
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#039;");
+  }
 
   /* ── Data Loading ── */
   async function loadData() {
@@ -54,6 +65,9 @@
           document.getElementById("last-updated").textContent =
             `Data updated: ${d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })} at ${d.toLocaleTimeString("en-US", { hour: "2-digit", minute: "2-digit" })}`;
         }
+      } else {
+        document.getElementById("last-updated").textContent =
+          "Could not load emergency data. Run the data pipeline to generate data files.";
       }
 
       if (eventsResp.ok) {
@@ -142,8 +156,8 @@
     try {
       const resp = await fetch(GEOJSON_URL);
       if (resp.ok) {
-        const geoData = await resp.json();
-        renderGeoJson(geoData);
+        storedGeoData = await resp.json();
+        renderGeoJson();
       }
     } catch (err) {
       console.warn("Could not load GeoJSON:", err);
@@ -154,18 +168,20 @@
     return emergenciesData.find((e) => e.iso3 === iso3);
   }
 
-  function renderGeoJson(geoData) {
+  function renderGeoJson() {
+    if (!storedGeoData || !map) return;
     if (geoJsonLayer) {
       map.removeLayer(geoJsonLayer);
     }
 
-    const emergencyISOs = new Set(emergenciesData.map((e) => e.iso3));
+    const filtered = filteredEmergencies();
+    const filteredISOs = new Set(filtered.map((e) => e.iso3));
 
-    geoJsonLayer = L.geoJSON(geoData, {
+    geoJsonLayer = L.geoJSON(storedGeoData, {
       style: (feature) => {
         const iso = feature.properties["ISO3166-1-Alpha-3"];
         const emerg = getEmergencyByISO3(iso);
-        if (emerg) {
+        if (emerg && filteredISOs.has(iso)) {
           const color = TYPE_COLORS[emerg.emergency_type] || "#E85D04";
           return {
             fillColor: color,
@@ -173,6 +189,15 @@
             color: color,
             weight: 1.5,
             opacity: 0.8,
+          };
+        }
+        if (emerg) {
+          return {
+            fillColor: "#333",
+            fillOpacity: 0.15,
+            color: "#3e3e3e",
+            weight: 0.5,
+            opacity: 0.4,
           };
         }
         return {
@@ -188,14 +213,14 @@
         const emerg = getEmergencyByISO3(iso);
         if (emerg) {
           layer.bindTooltip(
-            `<strong>${emerg.country}</strong><br>` +
-              `<span style="color:${TYPE_COLORS[emerg.emergency_type]}">${TYPE_LABELS[emerg.emergency_type] || emerg.emergency_type}</span><br>` +
-              `${emerg.title}`,
+            `<strong>${escapeHtml(emerg.country)}</strong><br>` +
+              `<span style="color:${TYPE_COLORS[emerg.emergency_type]}">${escapeHtml(TYPE_LABELS[emerg.emergency_type] || emerg.emergency_type)}</span><br>` +
+              escapeHtml(emerg.title),
             { className: "dark-tooltip" }
           );
           layer.on("click", () => openCountryModal(emerg));
         } else {
-          layer.bindTooltip(feature.properties.name || iso);
+          layer.bindTooltip(escapeHtml(feature.properties.name || iso));
         }
       },
     }).addTo(map);
@@ -218,21 +243,30 @@
     });
 
     const tbody = document.getElementById("emergencies-tbody");
+
+    if (data.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:2rem;">
+        ${emergenciesData.length === 0 ? "No data available — run the data pipeline to populate." : "No emergencies match the current filters."}
+      </td></tr>`;
+      document.getElementById("table-count").textContent = "0 emergencies";
+      return;
+    }
+
     tbody.innerHTML = data
       .map((e) => {
         const confPct = Math.round((e.confidence || 0) * 100);
         const topSource = e.source_urls && e.source_urls[0];
-        return `<tr data-iso3="${e.iso3}" style="cursor:pointer">
-          <td><strong>${e.country || e.iso3}</strong></td>
-          <td><span class="type-badge ${e.emergency_type}">${TYPE_LABELS[e.emergency_type] || e.emergency_type}</span></td>
-          <td>${e.title || "—"}</td>
-          <td>${e.declared_by || "—"}</td>
-          <td style="font-family:var(--font-mono);font-size:0.75rem">${e.start_date || "—"}</td>
+        return `<tr data-iso3="${escapeHtml(e.iso3)}" style="cursor:pointer">
+          <td><strong>${escapeHtml(e.country || e.iso3)}</strong></td>
+          <td><span class="type-badge ${escapeHtml(e.emergency_type)}">${escapeHtml(TYPE_LABELS[e.emergency_type] || e.emergency_type)}</span></td>
+          <td>${escapeHtml(e.title) || "—"}</td>
+          <td>${escapeHtml(e.declared_by) || "—"}</td>
+          <td style="font-family:var(--font-mono);font-size:0.75rem">${escapeHtml(e.start_date) || "—"}</td>
           <td>
             ${confPct}%
             <span class="confidence-bar"><span class="confidence-fill" style="width:${confPct}%"></span></span>
           </td>
-          <td>${topSource ? `<a href="${topSource.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${topSource.title.substring(0, 30)}…</a>` : "—"}</td>
+          <td>${topSource ? `<a href="${escapeHtml(topSource.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml((topSource.title || "").substring(0, 30))}…</a>` : "—"}</td>
         </tr>`;
       })
       .join("");
@@ -273,18 +307,25 @@
     const toShow = events.slice(0, eventsShown);
     const listEl = document.getElementById("event-list");
 
+    if (toShow.length === 0) {
+      listEl.innerHTML = `<div style="text-align:center;color:var(--text-muted);padding:2rem;">
+        ${eventsData.length === 0 ? "No news events available yet." : "No events match the current filters."}
+      </div>`;
+      document.getElementById("load-more-btn").style.display = "none";
+      return;
+    }
+
     listEl.innerHTML = toShow
       .map((ev) => {
-        const typeColor = TYPE_COLORS[ev.emergency_type] || "#6a6a6a";
         return `<div class="event-item">
-          <div class="event-date">${ev.date || "—"}</div>
+          <div class="event-date">${escapeHtml(ev.date) || "—"}</div>
           <div class="event-body">
             <div class="event-title">
-              <span class="type-badge ${ev.emergency_type}" style="margin-right:0.4rem">${TYPE_LABELS[ev.emergency_type] || ev.emergency_type}</span>
-              ${ev.url ? `<a href="${ev.url}" target="_blank" rel="noopener">${ev.title}</a>` : ev.title}
+              <span class="type-badge ${escapeHtml(ev.emergency_type)}" style="margin-right:0.4rem">${escapeHtml(TYPE_LABELS[ev.emergency_type] || ev.emergency_type)}</span>
+              ${ev.url ? `<a href="${escapeHtml(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>` : escapeHtml(ev.title)}
             </div>
             <div class="event-meta">
-              ${ev.country || ev.iso3 || ""} · ${ev.source_name || ev.source}
+              ${escapeHtml(ev.country || ev.iso3 || "")} · ${escapeHtml(ev.source_name || ev.source)}
             </div>
           </div>
         </div>`;
@@ -302,10 +343,10 @@
 
     const meta = document.getElementById("modal-meta");
     meta.innerHTML = `
-      <span class="tag type-badge ${emerg.emergency_type}">${TYPE_LABELS[emerg.emergency_type] || emerg.emergency_type}</span>
-      ${emerg.continent ? `<span class="tag">${emerg.continent}</span>` : ""}
-      ${emerg.start_date ? `<span class="tag">Since ${emerg.start_date}</span>` : ""}
-      ${emerg.declared_by ? `<span class="tag">${emerg.declared_by}</span>` : ""}
+      <span class="tag type-badge ${escapeHtml(emerg.emergency_type)}">${escapeHtml(TYPE_LABELS[emerg.emergency_type] || emerg.emergency_type)}</span>
+      ${emerg.continent ? `<span class="tag">${escapeHtml(emerg.continent)}</span>` : ""}
+      ${emerg.start_date ? `<span class="tag">Since ${escapeHtml(emerg.start_date)}</span>` : ""}
+      ${emerg.declared_by ? `<span class="tag">${escapeHtml(emerg.declared_by)}</span>` : ""}
       <span class="tag">Confidence: ${Math.round((emerg.confidence || 0) * 100)}%</span>
     `;
 
@@ -318,7 +359,7 @@
         urls
           .map(
             (s) =>
-              `<div class="modal-source-item"><a href="${s.url}" target="_blank" rel="noopener">${s.title || s.url}</a> <span style="color:var(--text-muted);font-size:0.7rem">${s.date || ""}</span></div>`
+              `<div class="modal-source-item"><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title || s.url)}</a> <span style="color:var(--text-muted);font-size:0.7rem">${escapeHtml(s.date || "")}</span></div>`
           )
           .join("")
       : "";
@@ -336,6 +377,7 @@
     updateCards(data);
     renderTable();
     renderEventStream();
+    renderGeoJson();
   }
 
   /* ── Event Listeners ── */
@@ -390,31 +432,8 @@
     });
   }
 
-  /* ── Dark tooltip style (inject once) ── */
-  function injectTooltipStyle() {
-    const style = document.createElement("style");
-    style.textContent = `
-      .dark-tooltip {
-        background: #272727 !important;
-        color: #f6f6f6 !important;
-        border: 1px solid #3e3e3e !important;
-        border-radius: 6px !important;
-        padding: 0.5rem 0.75rem !important;
-        font-family: 'PT Serif', Georgia, serif !important;
-        font-size: 0.8rem !important;
-        line-height: 1.4 !important;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
-      }
-      .dark-tooltip .leaflet-tooltip-tip {
-        border-top-color: #272727 !important;
-      }
-    `;
-    document.head.appendChild(style);
-  }
-
   /* ── Init ── */
   async function init() {
-    injectTooltipStyle();
     initEvents();
     await loadData();
     await initMap();

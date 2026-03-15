@@ -152,6 +152,24 @@
             <button class="load-more-btn" id="load-more-btn" style="display:none;">Load More</button>
         </section>
 
+        <!-- Methodology -->
+        <section class="table-section" id="methodology">
+            <h2>Methodology &amp; Data Sources</h2>
+            <div style="font-size:0.85rem; color:var(--text-secondary); line-height:1.7;">
+                <p>This dashboard combines data from multiple automated sources to track active states of emergency worldwide.</p>
+                <p style="margin-top:0.75rem;"><strong>Data Sources:</strong></p>
+                <ul style="margin:0.5rem 0 0.5rem 1.5rem;">
+                    <li><strong>Wikipedia</strong> — Active states of emergency scraped from the <a href="https://en.wikipedia.org/wiki/State_of_emergency" target="_blank" rel="noopener">State of emergency</a> article via the MediaWiki API. This serves as the primary baseline.</li>
+                    <li><strong>GDELT DOC 2.0</strong> — Global news monitoring for recent articles mentioning emergency-related terms.</li>
+                    <li><strong>ReliefWeb API</strong> — Humanitarian reports and active disaster declarations from OCHA/ReliefWeb.</li>
+                </ul>
+                <p style="margin-top:0.75rem;"><strong>Confidence Score:</strong> Each emergency is assigned a confidence score (50–100%) based on the recency and number of confirming sources, agreement between the Wikipedia baseline and live news feeds, and source authoritativeness. Only entries with ≥50% confidence are displayed.</p>
+                <p style="margin-top:0.75rem;"><strong>Emergency Types:</strong> Entries are automatically classified into five categories — Disaster, Public Health, Conflict/Security, Migration, and Governance — using keyword matching against titles and descriptions.</p>
+                <p style="margin-top:0.75rem;"><strong>Update Frequency:</strong> The data pipeline runs automatically every 6 hours via GitHub Actions.</p>
+                <p style="margin-top:0.75rem;"><strong>Limitations:</strong> This dashboard relies on automated data collection and may miss emergencies not covered by Wikipedia or English-language news sources. Classification is keyword-based and may occasionally miscategorize entries. Emergency start dates may be approximate.</p>
+            </div>
+        </section>
+
         <!-- Country Detail Modal -->
         <div id="country-modal" class="modal" style="display:none;">
             <div class="modal-content">
@@ -172,7 +190,7 @@
             A project of the <a href="https://www.statesofexception.org/" target="_blank">Institute for the Study of States of Exception</a>.
         </p>
         <p class="footer-note">
-            Data sourced from ReliefWeb, GDELT, and curated records. Dashboard updated every 6 hours.
+            Data sourced from Wikipedia, GDELT, and ReliefWeb. Dashboard updated every 6 hours.
         </p>
     </footer>
 

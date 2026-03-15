@@ -1,6 +1,6 @@
-"""Merge reference data, ReliefWeb, and GDELT results into dashboard data.
+"""Merge Wikipedia baseline, ReliefWeb, and GDELT results into dashboard data.
 
-Reads reference_emergencies.json (news-sourced baseline), reliefweb_raw.json,
+Reads wiki_emergencies.json (Wikipedia-sourced baseline), reliefweb_raw.json,
 gdelt_raw.json, and (optionally) overrides.json.
 Outputs:
   - data/emergencies.json  (current active emergencies by country)
@@ -8,7 +8,6 @@ Outputs:
 """
 
 import json
-import re
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -164,14 +163,14 @@ def load_raw_data() -> tuple[list[dict], list[dict]]:
 
 
 def load_reference() -> list[dict]:
-    """Load reference emergencies baseline."""
-    path = DATA_DIR / "reference_emergencies.json"
+    """Load Wikipedia-sourced emergency baseline."""
+    path = DATA_DIR / "wiki_emergencies.json"
     if path.exists():
         data = json.loads(path.read_text(encoding="utf-8"))
         entries = data.get("emergencies", [])
-        print(f"  Loaded {len(entries)} reference emergencies")
+        print(f"  Loaded {len(entries)} Wikipedia emergencies")
         return entries
-    print("  [WARN] No reference_emergencies.json found")
+    print("  [WARN] No wiki_emergencies.json found — run 00_fetch_wikipedia_soe.py first")
     return []
 
 

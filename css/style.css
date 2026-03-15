@@ -563,6 +563,22 @@ footer {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* ── Leaflet tooltip (dark theme) ── */
+.dark-tooltip {
+    background: #272727 !important;
+    color: #f6f6f6 !important;
+    border: 1px solid #3e3e3e !important;
+    border-radius: 6px !important;
+    padding: 0.5rem 0.75rem !important;
+    font-family: 'PT Serif', Georgia, serif !important;
+    font-size: 0.8rem !important;
+    line-height: 1.4 !important;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
+}
+.dark-tooltip .leaflet-tooltip-tip {
+    border-top-color: #272727 !important;
+}
+
 /* ── Responsive ── */
 @media (max-width: 900px) {
     header { flex-direction: column; text-align: center; padding: 1.5rem 1rem; }

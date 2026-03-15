@@ -1,116 +1,196 @@
 {
-  "generated_at": "2026-03-15T00:57:32.824436+00:00",
-  "event_count": 11,
+  "generated_at": "2026-03-15T05:21:07.733500+00:00",
+  "event_count": 19,
   "events": [
     {
       "source": "gdelt",
-      "title": "Trinidad and Tobago extends state of emergency for another three months - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
-      "date": "2026-03-15",
-      "iso3": "TTO",
-      "country": "Trinidad and Tobago",
-      "url": "https://dominicanrepublicpost.com/trinidad-and-tobago-extends-state-of-emergency-for-another-three-months/",
-      "source_name": "dominicanrepublicpost.com",
-      "emergency_type": "governance"
-    },
-    {
-      "source": "gdelt",
-      "title": "Trinidad and Tobago extends state of emergency for another three months",
-      "date": "2026-03-15",
-      "iso3": "TTO",
-      "country": "Trinidad and Tobago",
-      "url": "https://www.aljazeera.com/news/2026/3/14/trinidad-and-tobago-extends-state-of-emergency-for-another-three-months",
-      "source_name": "aljazeera.com",
-      "emergency_type": "governance"
-    },
-    {
-      "source": "gdelt",
-      "title": "السيطرة على حريق مصنع قطع الغيار بطلخا في الدقهلية وبدء أعمال التبريد",
+      "title": " ¿ Qué busca comunicar el Gobierno de Kast con el nuevo logo ? ",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://www.elwatannews.com/news/details/8246091",
-      "source_name": "elwatannews.com",
+      "url": "https://www.elrancahuaso.cl/noticia/politica/que-busca-comunicar-el-gobierno-de-kast-con-el-nuevo-logo",
+      "source_name": "elrancahuaso.cl",
       "emergency_type": "governance"
     },
     {
       "source": "gdelt",
-      "title": "Minneapolis , St . Paul among cities to declare snow emergency",
+      "title": "Governor Evers declares State of Emergency ahead of major snowstorm",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://www.kare11.com/article/news/local/minneapolis-st-louis-park-among-cities-to-declare-snow-emergency-mn/89-56e94d19-5a40-4a80-96bc-a8afa503ad8d",
-      "source_name": "kare11.com",
-      "emergency_type": "governance"
+      "url": "https://www.wxpr.org/local-news/2026-03-14/governor-evers-declares-state-of-emergency-ahead-of-major-snowstorm",
+      "source_name": "wxpr.org",
+      "emergency_type": "disaster"
     },
     {
       "source": "gdelt",
-      "title": "Собянин : военные РФ ликвидировали БПЛА , летевшие на Москву",
+      "title": "Detrás de la fachada / Análisis de Ricardo Ávila sobre el plan financiero del Gobierno",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://aif.ru/society/sobyanin-voennye-rf-likvidirovali-bpla-letevshie-na-moskvu",
-      "source_name": "aif.ru",
+      "url": "https://www.eltiempo.com/economia/sectores/detras-de-la-fachada-analisis-de-ricardo-avila-3540213",
+      "source_name": "eltiempo.com",
       "emergency_type": "governance"
     },
     {
       "source": "gdelt",
-      "title": "Customer Sues Costco , Accuses Wholesaler of Passing Along Tariff Costs to Shoppers",
+      "title": "Gobierno decreta impuesto del 16 % a apuestas en línea por inundaciones",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://www.cpapracticeadvisor.com/2026/03/14/customer-sues-costco-accuses-wholesaler-of-passing-along-tariff-costs-to-shoppers/179850/",
-      "source_name": "cpapracticeadvisor.com",
+      "url": "https://www.diariodelsur.com.co/gobierno-decreta-impuesto-del-16-a-apuestas-en-linea-por-inundaciones/",
+      "source_name": "diariodelsur.com.co",
       "emergency_type": "governance"
     },
     {
       "source": "gdelt",
-      "title": "Ruptured pipe that leaked millions of gallons of raw waste into the Potomac is back in operation",
+      "title": " ¿ Qué busca comunicar el Gobierno de Kast con el nuevo logo ? ",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://www.whec.com/ap-top-news/ruptured-pipe-that-leaked-millions-of-gallons-of-raw-waste-into-the-potomac-is-back-in-operation/",
-      "source_name": "whec.com",
+      "url": "https://www.elnaveghable.cl/noticia/politica/que-busca-comunicar-el-gobierno-de-kast-con-el-nuevo-logo",
+      "source_name": "elnaveghable.cl",
       "emergency_type": "governance"
     },
     {
       "source": "gdelt",
-      "title": "Telemedia , DPW , water enterprise budgets reviewed",
-      "date": "2026-03-14",
+      "title": " ¿ Qué busca comunicar el Gobierno de Kast con el nuevo logo ? ",
+      "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://homenewshere.com/tewksbury_town_crier/news/article_3f7ef101-6ad8-4858-9c22-c131d51c5c16.html",
-      "source_name": "homenewshere.com",
+      "url": "https://www.elmorrocotudo.cl/noticia/politica/que-busca-comunicar-el-gobierno-de-kast-con-el-nuevo-logo",
+      "source_name": "elmorrocotudo.cl",
       "emergency_type": "governance"
     },
     {
       "source": "gdelt",
-      "title": "Trump urges united kingdom to send ships to Strait of Hormuz",
-      "date": "2026-03-14",
-      "iso3": "GBR",
-      "country": "United Kingdom",
-      "url": "https://www.yahoo.com/news/articles/trump-urges-uk-send-ships-203451788.html",
-      "source_name": "yahoo.com",
-      "emergency_type": "governance"
-    },
-    {
-      "source": "gdelt",
-      "title": "Who has the power to declare war ? | Cronin and Loevy",
-      "date": "2026-03-14",
+      "title": "الحرب في الشرق الأوسط تعرقل جهود المساعدات الإنسانية العالمية",
+      "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://gazette.com/2026/03/14/who-has-the-power-to-declare-war-cronin-and-loevy/",
-      "source_name": "gazette.com",
+      "url": "https://www.emaratalyoum.com/politics/weekly-supplements/world-press/2026-03-15-1.2025250",
+      "source_name": "emaratalyoum.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "State of emergency declared as winter storm approaches Wisconsin",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.wmtv15news.com/2026/03/15/state-emergency-declared-winter-storm-approaches-wisconsin/",
+      "source_name": "wmtv15news.com",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "gdelt",
+      "title": "Leadership is why New Mexico is at the bottom",
+      "date": "2026-03-15",
+      "iso3": "MEX",
+      "country": "Mexico",
+      "url": "https://www.santafenewmexican.com/opinion/my_view/leadership-is-why-new-mexico-is-at-the-bottom/article_be26dab4-5005-44d4-bcc8-427b85d2fb5a.html",
+      "source_name": "santafenewmexican.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "TB drugs shortage - Newspaper",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.dawn.com/news/1982266/tb-drugs-shortage",
+      "source_name": "dawn.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Lockwood : Trump Has Done  So Much  on Energy To Make Life  Affordable  ",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.breitbart.com/politics/2026/03/14/exclusive-gop-strategist-rob-lockwood-trump-admin-has-done-so-much-on-energy-to-make-life-affordable/",
+      "source_name": "breitbart.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "이 대통령 , 3 · 15의거 기념식 참석해 사과 ...  유공자 더 포상하고 예우할 것  ",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.insight.co.kr/news/546509",
+      "source_name": "insight.co.kr",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Marvel Rivals Releases Daredevil MCU Skin Inspired by Born Again Season 2",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://screenrant.com/marvel-rivals-new-mcu-skin-best-yet-daredevil-born-again/",
+      "source_name": "screenrant.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "藍稱沒國民黨二戰後台灣早被共產黨佔領 綠委嗆 ： 是台灣人自己救的 | ETtoday政治新聞",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.ettoday.net/news/20260315/3132571.htm",
+      "source_name": "ettoday.net",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": " 《 為什麼我以福澤諭吉來比擬曹興誠的 「 脫中 」 壯舉呢 ？》 ",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://n.yam.com/Article/20260315246257",
+      "source_name": "n.yam.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Мобілізація в Україні 2026 – що роблять під час БЗВП , як проходить підготовка – новини України",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://zn.ua/ukr/UKRAINE/bazova-zahalnovijskova-pidhotovka-shcho-vidbuvajetsja-pid-chas-navchannja.html",
+      "source_name": "zn.ua",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Tooth decay with a side of bacterial meningitis : Louisiana GOP rages against public health",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.nola.com/gambit/news/the_latest/tooth-decay-with-a-side-of-bacterial-meningitis-louisiana-gop-rages-against-public-health/article_89b9c48b-1c39-45ba-a5f9-4098fcfa965a.html",
+      "source_name": "nola.com",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "gdelt",
+      "title": "Heute Warntag in Deutschland : Probealarm in vier Bundesländern",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "http://www.merkur.de/deutschland/den-ernstfall-zwei-uhrzeiten-im-fokus-sirenen-heulen-handys-schrillen-vier-bundeslaender-testen-heute-zr-94213715.html",
+      "source_name": "merkur.de",
       "emergency_type": "conflict"
     },
     {
       "source": "gdelt",
-      "title": "Ruptured pipe that leaked millions of gallons of raw waste into the Potomac is back in operation",
-      "date": "2026-03-14",
+      "title": "Heute Warntag in Deutschland : Probealarm in vier Bundesländern",
+      "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://www.wfmj.com/story/53478964/ruptured-pipe-that-leaked-millions-of-gallons-of-raw-waste-into-the-potomac-is-back-in-operation",
-      "source_name": "wfmj.com",
-      "emergency_type": "governance"
+      "url": "http://www.tz.de/welt/den-ernstfall-zwei-uhrzeiten-im-fokus-sirenen-heulen-handys-schrillen-vier-bundeslaender-testen-heute-zr-94213715.html",
+      "source_name": "tz.de",
+      "emergency_type": "conflict"
     }
   ]
 }
