@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-15T06:08:02.970777+00:00",
-  "active_count": 21,
-  "total_count": 31,
+  "generated_at": "2026-03-15T07:21:57.125935+00:00",
+  "active_count": 25,
+  "total_count": 48,
   "emergencies": [
     {
       "iso3": "VEN",
@@ -170,6 +170,55 @@
       ],
       "notes": "",
       "source_count": 1
+    },
+    {
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Tropical Cyclone: GEZANI-26",
+      "declared_by": "",
+      "start_date": "2025-12-22",
+      "status": "active",
+      "confidence": 0.6,
+      "recent_events": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06",
+          "source": "gdacs"
+        },
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19",
+          "source": "gdacs"
+        },
+        {
+          "title": "Flood in Mozambique",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
+          "date": "2025-12-22",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06"
+        },
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19"
+        },
+        {
+          "title": "Flood in Mozambique",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
+          "date": "2025-12-22"
+        }
+      ],
+      "source_count": 3
     },
     {
       "iso3": "KAZ",
@@ -590,6 +639,120 @@
       ],
       "notes": "",
       "source_count": 1
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: East Africa-2025",
+      "declared_by": "",
+      "start_date": "2025-04-21",
+      "status": "active",
+      "confidence": 0.5,
+      "recent_events": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09",
+          "source": "gdacs"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "iso3": "COD",
+      "country": "Democratic Republic of Congo",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: Angola-2026",
+      "declared_by": "",
+      "start_date": "2025-12-11",
+      "status": "active",
+      "confidence": 0.5,
+      "recent_events": [
+        {
+          "title": "Flood in Democratic Republic of Congo",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
+          "date": "2026-02-11",
+          "source": "gdacs"
+        },
+        {
+          "title": "Drought: Angola-2026",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+          "date": "2025-12-11",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Democratic Republic of Congo",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
+          "date": "2026-02-11"
+        },
+        {
+          "title": "Drought: Angola-2026",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+          "date": "2025-12-11"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "iso3": "MDG",
+      "country": "Madagascar",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Tropical Cyclone: GEZANI-26",
+      "declared_by": "",
+      "start_date": "2026-01-29",
+      "status": "active",
+      "confidence": 0.5,
+      "recent_events": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06",
+          "source": "gdacs"
+        },
+        {
+          "title": "Tropical Cyclone: FYTIA-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
+          "date": "2026-01-29",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06"
+        },
+        {
+          "title": "Tropical Cyclone: FYTIA-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
+          "date": "2026-01-29"
+        }
+      ],
+      "source_count": 2
     }
   ],
   "all_emergencies": [
@@ -762,6 +925,55 @@
       "source_count": 1
     },
     {
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Tropical Cyclone: GEZANI-26",
+      "declared_by": "",
+      "start_date": "2025-12-22",
+      "status": "active",
+      "confidence": 0.6,
+      "recent_events": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06",
+          "source": "gdacs"
+        },
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19",
+          "source": "gdacs"
+        },
+        {
+          "title": "Flood in Mozambique",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
+          "date": "2025-12-22",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06"
+        },
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19"
+        },
+        {
+          "title": "Flood in Mozambique",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
+          "date": "2025-12-22"
+        }
+      ],
+      "source_count": 3
+    },
+    {
       "iso3": "KAZ",
       "country": "Kazakhstan",
       "continent": "Asia",
@@ -1180,6 +1392,120 @@
       ],
       "notes": "",
       "source_count": 1
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: East Africa-2025",
+      "declared_by": "",
+      "start_date": "2025-04-21",
+      "status": "active",
+      "confidence": 0.5,
+      "recent_events": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09",
+          "source": "gdacs"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "iso3": "COD",
+      "country": "Democratic Republic of Congo",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: Angola-2026",
+      "declared_by": "",
+      "start_date": "2025-12-11",
+      "status": "active",
+      "confidence": 0.5,
+      "recent_events": [
+        {
+          "title": "Flood in Democratic Republic of Congo",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
+          "date": "2026-02-11",
+          "source": "gdacs"
+        },
+        {
+          "title": "Drought: Angola-2026",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+          "date": "2025-12-11",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Democratic Republic of Congo",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
+          "date": "2026-02-11"
+        },
+        {
+          "title": "Drought: Angola-2026",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+          "date": "2025-12-11"
+        }
+      ],
+      "source_count": 2
+    },
+    {
+      "iso3": "MDG",
+      "country": "Madagascar",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Tropical Cyclone: GEZANI-26",
+      "declared_by": "",
+      "start_date": "2026-01-29",
+      "status": "active",
+      "confidence": 0.5,
+      "recent_events": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06",
+          "source": "gdacs"
+        },
+        {
+          "title": "Tropical Cyclone: FYTIA-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
+          "date": "2026-01-29",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Tropical Cyclone: GEZANI-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+          "date": "2026-02-06"
+        },
+        {
+          "title": "Tropical Cyclone: FYTIA-26",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
+          "date": "2026-01-29"
+        }
+      ],
+      "source_count": 2
     },
     {
       "iso3": "KGZ",
@@ -1459,6 +1785,357 @@
         }
       ],
       "notes": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the nation for a period of 15 days, to become effective next day after the approval of the Council of Ministersfor the COVID-19 pandemic in Spain.",
+      "source_count": 1
+    },
+    {
+      "iso3": "BOL",
+      "country": "Bolivia",
+      "continent": "Americas",
+      "emergency_type": "disaster",
+      "title": "Drought: South America-2023",
+      "declared_by": "",
+      "start_date": "2022-09-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: South America-2023",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+          "date": "2022-09-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: South America-2023",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+          "date": "2022-09-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "BRA",
+      "country": "Brazil",
+      "continent": "Americas",
+      "emergency_type": "disaster",
+      "title": "Drought: South America-2023",
+      "declared_by": "",
+      "start_date": "2022-09-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: South America-2023",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+          "date": "2022-09-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: South America-2023",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+          "date": "2022-09-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "PER",
+      "country": "Peru",
+      "continent": "Americas",
+      "emergency_type": "disaster",
+      "title": "Drought: South America-2023",
+      "declared_by": "",
+      "start_date": "2022-09-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: South America-2023",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+          "date": "2022-09-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: South America-2023",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+          "date": "2022-09-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "KEN",
+      "country": "Kenya",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: East Africa-2025",
+      "declared_by": "",
+      "start_date": "2025-04-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "SOM",
+      "country": "Somalia",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: East Africa-2025",
+      "declared_by": "",
+      "start_date": "2025-04-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "ARG",
+      "country": "Argentina",
+      "continent": "Americas",
+      "emergency_type": "disaster",
+      "title": "Drought: Argentina-Uruguay-2025",
+      "declared_by": "",
+      "start_date": "2025-11-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: Argentina-Uruguay-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
+          "date": "2025-11-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: Argentina-Uruguay-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
+          "date": "2025-11-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "URY",
+      "country": "Uruguay",
+      "continent": "Americas",
+      "emergency_type": "disaster",
+      "title": "Drought: Argentina-Uruguay-2025",
+      "declared_by": "",
+      "start_date": "2025-11-21",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: Argentina-Uruguay-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
+          "date": "2025-11-21",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: Argentina-Uruguay-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
+          "date": "2025-11-21"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "AGO",
+      "country": "Angola",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Drought: Angola-2026",
+      "declared_by": "",
+      "start_date": "2025-12-11",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Drought: Angola-2026",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+          "date": "2025-12-11",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Drought: Angola-2026",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+          "date": "2025-12-11"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "BGD",
+      "country": "Bangladesh",
+      "continent": "Asia",
+      "emergency_type": "disaster",
+      "title": "Earthquake in Bangladesh",
+      "declared_by": "",
+      "start_date": "2026-02-27",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Earthquake in Bangladesh",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1526507&episodeid=1690089&eventtype=EQ",
+          "date": "2026-02-27",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Earthquake in Bangladesh",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1526507&episodeid=1690089&eventtype=EQ",
+          "date": "2026-02-27"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "CHL",
+      "country": "Chile",
+      "continent": "Americas",
+      "emergency_type": "disaster",
+      "title": "Wildfire in Chile",
+      "declared_by": "",
+      "start_date": "2026-01-17",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Wildfire in Chile",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1027016&episodeid=19&eventtype=WF",
+          "date": "2026-01-17",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Wildfire in Chile",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1027016&episodeid=19&eventtype=WF",
+          "date": "2026-01-17"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "ZAF",
+      "country": "South Africa",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Flood in Mozambique, South Africa, Zimbabwe",
+      "declared_by": "",
+      "start_date": "2026-01-19",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "ZWE",
+      "country": "Zimbabwe",
+      "continent": "Africa",
+      "emergency_type": "disaster",
+      "title": "Flood in Mozambique, South Africa, Zimbabwe",
+      "declared_by": "",
+      "start_date": "2026-01-19",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Mozambique, South Africa, Zimbabwe",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+          "date": "2026-01-19"
+        }
+      ],
+      "source_count": 1
+    },
+    {
+      "iso3": "IDN",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "emergency_type": "disaster",
+      "title": "Flood in Indonesia",
+      "declared_by": "",
+      "start_date": "2025-11-17",
+      "status": "active",
+      "confidence": 0.3,
+      "recent_events": [
+        {
+          "title": "Flood in Indonesia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
+          "date": "2025-11-17",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Indonesia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
+          "date": "2025-11-17"
+        }
+      ],
       "source_count": 1
     }
   ]

@@ -1,7 +1,7 @@
-"""Merge Wikipedia baseline, ReliefWeb, and GDELT results into dashboard data.
+"""Merge Wikipedia baseline, ReliefWeb, GDELT, and GDACS results into dashboard data.
 
 Reads wiki_emergencies.json (Wikipedia-sourced baseline), reliefweb_raw.json,
-gdelt_raw.json, and (optionally) overrides.json.
+gdelt_raw.json, gdacs_raw.json, and (optionally) overrides.json.
 Outputs:
   - data/emergencies.json  (current active emergencies by country)
   - data/events.json       (recent event stream for the news feed)
@@ -138,13 +138,15 @@ def compute_confidence(record: dict) -> float:
     return min(score, 1.0)
 
 
-def load_raw_data() -> tuple[list[dict], list[dict]]:
+def load_raw_data() -> tuple[list[dict], list[dict], list[dict]]:
     """Load raw data files from previous fetch steps."""
     rw_path = DATA_DIR / "reliefweb_raw.json"
     gd_path = DATA_DIR / "gdelt_raw.json"
+    gc_path = DATA_DIR / "gdacs_raw.json"
 
     rw_records = []
     gd_records = []
+    gc_records = []
 
     if rw_path.exists():
         rw_data = json.loads(rw_path.read_text(encoding="utf-8"))
@@ -160,7 +162,14 @@ def load_raw_data() -> tuple[list[dict], list[dict]]:
     else:
         print("  [WARN] No gdelt_raw.json found")
 
-    return rw_records, gd_records
+    if gc_path.exists():
+        gc_data = json.loads(gc_path.read_text(encoding="utf-8"))
+        gc_records = gc_data.get("records", [])
+        print(f"  Loaded {len(gc_records)} GDACS records")
+    else:
+        print("  [WARN] No gdacs_raw.json found")
+
+    return rw_records, gd_records, gc_records
 
 
 def load_reference() -> list[dict]:
@@ -190,13 +199,14 @@ def load_overrides() -> list[dict]:
 def build_emergencies(
     rw_records: list[dict],
     gd_records: list[dict],
+    gc_records: list[dict],
     reference: list[dict],
     overrides: list[dict],
 ) -> list[dict]:
     """Build the emergencies list by country, merging all sources.
 
-    Priority order: reference baseline → ReliefWeb → GDELT → overrides.
-    GDELT/ReliefWeb data boosts confidence when it confirms reference entries.
+    Priority order: reference baseline → GDACS → ReliefWeb → GDELT → overrides.
+    Live data boosts confidence when it confirms reference entries.
     """
     # Group by ISO3
     by_country: dict[str, dict] = {}
@@ -276,7 +286,50 @@ def build_emergencies(
             entry["title"] = rec.get("title", "")
         entry["_classification_text"] = entry.get("_classification_text", "") + " " + combined_text
 
-    # 3) Process GDELT records — use all mentioned countries, not just primary
+    # 3) Process GDACS disaster alerts
+    for rec in gc_records:
+        iso3 = rec.get("iso3", "")
+        if not iso3 or len(iso3) != 3:
+            continue
+        if iso3 not in by_country:
+            by_country[iso3] = {
+                "iso3": iso3,
+                "country": rec.get("country", ""),
+                "continent": get_continent(iso3),
+                "emergency_type": "",
+                "title": "",
+                "declared_by": "",
+                "start_date": "",
+                "status": "active",
+                "confidence": 0.0,
+                "sources": [],
+                "recent_events": [],
+                "source_urls": [],
+            }
+
+        entry = by_country[iso3]
+        entry["sources"].append({
+            "source": "gdacs",
+            "title": rec.get("title", ""),
+            "date": rec.get("date", ""),
+            "url": rec.get("url", ""),
+        })
+
+        rec_date = rec.get("date", "")
+        if rec_date and (not entry["start_date"] or rec_date < entry["start_date"]):
+            entry["start_date"] = rec_date[:10]
+
+        # Use GDACS title if entry doesn't have one yet
+        if not entry["title"]:
+            entry["title"] = rec.get("title", "")
+
+        # GDACS events are always disaster-type
+        entry["_classification_text"] = (
+            entry.get("_classification_text", "") + " " +
+            rec.get("title", "") + " " + rec.get("event_type", "")
+        )
+
+    # 4) Process GDELT records — use all mentioned countries, not just primary
     for rec in gd_records:
         countries = rec.get("mentioned_countries", [])
         # Fall back to iso3 if mentioned_countries not present
@@ -317,7 +370,7 @@ def build_emergencies(
 
             entry["_classification_text"] = entry.get("_classification_text", "") + " " + rec.get("title", "")
 
-    # 4) Classify and score
+    # 5) Classify and score
     reference_isos = {r["iso3"] for r in reference if r.get("iso3")}
     for iso3, entry in by_country.items():
         text = entry.pop("_classification_text", "")
@@ -328,7 +381,7 @@ def build_emergencies(
         # If reference entry AND confirmed by live feed, boost confidence
         if iso3 in reference_isos:
             has_live = any(
-                s.get("source") in ("gdelt", "reliefweb")
+                s.get("source") in ("gdelt", "reliefweb", "gdacs")
                 for s in entry.get("sources", [])
             )
             if has_live:
@@ -354,7 +407,7 @@ def build_emergencies(
         entry["source_count"] = len(entry["sources"])
         del entry["sources"]
 
-    # 5) Apply overrides (these take precedence, optional supplements)
+    # 6) Apply overrides (these take precedence, optional supplements)
     for ov in overrides:
         iso3 = ov.get("iso3", "")
         if not iso3:
@@ -419,6 +472,7 @@ def build_emergencies(
 def build_events(
     rw_records: list[dict],
     gd_records: list[dict],
+    gc_records: list[dict],
 ) -> list[dict]:
     """Build the recent events stream from all records."""
     events: list[dict] = []
@@ -435,6 +489,28 @@ def build_events(
             "emergency_type": classify_emergency_type(
                 rec.get("title", "") + " " + " ".join(rec.get("disaster_types", []))
             ),
+        })
+
+    for rec in gc_records:
+        iso3 = rec.get("iso3", "")
+        country_name = rec.get("country", "")
+        if not country_name and iso3:
+            try:
+                c = pycountry.countries.get(alpha_3=iso3)
+                if c:
+                    country_name = getattr(c, "common_name", c.name)
+            except (LookupError, AttributeError):
+                pass
+        events.append({
+            "source": "gdacs",
+            "title": rec.get("title", "")[:150],
+            "date": rec.get("date", "")[:10],
+            "iso3": iso3,
+            "country": country_name,
+            "url": rec.get("url", ""),
+            "source_name": "GDACS",
+            "emergency_type": "disaster",
+            "alert_level": rec.get("alert_level", ""),
         })
 
     for rec in gd_records:
@@ -468,12 +544,12 @@ def main() -> None:
     """Run merge and classify pipeline."""
     print("[03] Merging and classifying...")
 
-    rw_records, gd_records = load_raw_data()
+    rw_records, gd_records, gc_records = load_raw_data()
     reference = load_reference()
     overrides = load_overrides()
 
-    emergencies = build_emergencies(rw_records, gd_records, reference, overrides)
-    events = build_events(rw_records, gd_records)
+    emergencies = build_emergencies(rw_records, gd_records, gc_records, reference, overrides)
+    events = build_events(rw_records, gd_records, gc_records)
 
     # Filter to only active emergencies with confidence >= 50%
     active = [

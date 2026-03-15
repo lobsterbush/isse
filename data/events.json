@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-15T06:08:02.970777+00:00",
-  "event_count": 1,
+  "generated_at": "2026-03-15T07:21:57.125935+00:00",
+  "event_count": 23,
   "events": [
     {
       "source": "gdelt",
@@ -11,6 +11,248 @@
       "url": "https://www.wxpr.org/local-news/2026-03-14/governor-evers-declares-state-of-emergency-ahead-of-major-snowstorm",
       "source_name": "wxpr.org",
       "emergency_type": "disaster"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Ethiopia",
+      "date": "2026-03-09",
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Earthquake in Bangladesh",
+      "date": "2026-02-27",
+      "iso3": "BGD",
+      "country": "Bangladesh",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1526507&episodeid=1690089&eventtype=EQ",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Democratic Republic of Congo",
+      "date": "2026-02-11",
+      "iso3": "COD",
+      "country": "Democratic Republic of Congo",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103784&episodeid=6&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Tropical Cyclone: GEZANI-26",
+      "date": "2026-02-06",
+      "iso3": "MDG",
+      "country": "Madagascar",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Red"
+    },
+    {
+      "source": "gdacs",
+      "title": "Tropical Cyclone: GEZANI-26",
+      "date": "2026-02-06",
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001256&episodeid=47&eventtype=TC",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Red"
+    },
+    {
+      "source": "gdacs",
+      "title": "Tropical Cyclone: FYTIA-26",
+      "date": "2026-01-29",
+      "iso3": "MDG",
+      "country": "Madagascar",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1001254&episodeid=24&eventtype=TC",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Mozambique, South Africa, Zimbabwe",
+      "date": "2026-01-19",
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Mozambique, South Africa, Zimbabwe",
+      "date": "2026-01-19",
+      "iso3": "ZAF",
+      "country": "South Africa",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Mozambique, South Africa, Zimbabwe",
+      "date": "2026-01-19",
+      "iso3": "ZWE",
+      "country": "Zimbabwe",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103735&episodeid=1&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Wildfire in Chile",
+      "date": "2026-01-17",
+      "iso3": "CHL",
+      "country": "Chile",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1027016&episodeid=19&eventtype=WF",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Mozambique",
+      "date": "2025-12-22",
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103694&episodeid=1&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: Angola-2026",
+      "date": "2025-12-11",
+      "iso3": "AGO",
+      "country": "Angola",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: Angola-2026",
+      "date": "2025-12-11",
+      "iso3": "COD",
+      "country": "Democratic Republic of Congo",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=5&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: Argentina-Uruguay-2025",
+      "date": "2025-11-21",
+      "iso3": "ARG",
+      "country": "Argentina",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: Argentina-Uruguay-2025",
+      "date": "2025-11-21",
+      "iso3": "URY",
+      "country": "Uruguay",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1018327&episodeid=8&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Flood in Indonesia",
+      "date": "2025-11-17",
+      "iso3": "IDN",
+      "country": "Indonesia",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1103633&episodeid=19&eventtype=FL",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: East Africa-2025",
+      "date": "2025-04-21",
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: East Africa-2025",
+      "date": "2025-04-21",
+      "iso3": "KEN",
+      "country": "Kenya",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: East Africa-2025",
+      "date": "2025-04-21",
+      "iso3": "SOM",
+      "country": "Somalia",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: South America-2023",
+      "date": "2022-09-21",
+      "iso3": "BOL",
+      "country": "Bolivia",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: South America-2023",
+      "date": "2022-09-21",
+      "iso3": "BRA",
+      "country": "Brazil",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
+    },
+    {
+      "source": "gdacs",
+      "title": "Drought: South America-2023",
+      "date": "2022-09-21",
+      "iso3": "PER",
+      "country": "Peru",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1016449&episodeid=92&eventtype=DR",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
     }
   ]
 }
