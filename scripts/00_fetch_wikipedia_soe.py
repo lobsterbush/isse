@@ -20,6 +20,7 @@ from bs4 import BeautifulSoup
 # ── Config ──────────────────────────────────────────────────────────────────
 WIKI_API = "https://en.wikipedia.org/w/api.php"
 ARTICLE = "State_of_emergency"
+SUPPLEMENTARY_ARTICLES = ["Martial_law"]
 UA = {"User-Agent": "ISSE-Dashboard/1.0 (https://statesofexception.org)"}
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data"
 
@@ -255,10 +256,10 @@ def _api_get(params: dict) -> dict:
     return {}
 
 
-def fetch_sections() -> dict[str, str]:
+def fetch_sections(article: str = ARTICLE) -> dict[str, str]:
     """Return mapping of section_index → section_title for the article."""
     data = _api_get({
-        "action": "parse", "page": ARTICLE, "format": "json", "prop": "sections",
+        "action": "parse", "page": article, "format": "json", "prop": "sections",
     })
     result: dict[str, str] = {}
     for s in data.get("parse", {}).get("sections", []):
@@ -266,10 +267,10 @@ def fetch_sections() -> dict[str, str]:
     return result
 
 
-def fetch_section_html(section_index: str) -> str:
+def fetch_section_html(section_index: str, article: str = ARTICLE) -> str:
     """Fetch the HTML of a specific section."""
     data = _api_get({
-        "action": "parse", "page": ARTICLE, "format": "json",
+        "action": "parse", "page": article, "format": "json",
         "prop": "text", "section": section_index,
     })
     return data.get("parse", {}).get("text", {}).get("*", "")
@@ -513,6 +514,39 @@ def main() -> None:
                 country_new += 1
     print(f"    → {country_new} additional from country sections")
 
+    # ── Supplementary articles (Martial_law, etc.) ──────────────────────
+    for supp_article in SUPPLEMENTARY_ARTICLES:
+        supp_sections = fetch_sections(supp_article)
+        if not supp_sections:
+            print(f"  [WARN] Could not fetch sections for {supp_article}")
+            continue
+
+        # Collect per-country sections from the supplementary article
+        supp_country_indices: list[tuple[str, str]] = []
+        for idx, title in supp_sections.items():
+            iso3 = _resolve_country(title)
+            if iso3:
+                supp_country_indices.append((idx, title))
+
+        supp_new = 0
+        for idx, name in supp_country_indices:
+            iso3 = _resolve_country(name)
+            if iso3 and iso3 in seen_iso3:
+                continue  # Already covered by primary article
+            html = fetch_section_html(idx, article=supp_article)
+            entries = parse_country_section(html, name)
+            for e in entries:
+                e_iso3 = e["iso3"]
+                # Update source URL to point to correct article
+                e["source_url"] = (
+                    f"https://en.wikipedia.org/wiki/{supp_article}"
+                    f"#{name.replace(' ', '_')}"
+                )
+                if e_iso3 not in seen_iso3 or e["confidence"] > seen_iso3[e_iso3]["confidence"]:
+                    seen_iso3[e_iso3] = e
+                    supp_new += 1
+        print(f"  Wikipedia ({supp_article}): {len(supp_country_indices)} country sections → {supp_new} new")
+
     all_entries = sorted(seen_iso3.values(), key=lambda e: e["confidence"], reverse=True)
 
     # Write output
@@ -520,7 +554,8 @@ def main() -> None:
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "source": f"https://en.wikipedia.org/wiki/{ARTICLE}",
         "description": (
-            "Dynamically scraped from Wikipedia's 'State of emergency' article. "
+            "Dynamically scraped from Wikipedia's 'State of emergency' and "
+            "supplementary articles (Martial_law). "
             "Each entry corresponds to a documented emergency declaration."
         ),
         "entry_count": len(all_entries),

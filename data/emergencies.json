@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-15T11:18:22.965016+00:00",
-  "active_count": 8,
-  "total_count": 28,
+  "generated_at": "2026-03-15T23:45:06.415500+00:00",
+  "active_count": 19,
+  "total_count": 38,
   "emergencies": [
     {
       "iso3": "UKR",
@@ -19,6 +19,12 @@
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ukraine",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2026-02-06",
+          "source": "iccpr"
         }
       ],
       "source_urls": [
@@ -26,10 +32,15 @@
           "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ukraine",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2026-02-06"
         }
       ],
       "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022.",
-      "source_count": 1,
+      "source_count": 2,
       "override": true
     },
     {
@@ -48,6 +59,12 @@
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – El Salvador",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-05-22",
+          "source": "iccpr"
         }
       ],
       "source_urls": [
@@ -55,10 +72,15 @@
           "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – El Salvador",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-05-22"
         }
       ],
       "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026.",
-      "source_count": 1,
+      "source_count": 2,
       "override": true
     },
     {
@@ -87,6 +109,291 @@
         }
       ],
       "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
+      "source_count": 1
+    },
+    {
+      "iso3": "AUS",
+      "country": "Australia",
+      "continent": "Oceania",
+      "emergency_type": "conflict",
+      "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+      "declared_by": "Governor George Arthur",
+      "start_date": "1828-11-01",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Australia",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Australia",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "",
+      "source_count": 1
+    },
+    {
+      "iso3": "KGZ",
+      "country": "Kyrgyzstan",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests…",
+      "declared_by": "",
+      "start_date": "2020-10-09",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan p",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Kyrgyzstan",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-05-14",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to t",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Kyrgyzstan",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-05-14"
+        }
+      ],
+      "notes": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests.",
+      "source_count": 2
+    },
+    {
+      "iso3": "DOM",
+      "country": "Dominican Republic",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-06-25",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Dominican Republic",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-06-10",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Dominican Republic",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-06-10"
+        }
+      ],
+      "notes": "Dominican Republic 25 June 2020 The Secretary-General received from the Government of the Dominican Republic a notification dated 25 June 2020, made u…",
+      "source_count": 1
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "continent": "Africa",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-04-08",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09",
+          "source": "gdacs"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21",
+          "source": "gdacs"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ethiopia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-06-17",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ethiopia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-06-17"
+        }
+      ],
+      "notes": "Ethiopia 9 June 2020 The Secretary-General received from the Government of Ethiopia a notification dated 5 May 2020, and subsequently a notification d…",
+      "source_count": 3
+    },
+    {
+      "iso3": "GEO",
+      "country": "Georgia",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2006-03-07",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Georgia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-01-01",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Georgia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-01-01"
+        }
+      ],
+      "notes": "Georgia 7 March 2006 Excellency, In conformity with Article 4 of the Covenant on Civil and Political Rights and Article 15 of the Law on the State of…",
+      "source_count": 1
+    },
+    {
+      "iso3": "PRY",
+      "country": "Paraguay",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2010-04-24",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Paraguay",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2022-07-22",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Paraguay",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2022-07-22"
+        }
+      ],
+      "notes": "Paraguay 27 April 2010 Through note DM/No…",
+      "source_count": 1
+    },
+    {
+      "iso3": "SEN",
+      "country": "Senegal",
+      "continent": "Africa",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-03-23",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Senegal",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-07-13",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Senegal",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-07-13"
+        }
+      ],
+      "notes": "Senegal 6 July 2020 The Secretary-General received from the Government of Senegal a notification dated 2 July 2020, made under article 4 (3) of the ab…",
+      "source_count": 1
+    },
+    {
+      "iso3": "PSE",
+      "country": "Palestine, State of",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-03-05",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Palestine, State of",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-04-08",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Palestine, State of",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-04-08"
+        }
+      ],
+      "notes": "State of Palestine The Secretary-General received from the Government of the State of Palestine a notification dated 30 March 2020, made under article…",
+      "source_count": 1
+    },
+    {
+      "iso3": "TGO",
+      "country": "Togo",
+      "continent": "Unknown",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-03-16",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Togo",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-05-21",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Togo",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-05-21"
+        }
+      ],
+      "notes": "Togo 17 May 2021 The Secretary-General received from the Government of Togo a notification dated 17 May 2021, made under article 4 (3) of the above Co…",
       "source_count": 1
     },
     {
@@ -230,6 +537,62 @@
         }
       ],
       "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
+      "source_count": 1
+    },
+    {
+      "iso3": "KOR",
+      "country": "South Korea",
+      "continent": "Asia",
+      "emergency_type": "conflict",
+      "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard a liberal South Korea from the threats posed by No",
+      "declared_by": "",
+      "start_date": "1948-11-17",
+      "status": "active",
+      "confidence": 0.72,
+      "recent_events": [
+        {
+          "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard a liberal South Kore",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#South_Korea",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard ",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#South_Korea",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "",
+      "source_count": 1
+    },
+    {
+      "iso3": "MMR",
+      "country": "Myanmar",
+      "continent": "Asia",
+      "emergency_type": "conflict",
+      "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townships in the regions of Chin, Kachin, Karen, Karenni,",
+      "declared_by": "",
+      "start_date": "2021-02-01",
+      "status": "active",
+      "confidence": 0.63,
+      "recent_events": [
+        {
+          "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townships in the regions of",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Myanmar",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townshi",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Myanmar",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "",
       "source_count": 1
     }
   ],
@@ -250,6 +613,12 @@
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ukraine",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2026-02-06",
+          "source": "iccpr"
         }
       ],
       "source_urls": [
@@ -257,10 +626,15 @@
           "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ukraine",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2026-02-06"
         }
       ],
       "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022.",
-      "source_count": 1,
+      "source_count": 2,
       "override": true
     },
     {
@@ -279,6 +653,12 @@
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – El Salvador",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-05-22",
+          "source": "iccpr"
         }
       ],
       "source_urls": [
@@ -286,10 +666,15 @@
           "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – El Salvador",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-05-22"
         }
       ],
       "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026.",
-      "source_count": 1,
+      "source_count": 2,
       "override": true
     },
     {
@@ -321,6 +706,291 @@
       "source_count": 1
     },
     {
+      "iso3": "AUS",
+      "country": "Australia",
+      "continent": "Oceania",
+      "emergency_type": "conflict",
+      "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+      "declared_by": "Governor George Arthur",
+      "start_date": "1828-11-01",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Australia",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Australia",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "",
+      "source_count": 1
+    },
+    {
+      "iso3": "KGZ",
+      "country": "Kyrgyzstan",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests…",
+      "declared_by": "",
+      "start_date": "2020-10-09",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan p",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Kyrgyzstan",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-05-14",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to t",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Kyrgyzstan",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-05-14"
+        }
+      ],
+      "notes": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests.",
+      "source_count": 2
+    },
+    {
+      "iso3": "DOM",
+      "country": "Dominican Republic",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-06-25",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Dominican Republic",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-06-10",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Dominican Republic",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-06-10"
+        }
+      ],
+      "notes": "Dominican Republic 25 June 2020 The Secretary-General received from the Government of the Dominican Republic a notification dated 25 June 2020, made u…",
+      "source_count": 1
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "continent": "Africa",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-04-08",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09",
+          "source": "gdacs"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21",
+          "source": "gdacs"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ethiopia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-06-17",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "Flood in Ethiopia",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1103798&episodeid=1&eventtype=FL",
+          "date": "2026-03-09"
+        },
+        {
+          "title": "Drought: East Africa-2025",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1017863&episodeid=29&eventtype=DR",
+          "date": "2025-04-21"
+        },
+        {
+          "title": "ICCPR Art. 4(3) derogation – Ethiopia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-06-17"
+        }
+      ],
+      "notes": "Ethiopia 9 June 2020 The Secretary-General received from the Government of Ethiopia a notification dated 5 May 2020, and subsequently a notification d…",
+      "source_count": 3
+    },
+    {
+      "iso3": "GEO",
+      "country": "Georgia",
+      "continent": "Europe",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2006-03-07",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Georgia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-01-01",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Georgia",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2023-01-01"
+        }
+      ],
+      "notes": "Georgia 7 March 2006 Excellency, In conformity with Article 4 of the Covenant on Civil and Political Rights and Article 15 of the Law on the State of…",
+      "source_count": 1
+    },
+    {
+      "iso3": "PRY",
+      "country": "Paraguay",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2010-04-24",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Paraguay",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2022-07-22",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Paraguay",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2022-07-22"
+        }
+      ],
+      "notes": "Paraguay 27 April 2010 Through note DM/No…",
+      "source_count": 1
+    },
+    {
+      "iso3": "SEN",
+      "country": "Senegal",
+      "continent": "Africa",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-03-23",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Senegal",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-07-13",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Senegal",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-07-13"
+        }
+      ],
+      "notes": "Senegal 6 July 2020 The Secretary-General received from the Government of Senegal a notification dated 2 July 2020, made under article 4 (3) of the ab…",
+      "source_count": 1
+    },
+    {
+      "iso3": "PSE",
+      "country": "Palestine, State of",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-03-05",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Palestine, State of",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-04-08",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Palestine, State of",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2020-04-08"
+        }
+      ],
+      "notes": "State of Palestine The Secretary-General received from the Government of the State of Palestine a notification dated 30 March 2020, made under article…",
+      "source_count": 1
+    },
+    {
+      "iso3": "TGO",
+      "country": "Togo",
+      "continent": "Unknown",
+      "emergency_type": "governance",
+      "title": "ICCPR Article 4 derogation notification",
+      "declared_by": "",
+      "start_date": "2020-03-16",
+      "status": "active",
+      "confidence": 0.9,
+      "recent_events": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Togo",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-05-21",
+          "source": "iccpr"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "ICCPR Art. 4(3) derogation – Togo",
+          "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+          "date": "2021-05-21"
+        }
+      ],
+      "notes": "Togo 17 May 2021 The Secretary-General received from the Government of Togo a notification dated 17 May 2021, made under article 4 (3) of the above Co…",
+      "source_count": 1
+    },
+    {
       "iso3": "MDA",
       "country": "Moldova",
       "continent": "Europe",
@@ -347,6 +1017,46 @@
       ],
       "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025.",
       "source_count": 1,
+      "override": true
+    },
+    {
+      "iso3": "LKA",
+      "country": "Sri Lanka",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
+      "declared_by": "",
+      "start_date": "2022-04-02",
+      "status": "expired",
+      "confidence": 0.85,
+      "recent_events": [
+        {
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15",
+          "source": "reference"
+        },
+        {
+          "title": "Sri Lanka Restricts Fuel with QR System as Middle East Crisis Depletes Stock  | Peak Oil News and Message Boards",
+          "url": "https://peakoil.com/consumption/sri-lanka-restricts-fuel-with-qr-system-as-middle-east-crisis-depletes-stock",
+          "date": "2026-03-15",
+          "source": "gdelt"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-15"
+        },
+        {
+          "title": "Sri Lanka Restricts Fuel with QR System as Middle East Crisis Depletes Stock  | Peak Oil News and Me",
+          "url": "https://peakoil.com/consumption/sri-lanka-restricts-fuel-with-qr-system-as-middle-east-crisis-depletes-stock",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "State of emergency declared April 2022 during economic crisis, lifted after July 2022.",
+      "source_count": 2,
       "override": true
     },
     {
@@ -461,6 +1171,62 @@
         }
       ],
       "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
+      "source_count": 1
+    },
+    {
+      "iso3": "KOR",
+      "country": "South Korea",
+      "continent": "Asia",
+      "emergency_type": "conflict",
+      "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard a liberal South Korea from the threats posed by No",
+      "declared_by": "",
+      "start_date": "1948-11-17",
+      "status": "active",
+      "confidence": 0.72,
+      "recent_events": [
+        {
+          "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard a liberal South Kore",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#South_Korea",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard ",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#South_Korea",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "",
+      "source_count": 1
+    },
+    {
+      "iso3": "MMR",
+      "country": "Myanmar",
+      "continent": "Asia",
+      "emergency_type": "conflict",
+      "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townships in the regions of Chin, Kachin, Karen, Karenni,",
+      "declared_by": "",
+      "start_date": "2021-02-01",
+      "status": "active",
+      "confidence": 0.63,
+      "recent_events": [
+        {
+          "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townships in the regions of",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Myanmar",
+          "date": "2026-03-15",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townshi",
+          "url": "https://en.wikipedia.org/wiki/Martial_law#Myanmar",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "",
       "source_count": 1
     },
     {
@@ -489,35 +1255,6 @@
         }
       ],
       "notes": "State of emergency declared Jan 5, 2022, lifted Jan 19, 2022.",
-      "source_count": 1,
-      "override": true
-    },
-    {
-      "iso3": "LKA",
-      "country": "Sri Lanka",
-      "continent": "Asia",
-      "emergency_type": "governance",
-      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
-      "declared_by": "",
-      "start_date": "2022-04-02",
-      "status": "expired",
-      "confidence": 0.59,
-      "recent_events": [
-        {
-          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "State of emergency declared April 2022 during economic crisis, lifted after July 2022.",
       "source_count": 1,
       "override": true
     },
@@ -752,34 +1489,6 @@
       "notes": "Emergencies Act invoked Feb 14, 2022, revoked Feb 23, 2022 (9 days).",
       "source_count": 1,
       "override": true
-    },
-    {
-      "iso3": "KGZ",
-      "country": "Kyrgyzstan",
-      "continent": "Asia",
-      "emergency_type": "governance",
-      "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests…",
-      "declared_by": "",
-      "start_date": "2020-10-09",
-      "status": "active",
-      "confidence": 0.41,
-      "recent_events": [
-        {
-          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan p",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to t",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests.",
-      "source_count": 1
     },
     {
       "iso3": "LBN",

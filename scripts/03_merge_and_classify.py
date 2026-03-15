@@ -1,7 +1,7 @@
-"""Merge Wikipedia baseline, ReliefWeb, GDELT, and GDACS results into dashboard data.
+"""Merge Wikipedia, ReliefWeb, GDELT, GDACS, and ICCPR results into dashboard data.
 
-Reads wiki_emergencies.json (Wikipedia-sourced baseline), reliefweb_raw.json,
-gdelt_raw.json, gdacs_raw.json, and (optionally) overrides.json.
+Reads wiki_emergencies.json, reliefweb_raw.json, gdelt_raw.json, gdacs_raw.json,
+iccpr_derogations.json, and (optionally) overrides.json.
 Outputs:
   - data/emergencies.json  (current active emergencies by country)
   - data/events.json       (recent event stream for the news feed)
@@ -184,6 +184,19 @@ def load_reference() -> list[dict]:
     return []
 
 
+def load_iccpr() -> list[dict]:
+    """Load ICCPR Article 4(3) derogation data."""
+    path = DATA_DIR / "iccpr_derogations.json"
+    if path.exists():
+        data = json.loads(path.read_text(encoding="utf-8"))
+        records = data.get("records", [])
+        active = [r for r in records if r.get("active")]
+        if records:
+            print(f"  Loaded {len(records)} ICCPR derogations ({len(active)} active)")
+        return records
+    return []
+
+
 def load_overrides() -> list[dict]:
     """Load optional curated overrides (supplements/corrections)."""
     path = DATA_DIR / "overrides.json"
@@ -201,11 +214,12 @@ def build_emergencies(
     gd_records: list[dict],
     gc_records: list[dict],
     reference: list[dict],
+    iccpr_records: list[dict],
     overrides: list[dict],
 ) -> list[dict]:
     """Build the emergencies list by country, merging all sources.
 
-    Priority order: reference baseline → GDACS → ReliefWeb → GDELT → overrides.
+    Priority order: reference baseline → ReliefWeb → ICCPR → GDACS → GDELT → overrides.
     Live data boosts confidence when it confirms reference entries.
     """
     # Group by ISO3
@@ -286,7 +300,52 @@ def build_emergencies(
             entry["title"] = rec.get("title", "")
         entry["_classification_text"] = entry.get("_classification_text", "") + " " + combined_text
 
-    # 3) Process GDACS disaster alerts — ONLY boost existing entries.
+    # 3) Process ICCPR Article 4(3) derogations
+    #    Active derogations are strong evidence of an emergency regime.
+    for rec in iccpr_records:
+        if not rec.get("active"):
+            continue
+        iso3 = rec.get("iso3", "")
+        if not iso3 or len(iso3) != 3:
+            continue
+
+        iccpr_source = {
+            "source": "iccpr",
+            "title": f"ICCPR Art. 4(3) derogation \u2013 {rec.get('country', '')}",
+            "date": rec.get("latest_date", ""),
+            "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4",
+        }
+
+        if iso3 not in by_country:
+            by_country[iso3] = {
+                "iso3": iso3,
+                "country": rec.get("country", ""),
+                "continent": get_continent(iso3),
+                "emergency_type": "governance",
+                "title": "ICCPR Article 4 derogation notification",
+                "declared_by": "",
+                "start_date": rec.get("earliest_date", ""),
+                "status": "active",
+                "confidence": 0.90,
+                "sources": [iccpr_source],
+                "recent_events": [],
+                "source_urls": [{
+                    "title": iccpr_source["title"][:100],
+                    "url": iccpr_source["url"],
+                    "date": rec.get("latest_date", "")[:10],
+                }],
+                "notes": rec.get("summary", ""),
+                "_classification_text": f"ICCPR derogation {rec.get('country', '')}",
+            }
+        else:
+            entry = by_country[iso3]
+            entry["sources"].append(iccpr_source)
+            entry["confidence"] = max(entry.get("confidence", 0), 0.90)
+            entry["_classification_text"] = (
+                entry.get("_classification_text", "") + " ICCPR derogation"
+            )
+
+    # 4) Process GDACS disaster alerts — ONLY boost existing entries.
     #    GDACS tracks disasters, not SoE declarations. A disaster alert
     #    does NOT mean a state of emergency was declared.
     for rec in gc_records:
@@ -308,7 +367,7 @@ def build_emergencies(
             rec.get("title", "") + " " + rec.get("event_type", "")
         )
 
-    # 4) Process GDELT records — ONLY boost existing entries.
+    # 5) Process GDELT records — ONLY boost existing entries.
     #    GDELT news articles confirm that emergencies are being reported on,
     #    but a news article alone doesn't constitute a declared SoE.
     for rec in gd_records:
@@ -332,24 +391,25 @@ def build_emergencies(
             })
             entry["_classification_text"] = entry.get("_classification_text", "") + " " + rec.get("title", "")
 
-    # 5) Classify and score
+    # 6) Classify and score
     reference_isos = {r["iso3"] for r in reference if r.get("iso3")}
+    iccpr_isos = {r["iso3"] for r in iccpr_records if r.get("iso3") and r.get("active")}
+    seeded_isos = reference_isos | iccpr_isos
     for iso3, entry in by_country.items():
         text = entry.pop("_classification_text", "")
-        # Only override type from classification if not already set from reference
-        if iso3 not in reference_isos or not entry.get("emergency_type"):
+        # Only override type from classification if not already set from reference/ICCPR
+        if iso3 not in seeded_isos or not entry.get("emergency_type"):
             entry["emergency_type"] = classify_emergency_type(text)
         confidence = compute_confidence(entry)
-        # If reference entry AND confirmed by live feed, boost confidence
-        if iso3 in reference_isos:
+        # Preserve seeded confidence (from reference or ICCPR)
+        if iso3 in seeded_isos:
             has_live = any(
-                s.get("source") in ("gdelt", "reliefweb", "gdacs")
+                s.get("source") in ("gdelt", "reliefweb", "gdacs", "iccpr")
                 for s in entry.get("sources", [])
             )
             if has_live:
                 confidence = max(confidence, entry.get("confidence", 0), 0.85)
             else:
-                # Reference-only entry keeps its reference confidence
                 confidence = max(confidence, entry.get("confidence", 0))
         entry["confidence"] = confidence
 
@@ -369,7 +429,7 @@ def build_emergencies(
         entry["source_count"] = len(entry["sources"])
         del entry["sources"]
 
-    # 6) Apply overrides (these take precedence, optional supplements)
+    # 7) Apply overrides (these take precedence, optional supplements)
     expired_count = 0
     boosted_count = 0
     for ov in overrides:
@@ -521,9 +581,10 @@ def main() -> None:
 
     rw_records, gd_records, gc_records = load_raw_data()
     reference = load_reference()
+    iccpr_records = load_iccpr()
     overrides = load_overrides()
 
-    emergencies = build_emergencies(rw_records, gd_records, gc_records, reference, overrides)
+    emergencies = build_emergencies(rw_records, gd_records, gc_records, reference, iccpr_records, overrides)
     events = build_events(rw_records, gd_records, gc_records)
 
     # Filter to only active emergencies with confidence >= 50%

@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-03-15T11:18:22.832932+00:00",
+  "fetched_at": "2026-03-15T23:25:48.136581+00:00",
   "source": "https://en.wikipedia.org/wiki/State_of_emergency",
-  "description": "Dynamically scraped from Wikipedia's 'State of emergency' article. Each entry corresponds to a documented emergency declaration.",
-  "entry_count": 28,
+  "description": "Dynamically scraped from Wikipedia's 'State of emergency' and supplementary articles (Martial_law). Each entry corresponds to a documented emergency declaration.",
+  "entry_count": 31,
   "emergencies": [
     {
       "iso3": "VEN",
@@ -17,6 +17,21 @@
       "source_type": "wikipedia",
       "last_verified": "2026-03-15",
       "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
+      "year_section": 2026
+    },
+    {
+      "iso3": "AUS",
+      "country": "Australia",
+      "emergency_type": "conflict",
+      "title": "As of 2026 [update] , martial law has never been declared since federation in 1901",
+      "declared_by": "Governor George Arthur",
+      "start_date": "1828-11-01",
+      "status": "active",
+      "confidence": 0.9,
+      "source_url": "https://en.wikipedia.org/wiki/Martial_law#Australia",
+      "source_type": "wikipedia",
+      "last_verified": "2026-03-15",
+      "notes": "",
       "year_section": 2026
     },
     {
@@ -48,6 +63,36 @@
       "last_verified": "2026-03-15",
       "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
       "year_section": 2024
+    },
+    {
+      "iso3": "KOR",
+      "country": "South Korea",
+      "emergency_type": "conflict",
+      "title": "On 3 December 2024, president Yoon Suk Yeol declared a state of emergency martial law to \"safeguard a liberal South Korea from the threats posed by No",
+      "declared_by": "",
+      "start_date": "1948-11-17",
+      "status": "active",
+      "confidence": 0.72,
+      "source_url": "https://en.wikipedia.org/wiki/Martial_law#South_Korea",
+      "source_type": "wikipedia",
+      "last_verified": "2026-03-15",
+      "notes": "",
+      "year_section": 2024
+    },
+    {
+      "iso3": "MMR",
+      "country": "Myanmar",
+      "emergency_type": "conflict",
+      "title": "As of 22 February 2023, Myanmar's military junta has declared martial law over a total of 50 townships in the regions of Chin, Kachin, Karen, Karenni,",
+      "declared_by": "",
+      "start_date": "2021-02-01",
+      "status": "active",
+      "confidence": 0.63,
+      "source_url": "https://en.wikipedia.org/wiki/Martial_law#Myanmar",
+      "source_type": "wikipedia",
+      "last_verified": "2026-03-15",
+      "notes": "",
+      "year_section": 2023
     },
     {
       "iso3": "KAZ",

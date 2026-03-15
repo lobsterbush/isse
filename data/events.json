@@ -1,15 +1,35 @@
 {
-  "generated_at": "2026-03-15T11:18:22.965016+00:00",
-  "event_count": 23,
+  "generated_at": "2026-03-15T23:45:06.415500+00:00",
+  "event_count": 25,
   "events": [
     {
       "source": "gdelt",
-      "title": "Middle East crisis : How fuel , food & consumers are affected – The best and worst case scenarios",
+      "title": "State of Emergency Declared for Historic Winter Storm",
       "date": "2026-03-15",
       "iso3": "",
       "country": "",
-      "url": "https://sofokleous10.gr/2026/03/15/middle-east-crisis-how-fuel-food-consumers-are-affected-the-best-and-worst-case-scenarios/",
-      "source_name": "sofokleous10.gr",
+      "url": "https://wdez.com/2026/03/15/949633/",
+      "source_name": "wdez.com",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "gdelt",
+      "title": "Fuel Crisis Pushes Government Toward Radical Four - Day Work Week",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://slguardian.org/fuel-crisis-pushes-government-toward-radical-four-day-work-week/",
+      "source_name": "slguardian.org",
+      "emergency_type": "conflict"
+    },
+    {
+      "source": "gdelt",
+      "title": "Sri Lanka Restricts Fuel with QR System as Middle East Crisis Depletes Stock  | Peak Oil News and Message Boards",
+      "date": "2026-03-15",
+      "iso3": "LKA",
+      "country": "Sri Lanka",
+      "url": "https://peakoil.com/consumption/sri-lanka-restricts-fuel-with-qr-system-as-middle-east-crisis-depletes-stock",
+      "source_name": "peakoil.com",
       "emergency_type": "governance"
     },
     {
