@@ -211,10 +211,17 @@ def extract_countries_from_text(text: str) -> list[str]:
     return found
 
 
-def _is_relevant(title: str) -> bool:
+def _is_relevant(title: str, matched_query: str = "") -> bool:
     """Return True if the article title seems related to emergencies."""
     t = title.lower()
-    return any(kw in t for kw in _RELEVANCE_KW)
+    if any(kw in t for kw in _RELEVANCE_KW):
+        return True
+    # Also relevant if the search phrase itself appears in the title
+    if matched_query:
+        phrase = matched_query.strip('"').lower()
+        if phrase in t:
+            return True
+    return False
 
 
 def fetch_articles(query: str) -> list[dict]:
@@ -303,7 +310,7 @@ def main() -> None:
                 continue
             normalized = normalize_article(art, phrase)
             # Skip articles with no emergency keyword in title
-            if not _is_relevant(normalized["title"]):
+            if not _is_relevant(normalized["title"], normalized.get("matched_query", "")):
                 skipped_relevance += 1
                 continue
             url = normalized.get("url", "")

@@ -151,7 +151,8 @@ def _clean_text(text: str) -> str:
         "imposed|enacted|renewed|lifted|suspended|restored|introduced|"
         "flooding|following|during|after|before|because|emergency"
     )
-    text = re.sub(rf"([a-zA-Z])({_GLUED})", r"\1 \2", text)
+    # Use \w to handle accented chars like č, ć in names
+    text = re.sub(rf"(\w)({_GLUED})", r"\1 \2", text)
     # Collapse multiple spaces
     text = re.sub(r"\s{2,}", " ", text).strip()
     return text
@@ -303,10 +304,10 @@ def parse_active_section(html: str, year: int) -> list[dict]:
         if title_text and not title_text.endswith("."):
             title_text += "…"
 
-        # Confidence based on recency
+        # Confidence based on recency (0.09/yr decay; 2020 entries fall below 50%)
         current_year = datetime.now().year
         years_ago = current_year - year
-        confidence = max(0.5, 0.95 - (years_ago * 0.08))
+        confidence = 0.95 - (years_ago * 0.09)
 
         results.append({
             "iso3": iso3,
@@ -349,7 +350,7 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
     emergency_kw = [
         "state of emergency", "martial law", "state of exception",
         "emergency powers", "emergency declared", "emergency decree",
-        "state of siege",
+        "state of siege", "emergencies act",
     ]
     if not any(kw in text.lower() for kw in emergency_kw):
         return []
@@ -382,7 +383,7 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
 
     current_year = datetime.now().year
     years_ago = current_year - latest_year
-    confidence = max(0.5, 0.90 - (years_ago * 0.08))
+    confidence = 0.90 - (years_ago * 0.09)
 
     # Get country common name
     try:
@@ -391,14 +392,22 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
     except (LookupError, AttributeError):
         country_name = section_name
 
-    # Build a summary from first relevant sentence
-    for line in text.split("."):
-        line = line.strip()
-        if any(kw in line.lower() for kw in emergency_kw) and len(line) > 20:
-            title = _clean_text(line[:150])
-            break
-    else:
-        title = f"Emergency powers in {country_name}"
+    # Build a summary: prefer sentences with both emergency keyword AND a recent year
+    sentences = [s.strip() for s in text.split(".") if len(s.strip()) > 20]
+    dated_match = None
+    undated_match = None
+    for line in sentences:
+        line_lower = line.lower()
+        if not any(kw in line_lower for kw in emergency_kw):
+            continue
+        has_recent_year = bool(re.search(r"\b202[2-6]\b", line))
+        if has_recent_year and not dated_match:
+            dated_match = line
+            break  # Best option — stop immediately
+        if not undated_match:
+            undated_match = line
+    best = dated_match or undated_match
+    title = _clean_text(best[:150]) if best else f"Emergency powers in {country_name}"
 
     return [{
         "iso3": iso3,

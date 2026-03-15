@@ -212,10 +212,12 @@
         const iso = feature.properties["ISO3166-1-Alpha-3"];
         const emerg = getEmergencyByISO3(iso);
         if (emerg) {
+          const shortTitle = emerg.title && emerg.title.length > 80
+            ? emerg.title.substring(0, 77) + "…" : emerg.title;
           layer.bindTooltip(
             `<strong>${escapeHtml(emerg.country)}</strong><br>` +
               `<span style="color:${TYPE_COLORS[emerg.emergency_type]}">${escapeHtml(TYPE_LABELS[emerg.emergency_type] || emerg.emergency_type)}</span><br>` +
-              escapeHtml(emerg.title),
+              escapeHtml(shortTitle),
             { className: "dark-tooltip" }
           );
           layer.on("click", () => openCountryModal(emerg));
@@ -259,7 +261,7 @@
         return `<tr data-iso3="${escapeHtml(e.iso3)}" style="cursor:pointer">
           <td><strong>${escapeHtml(e.country || e.iso3)}</strong></td>
           <td><span class="type-badge ${escapeHtml(e.emergency_type)}">${escapeHtml(TYPE_LABELS[e.emergency_type] || e.emergency_type)}</span></td>
-          <td>${escapeHtml(e.title) || "—"}</td>
+          <td title="${escapeHtml(e.title)}">${escapeHtml(e.title ? (e.title.length > 60 ? e.title.substring(0, 57) + "…" : e.title) : "") || "—"}</td>
           <td>${escapeHtml(e.declared_by) || "—"}</td>
           <td style="font-family:var(--font-mono);font-size:0.75rem">${escapeHtml(e.start_date) || "—"}</td>
           <td>
@@ -357,10 +359,11 @@
     srcEl.innerHTML = urls.length
       ? `<h3>Sources</h3>` +
         urls
-          .map(
-            (s) =>
-              `<div class="modal-source-item"><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.title || s.url)}</a> <span style="color:var(--text-muted);font-size:0.7rem">${escapeHtml(s.date || "")}</span></div>`
-          )
+          .map((s) => {
+            const isWiki = s.url && s.url.includes("wikipedia.org");
+            const label = isWiki ? `📖 ${escapeHtml(s.title || "Wikipedia")}` : escapeHtml(s.title || s.url);
+            return `<div class="modal-source-item"><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${label}</a> <span style="color:var(--text-muted);font-size:0.7rem">${escapeHtml(s.date || "")}</span></div>`;
+          })
           .join("")
       : "";
 
