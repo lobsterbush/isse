@@ -1,0 +1,46 @@
+name: Update Emergency Data
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch ReliefWeb data
+        run: python scripts/01_fetch_reliefweb.py
+
+      - name: Fetch GDELT data
+        run: python scripts/02_fetch_gdelt.py
+
+      - name: Merge and classify
+        run: python scripts/03_merge_and_classify.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/emergencies.json data/events.json data/reliefweb_raw.json data/gdelt_raw.json
+          git diff --cached --quiet || git commit -m "Update emergency data $(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+          Co-Authored-By: Oz <oz-agent@warp.dev>"
+          git push

@@ -1,0 +1,11 @@
+{
+  "meta": {
+    "description": "Optional curated override file. Add entries here to correct or supplement auto-detected emergencies. All dashboard data is primarily sourced from international news feeds (GDELT, ReliefWeb).",
+    "last_updated": "2026-03-14",
+    "taxonomy": {
+      "types": ["disaster", "public_health", "conflict", "migration", "governance"],
+      "statuses": ["active", "extended", "expired", "lifted"]
+    }
+  },
+  "overrides": []
+}

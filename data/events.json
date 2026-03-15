@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-03-15T00:57:32.824436+00:00",
+  "event_count": 11,
+  "events": [
+    {
+      "source": "gdelt",
+      "title": "Trinidad and Tobago extends state of emergency for another three months - Dominican Republic Post – Caribbean News , Business , Travel & Culture",
+      "date": "2026-03-15",
+      "iso3": "TTO",
+      "country": "Trinidad and Tobago",
+      "url": "https://dominicanrepublicpost.com/trinidad-and-tobago-extends-state-of-emergency-for-another-three-months/",
+      "source_name": "dominicanrepublicpost.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Trinidad and Tobago extends state of emergency for another three months",
+      "date": "2026-03-15",
+      "iso3": "TTO",
+      "country": "Trinidad and Tobago",
+      "url": "https://www.aljazeera.com/news/2026/3/14/trinidad-and-tobago-extends-state-of-emergency-for-another-three-months",
+      "source_name": "aljazeera.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "السيطرة على حريق مصنع قطع الغيار بطلخا في الدقهلية وبدء أعمال التبريد",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.elwatannews.com/news/details/8246091",
+      "source_name": "elwatannews.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Minneapolis , St . Paul among cities to declare snow emergency",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.kare11.com/article/news/local/minneapolis-st-louis-park-among-cities-to-declare-snow-emergency-mn/89-56e94d19-5a40-4a80-96bc-a8afa503ad8d",
+      "source_name": "kare11.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Собянин : военные РФ ликвидировали БПЛА , летевшие на Москву",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://aif.ru/society/sobyanin-voennye-rf-likvidirovali-bpla-letevshie-na-moskvu",
+      "source_name": "aif.ru",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Customer Sues Costco , Accuses Wholesaler of Passing Along Tariff Costs to Shoppers",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.cpapracticeadvisor.com/2026/03/14/customer-sues-costco-accuses-wholesaler-of-passing-along-tariff-costs-to-shoppers/179850/",
+      "source_name": "cpapracticeadvisor.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Ruptured pipe that leaked millions of gallons of raw waste into the Potomac is back in operation",
+      "date": "2026-03-15",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.whec.com/ap-top-news/ruptured-pipe-that-leaked-millions-of-gallons-of-raw-waste-into-the-potomac-is-back-in-operation/",
+      "source_name": "whec.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Telemedia , DPW , water enterprise budgets reviewed",
+      "date": "2026-03-14",
+      "iso3": "",
+      "country": "",
+      "url": "https://homenewshere.com/tewksbury_town_crier/news/article_3f7ef101-6ad8-4858-9c22-c131d51c5c16.html",
+      "source_name": "homenewshere.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Trump urges united kingdom to send ships to Strait of Hormuz",
+      "date": "2026-03-14",
+      "iso3": "GBR",
+      "country": "United Kingdom",
+      "url": "https://www.yahoo.com/news/articles/trump-urges-uk-send-ships-203451788.html",
+      "source_name": "yahoo.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Who has the power to declare war ? | Cronin and Loevy",
+      "date": "2026-03-14",
+      "iso3": "",
+      "country": "",
+      "url": "https://gazette.com/2026/03/14/who-has-the-power-to-declare-war-cronin-and-loevy/",
+      "source_name": "gazette.com",
+      "emergency_type": "conflict"
+    },
+    {
+      "source": "gdelt",
+      "title": "Ruptured pipe that leaked millions of gallons of raw waste into the Potomac is back in operation",
+      "date": "2026-03-14",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.wfmj.com/story/53478964/ruptured-pipe-that-leaked-millions-of-gallons-of-raw-waste-into-the-potomac-is-back-in-operation",
+      "source_name": "wfmj.com",
+      "emergency_type": "governance"
+    }
+  ]
+}
