@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-15T05:21:07.733500+00:00",
-  "active_count": 43,
-  "total_count": 44,
+  "generated_at": "2026-03-15T05:39:32.754917+00:00",
+  "active_count": 31,
+  "total_count": 31,
   "emergencies": [
     {
       "iso3": "VEN",
       "country": "Venezuela",
       "continent": "Americas",
       "emergency_type": "governance",
-      "title": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after strikes from theUnited Stateswere reported…",
+      "title": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported…",
       "declared_by": "",
       "start_date": "2026-01-03",
       "status": "active",
       "confidence": 0.95,
       "recent_events": [
         {
-          "title": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after strikes from theUnited ",
+          "title": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the Unit",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -23,96 +23,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after str",
+          "title": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after s",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after strikes from theUnited Stateswere reported. Maduro was captured some time later.",
-      "source_count": 1
-    },
-    {
-      "iso3": "BRN",
-      "country": "Brunei Darussalam",
-      "continent": "Unknown",
-      "emergency_type": "conflict",
-      "title": "Brunei [ edit ] The 1959 constitution allows the Sultan of Brunei to declare a state of emergency at the national or local level",
-      "declared_by": "",
-      "start_date": "1962-12-12",
-      "status": "active",
-      "confidence": 0.82,
-      "recent_events": [
-        {
-          "title": "Brunei [ edit ] The 1959 constitution allows the Sultan of Brunei to declare a state of emergency at the national or loc",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Brunei",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Brunei [ edit ] The 1959 constitution allows the Sultan of Brunei to declare a state of emergency at",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Brunei",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "EGY",
-      "country": "Egypt",
-      "continent": "Africa",
-      "emergency_type": "conflict",
-      "title": "\"Egypt's Unexceptional State of Emergency\"",
-      "declared_by": "",
-      "start_date": "2012-03-19",
-      "status": "active",
-      "confidence": 0.82,
-      "recent_events": [
-        {
-          "title": "\"Egypt's Unexceptional State of Emergency\"",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Egypt",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "\"Egypt's Unexceptional State of Emergency\"",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Egypt",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "FIN",
-      "country": "Finland",
-      "continent": "Europe",
-      "emergency_type": "public_health",
-      "title": "Finland [ edit ] The Finnish Government , in cooperation with the President of Finland , may declare a state of emergency in Finland , after which it ",
-      "declared_by": "",
-      "start_date": "1939-11-30",
-      "status": "active",
-      "confidence": 0.82,
-      "recent_events": [
-        {
-          "title": "Finland [ edit ] The Finnish Government , in cooperation with the President of Finland , may declare a state of emergenc",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Finland",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Finland [ edit ] The Finnish Government , in cooperation with the President of Finland , may declare",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Finland",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
       "source_count": 1
     },
     {
@@ -120,14 +36,14 @@
       "country": "Nigeria",
       "continent": "Africa",
       "emergency_type": "conflict",
-      "title": "Nigeria [ edit ] In Nigeria, a state of emergency is usually declared in times of great civil unrest",
+      "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
       "declared_by": "President Bola Ahmed Tinubu",
       "start_date": "2013-05-14",
       "status": "active",
       "confidence": 0.82,
       "recent_events": [
         {
-          "title": "Nigeria [ edit ] In Nigeria, a state of emergency is usually declared in times of great civil unrest",
+          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
           "date": "2026-03-15",
           "source": "reference"
@@ -135,7 +51,7 @@
       ],
       "source_urls": [
         {
-          "title": "Nigeria [ edit ] In Nigeria, a state of emergency is usually declared in times of great civil unrest",
+          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
           "date": "2026-03-15"
         }
@@ -148,14 +64,14 @@
       "country": "United States",
       "continent": "Americas",
       "emergency_type": "conflict",
-      "title": "United States [ edit ] Further information: Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of national emergencies in t",
+      "title": "United States Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of national emergencies in the United States The United St",
       "declared_by": "Governor Jay Inslee",
       "start_date": "2015-12-10",
       "status": "active",
       "confidence": 0.82,
       "recent_events": [
         {
-          "title": "United States [ edit ] Further information: Senate Report 93-549 , Insurrection Act , National Emergencies Act , and Lis",
+          "title": "United States Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of national emergencies in t",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
           "date": "2026-03-15",
           "source": "reference"
@@ -163,7 +79,7 @@
       ],
       "source_urls": [
         {
-          "title": "United States [ edit ] Further information: Senate Report 93-549 , Insurrection Act , National Emerg",
+          "title": "United States Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of natio",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
           "date": "2026-03-15"
         }
@@ -176,14 +92,14 @@
       "country": "Trinidad and Tobago",
       "continent": "Americas",
       "emergency_type": "conflict",
-      "title": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a state of emergency on the advice ofPrime MinisterKei…",
+      "title": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a state of emergency on the advice of Prime Ministe…",
       "declared_by": "",
       "start_date": "2024-12-30",
       "status": "active",
       "confidence": 0.79,
       "recent_events": [
         {
-          "title": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a state of emergency on ",
+          "title": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a state of emergency ",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -191,12 +107,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a st",
+          "title": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a state of emergency on the advice ofPrime MinisterKeith Rowleyover surging violence as weapons fromthe United Statesfuel a crime wave around the Caribbean.[1]",
+      "notes": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a state of emergency on the advice of Prime Minister Keith Rowleyover surging violence as weapons fromthe United Statesfuel a crime wave around the Caribbean.",
       "source_count": 1
     },
     {
@@ -204,14 +120,14 @@
       "country": "Papua New Guinea",
       "continent": "Oceania",
       "emergency_type": "governance",
-      "title": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to the2024 Papua New Guinean unrest…",
+      "title": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest…",
       "declared_by": "",
       "start_date": "2024-01-11",
       "status": "active",
       "confidence": 0.79,
       "recent_events": [
         {
-          "title": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to the2024 Papua New Gu",
+          "title": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua N",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -219,152 +135,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to ",
+          "title": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to the2024 Papua New Guinean unrest.",
-      "source_count": 1
-    },
-    {
-      "iso3": "AUS",
-      "country": "Australia",
-      "continent": "Oceania",
-      "emergency_type": "public_health",
-      "title": "With regard to emergency management, regions (usually on a local government area basis) that have been affected by a natural disaster are the responsi",
-      "declared_by": "",
-      "start_date": "2020-03-18",
-      "status": "active",
-      "confidence": 0.74,
-      "recent_events": [
-        {
-          "title": "With regard to emergency management, regions (usually on a local government area basis) that have been affected by a nat",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Australia",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "With regard to emergency management, regions (usually on a local government area basis) that have be",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Australia",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "FRA",
-      "country": "France",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "France [ edit ] Police stationed in Paris during a state of emergency, November 2015 Main article: States of emergency in France Three main provisions",
-      "declared_by": "",
-      "start_date": "1955-04-03",
-      "status": "active",
-      "confidence": 0.74,
-      "recent_events": [
-        {
-          "title": "France [ edit ] Police stationed in Paris during a state of emergency, November 2015 Main article: States of emergency i",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#France",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "France [ edit ] Police stationed in Paris during a state of emergency, November 2015 Main article: S",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#France",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "IND",
-      "country": "India",
-      "continent": "Asia",
-      "emergency_type": "conflict",
-      "title": "India [ edit ] Main article: States of emergency in India The State of Emergency can be proclaimed by the President of India , when they perceive grav",
-      "declared_by": "",
-      "start_date": "1962-10-26",
-      "status": "active",
-      "confidence": 0.74,
-      "recent_events": [
-        {
-          "title": "India [ edit ] Main article: States of emergency in India The State of Emergency can be proclaimed by the President of I",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#India",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "India [ edit ] Main article: States of emergency in India The State of Emergency can be proclaimed b",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#India",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "ISL",
-      "country": "Grindavík",
-      "continent": "Europe",
-      "emergency_type": "disaster",
-      "title": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful earthquakes rocked the country's southwestern Reyk…",
-      "declared_by": "",
-      "start_date": "2023-11-10",
-      "status": "active",
-      "confidence": 0.71,
-      "recent_events": [
-        {
-          "title": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful earthquakes rocked t",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful earthquakes rocked the country's southwestern Reykjanes peninsula, signalling the increased likelihood of a volcanic eruption in the region. The village ofGrindavíkwas ordered to evacuate due to the i",
-      "source_count": 1
-    },
-    {
-      "iso3": "ETH",
-      "country": "Ethiopia",
-      "continent": "Africa",
-      "emergency_type": "governance",
-      "title": "Ethiopia [ edit ] Further information: 2023 Ethiopian state of emergency , 2021–2022 Ethiopian state of emergency , and 2016–2018 Ethiopian state of e",
-      "declared_by": "",
-      "start_date": "",
-      "status": "active",
-      "confidence": 0.66,
-      "recent_events": [
-        {
-          "title": "Ethiopia [ edit ] Further information: 2023 Ethiopian state of emergency , 2021–2022 Ethiopian state of emergency , and ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Ethiopia",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Ethiopia [ edit ] Further information: 2023 Ethiopian state of emergency , 2021–2022 Ethiopian state",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Ethiopia",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
       "source_count": 1
     },
     {
@@ -372,14 +148,14 @@
       "country": "New Zealand",
       "continent": "Oceania",
       "emergency_type": "disaster",
-      "title": "New Zealand [ edit ] The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a sta",
+      "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a state of eme",
       "declared_by": "Minister of Civil Defence John Carter",
       "start_date": "2011-02-23",
       "status": "active",
       "confidence": 0.66,
       "recent_events": [
         {
-          "title": "New Zealand [ edit ] The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body cou",
+          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
           "date": "2026-03-15",
           "source": "reference"
@@ -387,7 +163,7 @@
       ],
       "source_urls": [
         {
-          "title": "New Zealand [ edit ] The Civil Defence Emergency Management Act 2002 gives the New Zealand Governmen",
+          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and loc",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
           "date": "2026-03-15"
         }
@@ -400,14 +176,14 @@
       "country": "Kazakhstan",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to the2022 Kazakh protests…",
+      "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests…",
       "declared_by": "",
       "start_date": "2022-01-05",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to the2022 Kazakh protest",
+          "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh pro",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -415,12 +191,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to th",
+          "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to the2022 Kazakh protests.",
+      "notes": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests.",
       "source_count": 1
     },
     {
@@ -428,14 +204,14 @@
       "country": "Ukraine",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it would declare a nationwide state of emergency, excludi…",
+      "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excl…",
       "declared_by": "",
       "start_date": "2022-02-23",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it would declare a nationwi",
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a natio",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -443,12 +219,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it woul",
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it would declare a nationwide state of emergency, excluding the occupied territories inDonbas. On the same day,Russiabegan to evacuate itsembassyinKyivand also lowered the Russian flag from the top of the bu",
+      "notes": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excluding the occupied territories in Donbas. On the same day, Russiabegan to evacuate itsembassyin Kyivand also lowered the Russian flag from the top of",
       "source_count": 1
     },
     {
@@ -456,14 +232,14 @@
       "country": "Moldova",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee…",
+      "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians fl…",
       "declared_by": "",
       "start_date": "2022-02-24",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in response to the invasion, a",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion,",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -471,12 +247,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in respons",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in respo",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee into Moldovan territory.",
+      "notes": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee into Moldovan territory.",
       "source_count": 1
     },
     {
@@ -484,14 +260,14 @@
       "country": "Lithuania",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provocations as large military forces massed inRussiaand…",
+      "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russia…",
       "declared_by": "",
       "start_date": "2022-02-24",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provocations as large mili",
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large mi",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -499,12 +275,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provoc",
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and prov",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provocations as large military forces massed inRussiaandBelarus.",
+      "notes": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russiaand Belarus.",
       "source_count": 1
     },
     {
@@ -512,14 +288,14 @@
       "country": "El Salvador",
       "continent": "Americas",
       "emergency_type": "conflict",
-      "title": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war…",
+      "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil w…",
       "declared_by": "",
       "start_date": "2022-03-26",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it the most violent day ",
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent da",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -527,12 +303,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it t",
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war in 1992.",
+      "notes": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war in 1992.",
       "source_count": 1
     },
     {
@@ -540,14 +316,14 @@
       "country": "Sri Lanka",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 Sri Lankan protests…",
+      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
       "declared_by": "",
       "start_date": "2022-04-02",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 Sri Lankan protests…",
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -555,12 +331,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 ",
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 Sri Lankan protests.",
+      "notes": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests.",
       "source_count": 1
     },
     {
@@ -568,14 +344,14 @@
       "country": "Poland",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-19…",
+      "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
       "declared_by": "",
       "start_date": "2022-05-16",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-19…",
+          "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -583,12 +359,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-",
+          "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for C",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-19.",
+      "notes": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19.",
       "source_count": 1
     },
     {
@@ -596,14 +372,14 @@
       "country": "Hungary",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
+      "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
       "declared_by": "",
       "start_date": "2022-05-24",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -611,12 +387,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion o",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion on Ukraine.",
+      "notes": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine.",
       "source_count": 1
     },
     {
@@ -624,14 +400,14 @@
       "country": "Ecuador",
       "continent": "Americas",
       "emergency_type": "governance",
-      "title": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests…",
+      "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
       "declared_by": "",
       "start_date": "2022-06-18",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests…",
+          "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -639,12 +415,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests…",
+          "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests.",
+      "notes": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests.",
       "source_count": 1
     },
     {
@@ -652,14 +428,14 @@
       "country": "Uzbekistan",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests…",
+      "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
       "declared_by": "",
       "start_date": "2022-07-02",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests…",
+          "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -667,12 +443,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests…",
+          "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests.",
+      "notes": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests.",
       "source_count": 1
     },
     {
@@ -680,14 +456,14 @@
       "country": "Italy",
       "continent": "Europe",
       "emergency_type": "disaster",
-      "title": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade…",
+      "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade…",
       "declared_by": "",
       "start_date": "2022-07-04",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought, one of the worst of",
+          "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst ",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -695,12 +471,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought,",
+          "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drough",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade.",
+      "notes": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade.",
       "source_count": 1
     },
     {
@@ -708,14 +484,14 @@
       "country": "Portugal",
       "continent": "Europe",
       "emergency_type": "disaster",
-      "title": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires…",
+      "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
       "declared_by": "",
       "start_date": "2022-07-11",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires…",
+          "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -723,12 +499,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires…",
+          "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires.",
+      "notes": "On 11 July 2022, Portugal declared a state of emergency due to forest fires.",
       "source_count": 1
     },
     {
@@ -736,14 +512,14 @@
       "country": "UK",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life…",
+      "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life…",
       "declared_by": "",
       "start_date": "2022-07-15",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings that indicated a dan",
+          "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a d",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -751,12 +527,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings ",
+          "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warning",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life.",
+      "notes": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life.",
       "source_count": 1
     },
     {
@@ -764,14 +540,14 @@
       "country": "Pakistan",
       "continent": "Asia",
       "emergency_type": "disaster",
-      "title": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding…",
+      "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
       "declared_by": "",
       "start_date": "2022-08-25",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding…",
+          "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -779,40 +555,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding…",
+          "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding.",
-      "source_count": 1
-    },
-    {
-      "iso3": "ALB",
-      "country": "Albania",
-      "continent": "Europe",
-      "emergency_type": "governance",
-      "title": "Albania [ edit ] The Constitution of Albania grants only the Parliament of Albania the power to declare a state of emergency, based on the advice of t",
-      "declared_by": "",
-      "start_date": "2022-12-05",
-      "status": "active",
-      "confidence": 0.58,
-      "recent_events": [
-        {
-          "title": "Albania [ edit ] The Constitution of Albania grants only the Parliament of Albania the power to declare a state of emerg",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Albania",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Albania [ edit ] The Constitution of Albania grants only the Parliament of Albania the power to decl",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Albania",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding.",
       "source_count": 1
     },
     {
@@ -820,14 +568,14 @@
       "country": "Canada",
       "continent": "Americas",
       "emergency_type": "public_health",
-      "title": "Canada [ edit ] Main articles: War Measures Act , Emergencies Act , and States of emergency in Canada The federal government of Canada can use the Eme",
+      "title": "Canada War Measures Act , Emergencies Act , and States of emergency in Canada The federal government of Canada can use the Emergencies Act to invoke a",
       "declared_by": "",
       "start_date": "2022-02-14",
       "status": "active",
       "confidence": 0.58,
       "recent_events": [
         {
-          "title": "Canada [ edit ] Main articles: War Measures Act , Emergencies Act , and States of emergency in Canada The federal govern",
+          "title": "Canada War Measures Act , Emergencies Act , and States of emergency in Canada The federal government of Canada can use t",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Canada",
           "date": "2026-03-15",
           "source": "reference"
@@ -835,64 +583,8 @@
       ],
       "source_urls": [
         {
-          "title": "Canada [ edit ] Main articles: War Measures Act , Emergencies Act , and States of emergency in Canad",
+          "title": "Canada War Measures Act , Emergencies Act , and States of emergency in Canada The federal government",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Canada",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "MYS",
-      "country": "Malaysia",
-      "continent": "Asia",
-      "emergency_type": "public_health",
-      "title": "Malaysia [ edit ] Main articles: Malayan Emergency and 2021 Malaysian state of emergency In Malaysia , if the Yang di-Pertuan Agong (King) is satisfie",
-      "declared_by": "",
-      "start_date": "1969-05-13",
-      "status": "active",
-      "confidence": 0.58,
-      "recent_events": [
-        {
-          "title": "Malaysia [ edit ] Main articles: Malayan Emergency and 2021 Malaysian state of emergency In Malaysia , if the Yang di-Pe",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Malaysia",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Malaysia [ edit ] Main articles: Malayan Emergency and 2021 Malaysian state of emergency In Malaysia",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Malaysia",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "SLE",
-      "country": "Sierra Leone",
-      "continent": "Africa",
-      "emergency_type": "public_health",
-      "title": "Sierra Leone [ edit ] Sierra Leone declared, on 7 February 2019, a State of Emergency due to ongoing rape and sexual violence in the country",
-      "declared_by": "",
-      "start_date": "2019-02-07",
-      "status": "active",
-      "confidence": 0.58,
-      "recent_events": [
-        {
-          "title": "Sierra Leone [ edit ] Sierra Leone declared, on 7 February 2019, a State of Emergency due to ongoing rape and sexual vio",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Sierra_Leone",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Sierra Leone [ edit ] Sierra Leone declared, on 7 February 2019, a State of Emergency due to ongoing",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Sierra_Leone",
           "date": "2026-03-15"
         }
       ],
@@ -904,14 +596,14 @@
       "country": "Kyrgyzstan",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2020 Kyrgyzstan protests…",
+      "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests…",
       "declared_by": "",
       "start_date": "2020-10-09",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2020 Kyrgyzstan prote",
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan p",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -919,12 +611,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2",
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to t",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2020 Kyrgyzstan protests.",
+      "notes": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests.",
       "source_count": 1
     },
     {
@@ -932,14 +624,14 @@
       "country": "Lebanon",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beirut explosion…",
+      "title": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 Beirut explosion…",
       "declared_by": "",
       "start_date": "2020-08-05",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beirut explosion…",
+          "title": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 Beirut explosion…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -947,12 +639,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beir",
+          "title": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 ",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beirut explosion.",
+      "notes": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 Beirut explosion.",
       "source_count": 1
     },
     {
@@ -960,14 +652,14 @@
       "country": "Botswana",
       "continent": "Africa",
       "emergency_type": "public_health",
-      "title": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 pandemic…",
+      "title": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID-19 pandemic…",
       "declared_by": "",
       "start_date": "2020-04-09",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 pandemic…",
+          "title": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID-19 pandemic…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -975,12 +667,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 p",
+          "title": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 pandemic.",
+      "notes": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID-19 pandemic.",
       "source_count": 1
     },
     {
@@ -988,14 +680,14 @@
       "country": "Japan",
       "continent": "Asia",
       "emergency_type": "public_health",
-      "title": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic…",
+      "title": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pandemic…",
       "declared_by": "",
       "start_date": "2020-04-07",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic…",
+          "title": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pandemic…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1003,12 +695,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic…",
+          "title": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pand",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic.",
+      "notes": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pandemic.",
       "source_count": 1
     },
     {
@@ -1016,14 +708,14 @@
       "country": "Thailand",
       "continent": "Asia",
       "emergency_type": "public_health",
-      "title": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-19…",
+      "title": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-25",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-19…",
+          "title": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1031,12 +723,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-1",
+          "title": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COV",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-19.[5]",
+      "notes": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -1044,14 +736,14 @@
       "country": "Luxembourg",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19…",
+      "title": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-18",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1059,12 +751,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19.",
+      "notes": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -1072,14 +764,14 @@
       "country": "North Macedonia",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19…",
+      "title": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-18",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1087,12 +779,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVI",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19.",
+      "notes": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -1100,14 +792,14 @@
       "country": "Philippines",
       "continent": "Asia",
       "emergency_type": "public_health",
-      "title": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state of calamity following a dramatic rise in cases ofCO…",
+      "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases …",
       "declared_by": "",
       "start_date": "2020-03-17",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state of calamity following",
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity follo",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1115,12 +807,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state o",
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a sta",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state of calamity following a dramatic rise in cases ofCOVID-19, the declaration was eventually lifted in September 2022.[13]",
+      "notes": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases of COVID-19, the declaration was eventually lifted in September 2022.",
       "source_count": 1
     },
     {
@@ -1128,14 +820,14 @@
       "country": "Serbia",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19…",
+      "title": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-15",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19…",
+          "title": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1143,12 +835,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19…",
+          "title": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19.[15]",
+      "notes": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -1156,14 +848,14 @@
       "country": "Spain",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emergency in the nation for a period of 15 days, to bec…",
+      "title": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the nation for a period of 15 days, to …",
       "declared_by": "",
       "start_date": "2020-03-13",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emergency in the nation f",
+          "title": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the natio",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1171,40 +863,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emerg",
+          "title": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of em",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emergency in the nation for a period of 15 days, to become effective next day after the approval of theCouncil of Ministersfor theCOVID-19 pandemic in Spain.[18]",
-      "source_count": 1
-    },
-    {
-      "iso3": "SGP",
-      "country": "Singapore",
-      "continent": "Asia",
-      "emergency_type": "conflict",
-      "title": "Singapore [ edit ] Article 150(1) of the Constitution of Singapore [ 1 ] allows the President of Singapore to declare a state of emergency in the even",
-      "declared_by": "Prime Minister Tunku Abdul Rahman",
-      "start_date": "1948-06-16",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Singapore [ edit ] Article 150(1) of the Constitution of Singapore [ 1 ] allows the President of Singapore to declare a ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Singapore",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Singapore [ edit ] Article 150(1) of the Constitution of Singapore [ 1 ] allows the President of Sin",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Singapore",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the nation for a period of 15 days, to become effective next day after the approval of the Council of Ministersfor the COVID-19 pandemic in Spain.",
       "source_count": 1
     }
   ],
@@ -1214,14 +878,14 @@
       "country": "Venezuela",
       "continent": "Americas",
       "emergency_type": "governance",
-      "title": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after strikes from theUnited Stateswere reported…",
+      "title": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported…",
       "declared_by": "",
       "start_date": "2026-01-03",
       "status": "active",
       "confidence": 0.95,
       "recent_events": [
         {
-          "title": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after strikes from theUnited ",
+          "title": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the Unit",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1229,96 +893,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after str",
+          "title": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after s",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 3 January 2026, the President ofVenezuela,Nicolás Maduro, declared a state of emergency after strikes from theUnited Stateswere reported. Maduro was captured some time later.",
-      "source_count": 1
-    },
-    {
-      "iso3": "BRN",
-      "country": "Brunei Darussalam",
-      "continent": "Unknown",
-      "emergency_type": "conflict",
-      "title": "Brunei [ edit ] The 1959 constitution allows the Sultan of Brunei to declare a state of emergency at the national or local level",
-      "declared_by": "",
-      "start_date": "1962-12-12",
-      "status": "active",
-      "confidence": 0.82,
-      "recent_events": [
-        {
-          "title": "Brunei [ edit ] The 1959 constitution allows the Sultan of Brunei to declare a state of emergency at the national or loc",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Brunei",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Brunei [ edit ] The 1959 constitution allows the Sultan of Brunei to declare a state of emergency at",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Brunei",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "EGY",
-      "country": "Egypt",
-      "continent": "Africa",
-      "emergency_type": "conflict",
-      "title": "\"Egypt's Unexceptional State of Emergency\"",
-      "declared_by": "",
-      "start_date": "2012-03-19",
-      "status": "active",
-      "confidence": 0.82,
-      "recent_events": [
-        {
-          "title": "\"Egypt's Unexceptional State of Emergency\"",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Egypt",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "\"Egypt's Unexceptional State of Emergency\"",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Egypt",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "FIN",
-      "country": "Finland",
-      "continent": "Europe",
-      "emergency_type": "public_health",
-      "title": "Finland [ edit ] The Finnish Government , in cooperation with the President of Finland , may declare a state of emergency in Finland , after which it ",
-      "declared_by": "",
-      "start_date": "1939-11-30",
-      "status": "active",
-      "confidence": 0.82,
-      "recent_events": [
-        {
-          "title": "Finland [ edit ] The Finnish Government , in cooperation with the President of Finland , may declare a state of emergenc",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Finland",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Finland [ edit ] The Finnish Government , in cooperation with the President of Finland , may declare",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Finland",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
       "source_count": 1
     },
     {
@@ -1326,14 +906,14 @@
       "country": "Nigeria",
       "continent": "Africa",
       "emergency_type": "conflict",
-      "title": "Nigeria [ edit ] In Nigeria, a state of emergency is usually declared in times of great civil unrest",
+      "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
       "declared_by": "President Bola Ahmed Tinubu",
       "start_date": "2013-05-14",
       "status": "active",
       "confidence": 0.82,
       "recent_events": [
         {
-          "title": "Nigeria [ edit ] In Nigeria, a state of emergency is usually declared in times of great civil unrest",
+          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
           "date": "2026-03-15",
           "source": "reference"
@@ -1341,7 +921,7 @@
       ],
       "source_urls": [
         {
-          "title": "Nigeria [ edit ] In Nigeria, a state of emergency is usually declared in times of great civil unrest",
+          "title": "Nigeria In Nigeria, a state of emergency is usually declared in times of great civil unrest",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Nigeria",
           "date": "2026-03-15"
         }
@@ -1354,14 +934,14 @@
       "country": "United States",
       "continent": "Americas",
       "emergency_type": "conflict",
-      "title": "United States [ edit ] Further information: Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of national emergencies in t",
+      "title": "United States Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of national emergencies in the United States The United St",
       "declared_by": "Governor Jay Inslee",
       "start_date": "2015-12-10",
       "status": "active",
       "confidence": 0.82,
       "recent_events": [
         {
-          "title": "United States [ edit ] Further information: Senate Report 93-549 , Insurrection Act , National Emergencies Act , and Lis",
+          "title": "United States Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of national emergencies in t",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
           "date": "2026-03-15",
           "source": "reference"
@@ -1369,7 +949,7 @@
       ],
       "source_urls": [
         {
-          "title": "United States [ edit ] Further information: Senate Report 93-549 , Insurrection Act , National Emerg",
+          "title": "United States Senate Report 93-549 , Insurrection Act , National Emergencies Act , and List of natio",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#United_States",
           "date": "2026-03-15"
         }
@@ -1382,14 +962,14 @@
       "country": "Trinidad and Tobago",
       "continent": "Americas",
       "emergency_type": "conflict",
-      "title": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a state of emergency on the advice ofPrime MinisterKei…",
+      "title": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a state of emergency on the advice of Prime Ministe…",
       "declared_by": "",
       "start_date": "2024-12-30",
       "status": "active",
       "confidence": 0.79,
       "recent_events": [
         {
-          "title": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a state of emergency on ",
+          "title": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a state of emergency ",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1397,12 +977,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a st",
+          "title": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 30 December 2024,President of Trinidad and TobagoChristine Kangalooissued the declaration of a state of emergency on the advice ofPrime MinisterKeith Rowleyover surging violence as weapons fromthe United Statesfuel a crime wave around the Caribbean.[1]",
+      "notes": "On 30 December 2024, President of Trinidad and Tobago Christine Kangaloo issued the declaration of a state of emergency on the advice of Prime Minister Keith Rowleyover surging violence as weapons fromthe United Statesfuel a crime wave around the Caribbean.",
       "source_count": 1
     },
     {
@@ -1410,14 +990,14 @@
       "country": "Papua New Guinea",
       "continent": "Oceania",
       "emergency_type": "governance",
-      "title": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to the2024 Papua New Guinean unrest…",
+      "title": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest…",
       "declared_by": "",
       "start_date": "2024-01-11",
       "status": "active",
       "confidence": 0.79,
       "recent_events": [
         {
-          "title": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to the2024 Papua New Gu",
+          "title": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua N",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1425,152 +1005,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to ",
+          "title": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 11 January 2024,Papua New Guinea'sPrime MinisterJames Marapedeclared a state of emergency due to the2024 Papua New Guinean unrest.",
-      "source_count": 1
-    },
-    {
-      "iso3": "AUS",
-      "country": "Australia",
-      "continent": "Oceania",
-      "emergency_type": "public_health",
-      "title": "With regard to emergency management, regions (usually on a local government area basis) that have been affected by a natural disaster are the responsi",
-      "declared_by": "",
-      "start_date": "2020-03-18",
-      "status": "active",
-      "confidence": 0.74,
-      "recent_events": [
-        {
-          "title": "With regard to emergency management, regions (usually on a local government area basis) that have been affected by a nat",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Australia",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "With regard to emergency management, regions (usually on a local government area basis) that have be",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Australia",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "FRA",
-      "country": "France",
-      "continent": "Europe",
-      "emergency_type": "conflict",
-      "title": "France [ edit ] Police stationed in Paris during a state of emergency, November 2015 Main article: States of emergency in France Three main provisions",
-      "declared_by": "",
-      "start_date": "1955-04-03",
-      "status": "active",
-      "confidence": 0.74,
-      "recent_events": [
-        {
-          "title": "France [ edit ] Police stationed in Paris during a state of emergency, November 2015 Main article: States of emergency i",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#France",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "France [ edit ] Police stationed in Paris during a state of emergency, November 2015 Main article: S",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#France",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "IND",
-      "country": "India",
-      "continent": "Asia",
-      "emergency_type": "conflict",
-      "title": "India [ edit ] Main article: States of emergency in India The State of Emergency can be proclaimed by the President of India , when they perceive grav",
-      "declared_by": "",
-      "start_date": "1962-10-26",
-      "status": "active",
-      "confidence": 0.74,
-      "recent_events": [
-        {
-          "title": "India [ edit ] Main article: States of emergency in India The State of Emergency can be proclaimed by the President of I",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#India",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "India [ edit ] Main article: States of emergency in India The State of Emergency can be proclaimed b",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#India",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "ISL",
-      "country": "Grindavík",
-      "continent": "Europe",
-      "emergency_type": "disaster",
-      "title": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful earthquakes rocked the country's southwestern Reyk…",
-      "declared_by": "",
-      "start_date": "2023-11-10",
-      "status": "active",
-      "confidence": 0.71,
-      "recent_events": [
-        {
-          "title": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful earthquakes rocked t",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "On 10 November 2023, Icelandic authorities declared a state of emergency after a series of powerful earthquakes rocked the country's southwestern Reykjanes peninsula, signalling the increased likelihood of a volcanic eruption in the region. The village ofGrindavíkwas ordered to evacuate due to the i",
-      "source_count": 1
-    },
-    {
-      "iso3": "ETH",
-      "country": "Ethiopia",
-      "continent": "Africa",
-      "emergency_type": "governance",
-      "title": "Ethiopia [ edit ] Further information: 2023 Ethiopian state of emergency , 2021–2022 Ethiopian state of emergency , and 2016–2018 Ethiopian state of e",
-      "declared_by": "",
-      "start_date": "",
-      "status": "active",
-      "confidence": 0.66,
-      "recent_events": [
-        {
-          "title": "Ethiopia [ edit ] Further information: 2023 Ethiopian state of emergency , 2021–2022 Ethiopian state of emergency , and ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Ethiopia",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Ethiopia [ edit ] Further information: 2023 Ethiopian state of emergency , 2021–2022 Ethiopian state",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Ethiopia",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 11 January 2024, Papua New Guinea's Prime Minister James Marape declared a state of emergency due to the 2024 Papua New Guinean unrest.",
       "source_count": 1
     },
     {
@@ -1578,14 +1018,14 @@
       "country": "New Zealand",
       "continent": "Oceania",
       "emergency_type": "disaster",
-      "title": "New Zealand [ edit ] The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a sta",
+      "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the power to issue a state of eme",
       "declared_by": "Minister of Civil Defence John Carter",
       "start_date": "2011-02-23",
       "status": "active",
       "confidence": 0.66,
       "recent_events": [
         {
-          "title": "New Zealand [ edit ] The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body cou",
+          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and local-body councils the",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
           "date": "2026-03-15",
           "source": "reference"
@@ -1593,7 +1033,7 @@
       ],
       "source_urls": [
         {
-          "title": "New Zealand [ edit ] The Civil Defence Emergency Management Act 2002 gives the New Zealand Governmen",
+          "title": "New Zealand The Civil Defence Emergency Management Act 2002 gives the New Zealand Government and loc",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#New_Zealand",
           "date": "2026-03-15"
         }
@@ -1606,14 +1046,14 @@
       "country": "Kazakhstan",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to the2022 Kazakh protests…",
+      "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests…",
       "declared_by": "",
       "start_date": "2022-01-05",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to the2022 Kazakh protest",
+          "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh pro",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1621,12 +1061,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to th",
+          "title": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 5 January 2022,Kazakhstan's PresidentKassym-Jomart Tokayevdeclared a state of emergency due to the2022 Kazakh protests.",
+      "notes": "On 5 January 2022, Kazakhstan's President Kassym-Jomart Tokayev declared a state of emergency due to the 2022 Kazakh protests.",
       "source_count": 1
     },
     {
@@ -1634,14 +1074,14 @@
       "country": "Ukraine",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it would declare a nationwide state of emergency, excludi…",
+      "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excl…",
       "declared_by": "",
       "start_date": "2022-02-23",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it would declare a nationwi",
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a natio",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1649,12 +1089,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it woul",
+          "title": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it w",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 23 February 2022,Ukraineannounced in response to theRussian invasion of its territorythat it would declare a nationwide state of emergency, excluding the occupied territories inDonbas. On the same day,Russiabegan to evacuate itsembassyinKyivand also lowered the Russian flag from the top of the bu",
+      "notes": "On 23 February 2022, Ukraine announced in response to the Russian invasion of its territorythat it would declare a nationwide state of emergency, excluding the occupied territories in Donbas. On the same day, Russiabegan to evacuate itsembassyin Kyivand also lowered the Russian flag from the top of",
       "source_count": 1
     },
     {
@@ -1662,14 +1102,14 @@
       "country": "Moldova",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee…",
+      "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians fl…",
       "declared_by": "",
       "start_date": "2022-02-24",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in response to the invasion, a",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion,",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1677,12 +1117,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in respons",
+          "title": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in respo",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 24 February 2022,Moldovaannounced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee into Moldovan territory.",
+      "notes": "On 24 February 2022, Moldova announced that it will declare a nationwide state of emergency in response to the invasion, as thousands of Ukrainians flee into Moldovan territory.",
       "source_count": 1
     },
     {
@@ -1690,14 +1130,14 @@
       "country": "Lithuania",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provocations as large military forces massed inRussiaand…",
+      "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russia…",
       "declared_by": "",
       "start_date": "2022-02-24",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provocations as large mili",
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large mi",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1705,12 +1145,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provoc",
+          "title": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and prov",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 24 February 2022,Lithuaniadeclared the state of emergency due to possible disturbances and provocations as large military forces massed inRussiaandBelarus.",
+      "notes": "On 24 February 2022, Lithuania declared the state of emergency due to possible disturbances and provocations as large military forces massed in Russiaand Belarus.",
       "source_count": 1
     },
     {
@@ -1718,14 +1158,14 @@
       "country": "El Salvador",
       "continent": "Americas",
       "emergency_type": "conflict",
-      "title": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war…",
+      "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil w…",
       "declared_by": "",
       "start_date": "2022-03-26",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it the most violent day ",
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent da",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1733,12 +1173,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it t",
+          "title": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 26 March 2022,El Salvadordeclared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war in 1992.",
+      "notes": "On 26 March 2022, El Salvador declared a state of emergency after 62 people were murdered, making it the most violent day since the end of the civil war in 1992.",
       "source_count": 1
     },
     {
@@ -1746,14 +1186,14 @@
       "country": "Sri Lanka",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 Sri Lankan protests…",
+      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
       "declared_by": "",
       "start_date": "2022-04-02",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 Sri Lankan protests…",
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1761,12 +1201,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 ",
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 2 April 2022,Sri Lanka's PresidentGotabaya Rajapaksadeclared a state of emergency due to the2022 Sri Lankan protests.",
+      "notes": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests.",
       "source_count": 1
     },
     {
@@ -1774,14 +1214,14 @@
       "country": "Poland",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-19…",
+      "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
       "declared_by": "",
       "start_date": "2022-05-16",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-19…",
+          "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1789,12 +1229,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-",
+          "title": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for C",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 16 May 2022,PolandMinister of HealthAdam Niedzielskideclared a state of epidemic threat forCOVID-19.",
+      "notes": "On 16 May 2022, Poland Minister of Health Adam Niedzielski declared a state of epidemic threat for COVID-19.",
       "source_count": 1
     },
     {
@@ -1802,14 +1242,14 @@
       "country": "Hungary",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
+      "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
       "declared_by": "",
       "start_date": "2022-05-24",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1817,12 +1257,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion o",
+          "title": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 24 May 2022,Hungarydeclared a state of emergency due to economic impact of the Russian invasion on Ukraine.",
+      "notes": "On 24 May 2022, Hungary declared a state of emergency due to economic impact of the Russian invasion on Ukraine.",
       "source_count": 1
     },
     {
@@ -1830,14 +1270,14 @@
       "country": "Ecuador",
       "continent": "Americas",
       "emergency_type": "governance",
-      "title": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests…",
+      "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
       "declared_by": "",
       "start_date": "2022-06-18",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests…",
+          "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1845,12 +1285,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests…",
+          "title": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 June 2022,Ecuadordeclared a state of emergency due to the2022 Ecuadorian protests.",
+      "notes": "On 18 June 2022, Ecuador declared a state of emergency due to the 2022 Ecuadorian protests.",
       "source_count": 1
     },
     {
@@ -1858,14 +1298,14 @@
       "country": "Uzbekistan",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests…",
+      "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
       "declared_by": "",
       "start_date": "2022-07-02",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests…",
+          "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1873,12 +1313,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests…",
+          "title": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 2 July 2022,Uzbekistandeclared a state of emergency due to the2022 Karakalpak protests.",
+      "notes": "On 2 July 2022, Uzbekistan declared a state of emergency due to the 2022 Karakalpak protests.",
       "source_count": 1
     },
     {
@@ -1886,14 +1326,14 @@
       "country": "Italy",
       "continent": "Europe",
       "emergency_type": "disaster",
-      "title": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade…",
+      "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade…",
       "declared_by": "",
       "start_date": "2022-07-04",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought, one of the worst of",
+          "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst ",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1901,12 +1341,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought,",
+          "title": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drough",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 4 July 2022,Italydeclared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade.",
+      "notes": "On 4 July 2022, Italy declared a state of emergency on five northern regions, due to a severe drought, one of the worst of the decade.",
       "source_count": 1
     },
     {
@@ -1914,14 +1354,14 @@
       "country": "Portugal",
       "continent": "Europe",
       "emergency_type": "disaster",
-      "title": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires…",
+      "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
       "declared_by": "",
       "start_date": "2022-07-11",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires…",
+          "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1929,12 +1369,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires…",
+          "title": "On 11 July 2022, Portugal declared a state of emergency due to forest fires…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 11 July 2022,Portugaldeclared a state of emergency due to forest fires.",
+      "notes": "On 11 July 2022, Portugal declared a state of emergency due to forest fires.",
       "source_count": 1
     },
     {
@@ -1942,14 +1382,14 @@
       "country": "UK",
       "continent": "Europe",
       "emergency_type": "conflict",
-      "title": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life…",
+      "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life…",
       "declared_by": "",
       "start_date": "2022-07-15",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings that indicated a dan",
+          "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a d",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1957,12 +1397,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings ",
+          "title": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warning",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 15 July 2022, theUKdeclared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life.",
+      "notes": "On 15 July 2022, the UK declared a national emergency following extreme Red Weather Heatwave warnings that indicated a danger to life.",
       "source_count": 1
     },
     {
@@ -1970,14 +1410,14 @@
       "country": "Pakistan",
       "continent": "Asia",
       "emergency_type": "disaster",
-      "title": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding…",
+      "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
       "declared_by": "",
       "start_date": "2022-08-25",
       "status": "active",
       "confidence": 0.63,
       "recent_events": [
         {
-          "title": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding…",
+          "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -1985,40 +1425,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding…",
+          "title": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 25 August 2022,Pakistandeclared a state of emergency because of theflooding.",
-      "source_count": 1
-    },
-    {
-      "iso3": "ALB",
-      "country": "Albania",
-      "continent": "Europe",
-      "emergency_type": "governance",
-      "title": "Albania [ edit ] The Constitution of Albania grants only the Parliament of Albania the power to declare a state of emergency, based on the advice of t",
-      "declared_by": "",
-      "start_date": "2022-12-05",
-      "status": "active",
-      "confidence": 0.58,
-      "recent_events": [
-        {
-          "title": "Albania [ edit ] The Constitution of Albania grants only the Parliament of Albania the power to declare a state of emerg",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Albania",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Albania [ edit ] The Constitution of Albania grants only the Parliament of Albania the power to decl",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Albania",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
+      "notes": "On 25 August 2022, Pakistan declared a state of emergency because of the flooding.",
       "source_count": 1
     },
     {
@@ -2026,14 +1438,14 @@
       "country": "Canada",
       "continent": "Americas",
       "emergency_type": "public_health",
-      "title": "Canada [ edit ] Main articles: War Measures Act , Emergencies Act , and States of emergency in Canada The federal government of Canada can use the Eme",
+      "title": "Canada War Measures Act , Emergencies Act , and States of emergency in Canada The federal government of Canada can use the Emergencies Act to invoke a",
       "declared_by": "",
       "start_date": "2022-02-14",
       "status": "active",
       "confidence": 0.58,
       "recent_events": [
         {
-          "title": "Canada [ edit ] Main articles: War Measures Act , Emergencies Act , and States of emergency in Canada The federal govern",
+          "title": "Canada War Measures Act , Emergencies Act , and States of emergency in Canada The federal government of Canada can use t",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Canada",
           "date": "2026-03-15",
           "source": "reference"
@@ -2041,64 +1453,8 @@
       ],
       "source_urls": [
         {
-          "title": "Canada [ edit ] Main articles: War Measures Act , Emergencies Act , and States of emergency in Canad",
+          "title": "Canada War Measures Act , Emergencies Act , and States of emergency in Canada The federal government",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency#Canada",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "MYS",
-      "country": "Malaysia",
-      "continent": "Asia",
-      "emergency_type": "public_health",
-      "title": "Malaysia [ edit ] Main articles: Malayan Emergency and 2021 Malaysian state of emergency In Malaysia , if the Yang di-Pertuan Agong (King) is satisfie",
-      "declared_by": "",
-      "start_date": "1969-05-13",
-      "status": "active",
-      "confidence": 0.58,
-      "recent_events": [
-        {
-          "title": "Malaysia [ edit ] Main articles: Malayan Emergency and 2021 Malaysian state of emergency In Malaysia , if the Yang di-Pe",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Malaysia",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Malaysia [ edit ] Main articles: Malayan Emergency and 2021 Malaysian state of emergency In Malaysia",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Malaysia",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "SLE",
-      "country": "Sierra Leone",
-      "continent": "Africa",
-      "emergency_type": "public_health",
-      "title": "Sierra Leone [ edit ] Sierra Leone declared, on 7 February 2019, a State of Emergency due to ongoing rape and sexual violence in the country",
-      "declared_by": "",
-      "start_date": "2019-02-07",
-      "status": "active",
-      "confidence": 0.58,
-      "recent_events": [
-        {
-          "title": "Sierra Leone [ edit ] Sierra Leone declared, on 7 February 2019, a State of Emergency due to ongoing rape and sexual vio",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Sierra_Leone",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Sierra Leone [ edit ] Sierra Leone declared, on 7 February 2019, a State of Emergency due to ongoing",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Sierra_Leone",
           "date": "2026-03-15"
         }
       ],
@@ -2110,14 +1466,14 @@
       "country": "Kyrgyzstan",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2020 Kyrgyzstan protests…",
+      "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests…",
       "declared_by": "",
       "start_date": "2020-10-09",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2020 Kyrgyzstan prote",
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan p",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2125,12 +1481,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2",
+          "title": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to t",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 9 October 2020,Kyrgyzstan's PresidentSooronbay Jeenbekovdeclared a state of emergency due to the2020 Kyrgyzstan protests.",
+      "notes": "On 9 October 2020, Kyrgyzstan's President Sooronbay Jeenbekov declared a state of emergency due to the 2020 Kyrgyzstan protests.",
       "source_count": 1
     },
     {
@@ -2138,14 +1494,14 @@
       "country": "Lebanon",
       "continent": "Asia",
       "emergency_type": "governance",
-      "title": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beirut explosion…",
+      "title": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 Beirut explosion…",
       "declared_by": "",
       "start_date": "2020-08-05",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beirut explosion…",
+          "title": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 Beirut explosion…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2153,12 +1509,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beir",
+          "title": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 ",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 5 August 2020,Lebanon's Prime MinisterHassan Diabdeclared a state of emergency after the2020 Beirut explosion.",
+      "notes": "On 5 August 2020, Lebanon's Prime Minister Hassan Diab declared a state of emergency after the 2020 Beirut explosion.",
       "source_count": 1
     },
     {
@@ -2166,14 +1522,14 @@
       "country": "Botswana",
       "continent": "Africa",
       "emergency_type": "public_health",
-      "title": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 pandemic…",
+      "title": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID-19 pandemic…",
       "declared_by": "",
       "start_date": "2020-04-09",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 pandemic…",
+          "title": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID-19 pandemic…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2181,12 +1537,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 p",
+          "title": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 9 April 2020,BotswanaPresidentMokgweetsi Masisideclared a state of emergency due to theCOVID-19 pandemic.",
+      "notes": "On 9 April 2020, Botswana President Mokgweetsi Masisi declared a state of emergency due to the COVID-19 pandemic.",
       "source_count": 1
     },
     {
@@ -2194,14 +1550,14 @@
       "country": "Japan",
       "continent": "Asia",
       "emergency_type": "public_health",
-      "title": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic…",
+      "title": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pandemic…",
       "declared_by": "",
       "start_date": "2020-04-07",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic…",
+          "title": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pandemic…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2209,12 +1565,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic…",
+          "title": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pand",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 7 April 2020,JapanPrime MinisterShinzo Abedeclared a national emergency for theCOVID-19 pandemic.",
+      "notes": "On 7 April 2020, Japan Prime Minister Shinzo Abe declared a national emergency for the COVID-19 pandemic.",
       "source_count": 1
     },
     {
@@ -2222,14 +1578,14 @@
       "country": "Thailand",
       "continent": "Asia",
       "emergency_type": "public_health",
-      "title": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-19…",
+      "title": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-25",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-19…",
+          "title": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2237,12 +1593,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-1",
+          "title": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COV",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 25 March 2020,Prime Minister of ThailandPrayut Chan-o-chadeclared a state of emergency forCOVID-19.[5]",
+      "notes": "On 25 March 2020, Prime Minister of Thailand Prayut Chan-o-cha declared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -2250,14 +1606,14 @@
       "country": "Luxembourg",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19…",
+      "title": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-18",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2265,12 +1621,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 March 2020,LuxembourgPrime MinisterXavier Betteldeclared a state of emergency forCOVID-19.",
+      "notes": "On 18 March 2020, Luxembourg Prime Minister Xavier Bettel declared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -2278,14 +1634,14 @@
       "country": "North Macedonia",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19…",
+      "title": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-18",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2293,12 +1649,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19…",
+          "title": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVI",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 18 March 2020,North MacedoniaPresidentStevo Pendarovskideclared a state of emergency forCOVID-19.",
+      "notes": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -2306,14 +1662,14 @@
       "country": "Philippines",
       "continent": "Asia",
       "emergency_type": "public_health",
-      "title": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state of calamity following a dramatic rise in cases ofCO…",
+      "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases …",
       "declared_by": "",
       "start_date": "2020-03-17",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state of calamity following",
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity follo",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2321,12 +1677,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state o",
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a sta",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 17 March 2020,Philippine PresidentRodrigo Dutertedeclared all of thePhilippinesto be in a state of calamity following a dramatic rise in cases ofCOVID-19, the declaration was eventually lifted in September 2022.[13]",
+      "notes": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases of COVID-19, the declaration was eventually lifted in September 2022.",
       "source_count": 1
     },
     {
@@ -2334,14 +1690,14 @@
       "country": "Serbia",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19…",
+      "title": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19…",
       "declared_by": "",
       "start_date": "2020-03-15",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19…",
+          "title": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2349,12 +1705,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19…",
+          "title": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19…",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 15 March 2020,President of SerbiaAleksandar Vučićdeclared a state of emergency forCOVID-19.[15]",
+      "notes": "On 15 March 2020, President of Serbia Aleksandar Vučićdeclared a state of emergency for COVID-19.",
       "source_count": 1
     },
     {
@@ -2362,14 +1718,14 @@
       "country": "Spain",
       "continent": "Europe",
       "emergency_type": "public_health",
-      "title": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emergency in the nation for a period of 15 days, to bec…",
+      "title": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the nation for a period of 15 days, to …",
       "declared_by": "",
       "start_date": "2020-03-13",
       "status": "active",
       "confidence": 0.5,
       "recent_events": [
         {
-          "title": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emergency in the nation f",
+          "title": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the natio",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15",
           "source": "reference"
@@ -2377,67 +1733,12 @@
       ],
       "source_urls": [
         {
-          "title": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emerg",
+          "title": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of em",
           "url": "https://en.wikipedia.org/wiki/State_of_emergency",
           "date": "2026-03-15"
         }
       ],
-      "notes": "On 13 March 2020,Prime Minister of SpainPedro Sánchezannounced the declaration of the state of emergency in the nation for a period of 15 days, to become effective next day after the approval of theCouncil of Ministersfor theCOVID-19 pandemic in Spain.[18]",
-      "source_count": 1
-    },
-    {
-      "iso3": "SGP",
-      "country": "Singapore",
-      "continent": "Asia",
-      "emergency_type": "conflict",
-      "title": "Singapore [ edit ] Article 150(1) of the Constitution of Singapore [ 1 ] allows the President of Singapore to declare a state of emergency in the even",
-      "declared_by": "Prime Minister Tunku Abdul Rahman",
-      "start_date": "1948-06-16",
-      "status": "active",
-      "confidence": 0.5,
-      "recent_events": [
-        {
-          "title": "Singapore [ edit ] Article 150(1) of the Constitution of Singapore [ 1 ] allows the President of Singapore to declare a ",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Singapore",
-          "date": "2026-03-15",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Singapore [ edit ] Article 150(1) of the Constitution of Singapore [ 1 ] allows the President of Sin",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency#Singapore",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "",
-      "source_count": 1
-    },
-    {
-      "iso3": "MEX",
-      "country": "Mexico",
-      "continent": "Americas",
-      "emergency_type": "governance",
-      "title": "",
-      "declared_by": "",
-      "start_date": "2026-03-15",
-      "status": "active",
-      "confidence": 0.3,
-      "recent_events": [
-        {
-          "title": "Leadership is why New Mexico is at the bottom",
-          "url": "https://www.santafenewmexican.com/opinion/my_view/leadership-is-why-new-mexico-is-at-the-bottom/article_be26dab4-5005-44d4-bcc8-427b85d2fb5a.html",
-          "date": "2026-03-15",
-          "source": "gdelt"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "Leadership is why New Mexico is at the bottom",
-          "url": "https://www.santafenewmexican.com/opinion/my_view/leadership-is-why-new-mexico-is-at-the-bottom/article_be26dab4-5005-44d4-bcc8-427b85d2fb5a.html",
-          "date": "2026-03-15"
-        }
-      ],
+      "notes": "On 13 March 2020, Prime Minister of Spain Pedro Sánchez announced the declaration of the state of emergency in the nation for a period of 15 days, to become effective next day after the approval of the Council of Ministersfor the COVID-19 pandemic in Spain.",
       "source_count": 1
     }
   ]

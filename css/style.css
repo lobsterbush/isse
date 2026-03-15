@@ -563,6 +563,15 @@ footer {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* ── Loading state ── */
+@keyframes pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 1; }
+}
+.card-value:not(.loaded *) {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
 /* ── Leaflet tooltip (dark theme) ── */
 .dark-tooltip {
     background: #272727 !important;

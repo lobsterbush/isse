@@ -171,12 +171,27 @@ _BOUNDARY_ONLY = {"us", "uk", "uae", "drc", "lao", "mali", "chad", "niger",
                   "congo", "guinea", "jordan", "georgia", "indian", "french",
                   "spanish", "german", "greek", "thai", "cuban", "saudi"}
 
+# Names that should never match (false positives)
+_EXCLUDE_NAMES = {"new mexico", "mexico city", "guinea pig", "guinea pigs",
+                  "new delhi", "south bend", "west ham"}
+
+# Emergency-related keywords for relevance filtering
+_RELEVANCE_KW = [
+    "emergency", "martial law", "state of exception", "curfew",
+    "disaster", "evacuat", "lockdown", "quarantine", "crisis",
+    "decree", "declared", "executive order", "humanitarian",
+]
+
 
 def extract_countries_from_text(text: str) -> list[str]:
     """Extract ISO3 codes of countries mentioned in text."""
     text_lower = text.lower()
     found: list[str] = []
     seen_iso3: set[str] = set()
+
+    # Check exclusions first
+    for excl in _EXCLUDE_NAMES:
+        text_lower = text_lower.replace(excl, " " * len(excl))
 
     for name in _SORTED_NAMES:
         if name in _BOUNDARY_ONLY:
@@ -194,6 +209,12 @@ def extract_countries_from_text(text: str) -> list[str]:
             text_lower = text_lower.replace(name, " " * len(name))
 
     return found
+
+
+def _is_relevant(title: str) -> bool:
+    """Return True if the article title seems related to emergencies."""
+    t = title.lower()
+    return any(kw in t for kw in _RELEVANCE_KW)
 
 
 def fetch_articles(query: str) -> list[dict]:
@@ -272,14 +293,25 @@ def main() -> None:
         print(f"  GDELT: {phrase}")
         articles = fetch_articles(phrase)
         count = 0
+        skipped_lang = 0
+        skipped_relevance = 0
         for art in articles:
+            # Skip non-English articles
+            lang = art.get("language", "").lower()
+            if lang and lang != "english":
+                skipped_lang += 1
+                continue
             normalized = normalize_article(art, phrase)
+            # Skip articles with no emergency keyword in title
+            if not _is_relevant(normalized["title"]):
+                skipped_relevance += 1
+                continue
             url = normalized.get("url", "")
             if url and url not in seen_urls:
                 seen_urls.add(url)
                 all_articles.append(normalized)
                 count += 1
-        print(f"    → {count} new ({len(articles)} raw)")
+        print(f"    → {count} new ({len(articles)} raw, {skipped_lang} non-EN, {skipped_relevance} irrelevant)")
         time.sleep(5)  # GDELT rate-limits aggressively
 
     with_country = sum(1 for a in all_articles if a["iso3"])

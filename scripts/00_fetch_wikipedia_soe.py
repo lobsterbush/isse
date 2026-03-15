@@ -33,7 +33,7 @@ _SUBNATIONAL = {
     "new south wales", "victoria", "queensland", "ontario", "quebec",
     "california", "texas", "florida", "new york", "ohio",
     "los angeles", "minneapolis", "portland", "seattle", "ottawa",
-    "maryland", "west virginia",
+    "maryland", "west virginia", "grindavík",
 }
 
 # Emergency-type keywords (same taxonomy as merge script)
@@ -77,6 +77,7 @@ _EXTRA_MAP: dict[str, str] = {
     "russia": "RUS", "iran": "IRN", "syria": "SYR",
     "turkey": "TUR", "turkiye": "TUR",
     "venezuela": "VEN", "egypt": "EGY",
+    "grindavík": "ISL", "iceland": "ISL",
     "south africa": "ZAF", "new zealand": "NZL",
     "sri lanka": "LKA", "papua new guinea": "PNG",
     "central african republic": "CAF", "equatorial guinea": "GNQ",
@@ -123,6 +124,37 @@ def _is_subnational(text: str) -> bool:
     """Return True if the entry describes a sub-national emergency."""
     t = text.lower()
     return any(kw in t for kw in _SUBNATIONAL)
+
+
+def _clean_text(text: str) -> str:
+    """Clean Wikipedia markup artifacts from parsed text."""
+    # Remove [ edit ] markers
+    text = re.sub(r"\s*\[\s*edit\s*\]\s*", " ", text)
+    # Remove footnote markers like [1], [2], [ 1 ]
+    text = re.sub(r"\s*\[\s*\d+\s*\]\s*", "", text)
+    # Remove "Main article: ..." and "Further information: ..." (anywhere)
+    text = re.sub(
+        r"(?:Main articles?|Further information|See also)\s*:\s*[^.]*?\.?\s*",
+        "", text,
+    )
+    # Fix missing space after commas (but not in numbers like 93,549)
+    text = re.sub(r",([A-Za-z])", r", \1", text)
+    # Fix missing spaces: lowercase directly followed by uppercase
+    text = re.sub(r"([a-z])([A-Z][a-z])", r"\1 \2", text)
+    # Fix lowercase directly before ALL-CAPS (e.g. "theUK" → "the UK")
+    text = re.sub(r"([a-z])([A-Z]{2,})", r"\1 \2", text)
+    # Fix word glued to a year (e.g. "the2022" → "the 2022")
+    text = re.sub(r"([a-zA-Z])(\d{4})", r"\1 \2", text)
+    # Fix common verb/noun-gluing from wikitext (e.g. "Kangalooissued")
+    _GLUED = (
+        "declared|announced|issued|proclaimed|invoked|extended|signed|"
+        "imposed|enacted|renewed|lifted|suspended|restored|introduced|"
+        "flooding|following|during|after|before|because|emergency"
+    )
+    text = re.sub(rf"([a-zA-Z])({_GLUED})", r"\1 \2", text)
+    # Collapse multiple spaces
+    text = re.sub(r"\s{2,}", " ", text).strip()
+    return text
 
 
 def _classify(text: str) -> str:
@@ -266,6 +298,7 @@ def parse_active_section(html: str, year: int) -> list[dict]:
         etype = _classify(text)
 
         # Build a clean title (first sentence, truncated)
+        text = _clean_text(text)
         title_text = text.split(".")[0][:150]
         if title_text and not title_text.endswith("."):
             title_text += "…"
@@ -287,7 +320,7 @@ def parse_active_section(html: str, year: int) -> list[dict]:
             "source_url": f"https://en.wikipedia.org/wiki/{ARTICLE}",
             "source_type": "wikipedia",
             "last_verified": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-            "notes": text[:300],
+            "notes": _clean_text(text[:300]),
             "year_section": year,
         })
 
@@ -301,7 +334,7 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
         return []
 
     soup = BeautifulSoup(html, "lxml")
-    text = soup.get_text(" ", strip=True)
+    text = _clean_text(soup.get_text(" ", strip=True))
 
     # Only include if recent activity mentioned
     recent_years = re.findall(r"\b(202[0-6])\b", text)
@@ -309,7 +342,7 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
         return []
 
     latest_year = max(int(y) for y in recent_years)
-    if latest_year < 2021:
+    if latest_year < 2022:
         return []
 
     # Check for emergency-related content
@@ -319,6 +352,28 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
         "state of siege",
     ]
     if not any(kw in text.lower() for kw in emergency_kw):
+        return []
+
+    # Require an activation verb near a recent date — filters out
+    # sections that only describe the legal framework.
+    activation_verbs = [
+        "declared", "imposed", "invoked", "proclaimed", "announced",
+        "enacted", "issued", "extended", "renewed",
+    ]
+    text_lower = text.lower()
+    has_active = False
+    for verb in activation_verbs:
+        if verb in text_lower:
+            # Check that the verb is near a recent year (within 200 chars)
+            for m in re.finditer(re.escape(verb), text_lower):
+                surrounding = text_lower[max(0, m.start() - 100):m.end() + 100]
+                years_nearby = re.findall(r"\b(202[2-6])\b", surrounding)
+                if years_nearby:
+                    has_active = True
+                    break
+        if has_active:
+            break
+    if not has_active:
         return []
 
     date_str = _extract_date(text)
@@ -340,7 +395,7 @@ def parse_country_section(html: str, section_name: str) -> list[dict]:
     for line in text.split("."):
         line = line.strip()
         if any(kw in line.lower() for kw in emergency_kw) and len(line) > 20:
-            title = line[:150]
+            title = _clean_text(line[:150])
             break
     else:
         title = f"Emergency powers in {country_name}"

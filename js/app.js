@@ -438,6 +438,8 @@
     await loadData();
     await initMap();
     renderAll();
+    // Remove loading class after first render
+    document.body.classList.add("loaded");
   }
 
   if (document.readyState === "loading") {
