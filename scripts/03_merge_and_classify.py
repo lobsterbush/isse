@@ -605,6 +605,145 @@ def build_events(
     return events[:500]
 
 
+# IRC Emergency Watchlist 2026 — hardcoded annual list
+IRC_WATCHLIST_2026: dict[str, str] = {
+    "SDN": "Sudan (#1 — world's largest displacement and hunger crisis)",
+    "PSE": "Palestine (#2 — catastrophic humanitarian conditions in Gaza)",
+    "SSD": "South Sudan (#3 — extreme flooding and conflict)",
+    "MMR": "Myanmar (#4 — civil war since 2021 coup)",
+    "SYR": "Syria (#5 — 17M depend on humanitarian aid)",
+    "HTI": "Haiti (#6 — armed gangs control capital)",
+    "COD": "DRC (#7 — M23 conflict, record hunger)",
+    "MLI": "Mali (#8 — JNIM insurgency, fuel blockade)",
+    "BFA": "Burkina Faso (#9 — epicenter of Sahel jihadist violence)",
+    "LBN": "Lebanon (#10 — 80% in poverty)",
+    "AFG": "Afghanistan",
+    "CMR": "Cameroon",
+    "TCD": "Chad",
+    "COL": "Colombia",
+    "NER": "Niger",
+    "NGA": "Nigeria",
+    "SOM": "Somalia",
+    "UKR": "Ukraine",
+    "YEM": "Yemen",
+}
+
+
+def build_crises(
+    rw_records: list[dict],
+    gc_records: list[dict],
+    soe_isos: set[str],
+) -> dict:
+    """Build crisis data from ReliefWeb + GDACS + IRC Watchlist.
+
+    Returns a dict with crisis entries by country and overlap statistics.
+    """
+    by_country: dict[str, dict] = {}
+
+    # ReliefWeb ongoing disasters
+    for rec in rw_records:
+        iso3 = (rec.get("iso3") or "").upper()
+        if not iso3 or len(iso3) != 3:
+            continue
+        if iso3 not in by_country:
+            by_country[iso3] = {
+                "iso3": iso3,
+                "country": rec.get("country", ""),
+                "continent": get_continent(iso3),
+                "crisis_count": 0,
+                "sources": [],
+                "types": set(),
+                "irc_watchlist": False,
+                "has_soe": iso3 in soe_isos,
+            }
+        entry = by_country[iso3]
+        entry["crisis_count"] += 1
+        entry["sources"].append("reliefweb")
+        for dt in rec.get("disaster_types", []):
+            entry["types"].add(dt)
+
+    # GDACS alerts
+    for rec in gc_records:
+        iso3 = (rec.get("iso3") or "").upper()
+        if not iso3 or len(iso3) != 3:
+            continue
+        if iso3 not in by_country:
+            by_country[iso3] = {
+                "iso3": iso3,
+                "country": rec.get("country", ""),
+                "continent": get_continent(iso3),
+                "crisis_count": 0,
+                "sources": [],
+                "types": set(),
+                "irc_watchlist": False,
+                "has_soe": iso3 in soe_isos,
+            }
+        entry = by_country[iso3]
+        entry["crisis_count"] += 1
+        entry["sources"].append("gdacs")
+        et = rec.get("event_type", "")
+        if et:
+            entry["types"].add(et)
+
+    # IRC Watchlist countries
+    for iso3, desc in IRC_WATCHLIST_2026.items():
+        if iso3 not in by_country:
+            country_name = ""
+            try:
+                c = pycountry.countries.get(alpha_3=iso3)
+                if c:
+                    country_name = getattr(c, "common_name", c.name)
+            except (LookupError, AttributeError):
+                pass
+            by_country[iso3] = {
+                "iso3": iso3,
+                "country": country_name,
+                "continent": get_continent(iso3),
+                "crisis_count": 0,
+                "sources": [],
+                "types": set(),
+                "irc_watchlist": True,
+                "has_soe": iso3 in soe_isos,
+            }
+        by_country[iso3]["irc_watchlist"] = True
+        by_country[iso3]["irc_description"] = desc
+
+    # Resolve names and serialize
+    crisis_list = []
+    for iso3, entry in by_country.items():
+        if not entry.get("country"):
+            try:
+                c = pycountry.countries.get(alpha_3=iso3)
+                if c:
+                    entry["country"] = getattr(c, "common_name", c.name)
+            except (LookupError, AttributeError):
+                pass
+        entry["types"] = sorted(entry["types"])
+        entry["source_count"] = len(entry["sources"])
+        del entry["sources"]
+        crisis_list.append(entry)
+
+    crisis_list.sort(key=lambda e: e.get("crisis_count", 0), reverse=True)
+
+    crisis_isos = set(by_country.keys())
+    overlap = soe_isos & crisis_isos
+    crisis_only = crisis_isos - soe_isos
+    soe_only = soe_isos - crisis_isos
+
+    return {
+        "crises": crisis_list,
+        "stats": {
+            "total_crisis_countries": len(crisis_isos),
+            "total_soe_countries": len(soe_isos),
+            "overlap": len(overlap),
+            "crisis_only": len(crisis_only),
+            "soe_only": len(soe_only),
+            "overlap_countries": sorted(overlap),
+            "soe_only_countries": sorted(soe_only),
+        },
+    }
+
+
 def main() -> None:
     """Run merge and classify pipeline."""
     print("[03] Merging and classifying...")
@@ -624,6 +763,29 @@ def main() -> None:
         if e.get("status") in ("active", "extended")
         and e.get("confidence", 0) >= 0.5
     ]
+
+    # Build crisis comparison data
+    soe_isos = {e["iso3"] for e in active}
+    crisis_data = build_crises(rw_records, gc_records, soe_isos)
+    crisis_path = DATA_DIR / "crises.json"
+    crisis_path.write_text(
+        json.dumps(
+            {
+                "generated_at": datetime.now(timezone.utc).isoformat(),
+                **crisis_data,
+            },
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+    stats = crisis_data["stats"]
+    print(
+        f"  → {stats['total_crisis_countries']} crisis countries, "
+        f"{stats['overlap']} overlap with SoE, "
+        f"{stats['crisis_only']} crisis-only, "
+        f"{stats['soe_only']} SoE-only → crises.json"
+    )
 
     now = datetime.now(timezone.utc).isoformat()
 

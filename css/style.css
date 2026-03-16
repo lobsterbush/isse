@@ -199,6 +199,79 @@ main {
     flex-shrink: 0;
 }
 
+/* ── Crisis Comparison Section ── */
+.comparison-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 10px;
+    padding: 1.25rem;
+    box-shadow: 0 2px 12px var(--shadow);
+    margin-bottom: 2rem;
+}
+.comparison-section h2 {
+    font-family: var(--font-display);
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+.comparison-intro {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+.comparison-intro em {
+    color: var(--accent-red);
+    font-style: italic;
+}
+.comparison-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+.comp-stat {
+    text-align: center;
+    padding: 1rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-light);
+    background: var(--bg-secondary);
+}
+.comp-stat-value {
+    display: block;
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: var(--font-mono);
+    line-height: 1.2;
+}
+.comp-stat-label {
+    display: block;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 0.3rem;
+    line-height: 1.5;
+}
+.comp-stat.crisis-only .comp-stat-value { color: var(--accent-red); }
+.comp-stat.overlap .comp-stat-value { color: var(--accent-purple); }
+.comp-stat.soe-only .comp-stat-value { color: var(--accent-blue); }
+#crisis-map {
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 12px var(--shadow);
+}
+.comparison-note {
+    font-size: 0.7rem;
+    font-family: var(--font-mono);
+    color: var(--text-muted);
+    margin-top: 0.75rem;
+    line-height: 1.6;
+}
+
 /* ── Controls / Filters ── */
 .controls {
     background: var(--bg-card);
@@ -619,12 +692,13 @@ footer {
     .header-logo { height: 48px; }
     .header-text h1 { font-size: 1.5rem; }
     .summary-cards { grid-template-columns: repeat(3, 1fr); }
-    #map { height: 350px; }
+    #map, #crisis-map { height: 350px; }
 }
 @media (max-width: 600px) {
     .header-text h1 { font-size: 1.25rem; }
     main { padding: 0 1rem 2rem; }
     .summary-cards { grid-template-columns: repeat(2, 1fr); }
+    .comparison-stats { grid-template-columns: 1fr; }
     .filters { flex-direction: column; }
-    #map { height: 280px; }
+    #map, #crisis-map { height: 280px; }
 }

@@ -92,6 +92,34 @@
             </div>
         </section>
 
+        <!-- Crisis Comparison Map -->
+        <section class="comparison-section">
+            <h2>The Gap: Crises vs. Declared Emergencies</h2>
+            <p class="comparison-intro">Most countries experiencing humanitarian crises have <em>not</em> declared a formal state of emergency. The map below highlights this disconnect: countries with active crises (from ReliefWeb, GDACS, and the IRC Emergency Watchlist) are shown alongside those with declared states of emergency.</p>
+            <div class="comparison-stats" id="comparison-stats">
+                <div class="comp-stat crisis-only">
+                    <span class="comp-stat-value" id="comp-crisis-only">—</span>
+                    <span class="comp-stat-label">Countries with active crises<br>but <strong>no</strong> declared emergency</span>
+                </div>
+                <div class="comp-stat overlap">
+                    <span class="comp-stat-value" id="comp-overlap">—</span>
+                    <span class="comp-stat-label">Countries with <strong>both</strong></span>
+                </div>
+                <div class="comp-stat soe-only">
+                    <span class="comp-stat-value" id="comp-soe-only">—</span>
+                    <span class="comp-stat-label">Declared emergencies<br>with <strong>no</strong> active crisis data</span>
+                </div>
+            </div>
+            <div id="crisis-map"></div>
+            <div class="map-legend">
+                <div class="legend-item"><span class="legend-dot" style="background:#c47060"></span> Crisis only</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#9887b0"></span> Both crisis &amp; declared SoE</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#7094ab"></span> Declared SoE only</div>
+                <div class="legend-item"><span class="legend-dot" style="background:#c49a6c"></span> IRC Emergency Watchlist</div>
+            </div>
+            <p class="comparison-note">Sources: <a href="https://reliefweb.int/" target="_blank" rel="noopener">ReliefWeb</a>, <a href="https://www.gdacs.org/" target="_blank" rel="noopener">GDACS</a>, and the <a href="https://www.rescue.org/article/top-10-crises-world-should-be-watching-2025" target="_blank" rel="noopener">IRC 2025 Emergency Watchlist</a>. A country appears as "crisis" if it has an ongoing ReliefWeb disaster, a GDACS alert, or is on the IRC Watchlist. The absence of a crisis marker does not mean no crisis exists — only that these automated sources did not flag one.</p>
+        </section>
+
         <!-- Filters -->
         <section class="controls">
             <div class="filters">

@@ -28,11 +28,21 @@
 
   const EVENTS_PER_PAGE = 50;
 
+  /* Crisis map colours */
+  const CRISIS_COLORS = {
+    crisis_only: "#c47060",   // warm coral
+    overlap: "#9887b0",       // lavender
+    soe_only: "#7094ab",      // steel blue
+  };
+
   /* ── State ── */
   let emergenciesData = [];
   let eventsData = [];
+  let crisisData = null;
   let geoJsonLayer = null;
+  let crisisGeoJsonLayer = null;
   let map = null;
+  let crisisMap = null;
   let tableSort = { key: "confidence", asc: false };
   let eventsShown = EVENTS_PER_PAGE;
   let storedGeoData = null;
@@ -75,9 +85,10 @@
   /* ── Data Loading ── */
   async function loadData() {
     try {
-      const [emergResp, eventsResp] = await Promise.all([
+      const [emergResp, eventsResp, crisisResp] = await Promise.all([
         fetch("data/emergencies.json"),
         fetch("data/events.json"),
+        fetch("data/crises.json"),
       ]);
 
       if (emergResp.ok) {
@@ -97,6 +108,10 @@
       if (eventsResp.ok) {
         const data = await eventsResp.json();
         eventsData = data.events || [];
+      }
+
+      if (crisisResp.ok) {
+        crisisData = await crisisResp.json();
       }
     } catch (err) {
       console.error("Failed to load data:", err);
@@ -402,6 +417,137 @@
     document.getElementById("country-modal").style.display = "none";
   }
 
+  /* ── Crisis Comparison Map ── */
+  async function initCrisisMap() {
+    if (!crisisData) return;
+
+    crisisMap = L.map("crisis-map", {
+      center: [20, 0],
+      zoom: 2,
+      minZoom: 2,
+      maxZoom: 7,
+      zoomControl: true,
+      scrollWheelZoom: true,
+    });
+
+    L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png",
+      {
+        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+        subdomains: "abcd",
+        maxZoom: 19,
+      }
+    ).addTo(crisisMap);
+
+    L.tileLayer(
+      "https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png",
+      {
+        subdomains: "abcd",
+        maxZoom: 19,
+        pane: "shadowPane",
+      }
+    ).addTo(crisisMap);
+
+    renderCrisisMap();
+  }
+
+  function renderCrisisMap() {
+    if (!storedGeoData || !crisisMap || !crisisData) return;
+    if (crisisGeoJsonLayer) crisisMap.removeLayer(crisisGeoJsonLayer);
+
+    const crisisISOs = new Map();
+    (crisisData.crises || []).forEach((c) => crisisISOs.set(c.iso3, c));
+
+    const soeISOs = new Set(emergenciesData.map((e) => e.iso3));
+    const stats = crisisData.stats || {};
+
+    // Update stat cards
+    const el = (id, v) => {
+      const node = document.getElementById(id);
+      if (node) node.textContent = v;
+    };
+    el("comp-crisis-only", stats.crisis_only ?? "—");
+    el("comp-overlap", stats.overlap ?? "—");
+    el("comp-soe-only", stats.soe_only ?? "—");
+
+    crisisGeoJsonLayer = L.geoJSON(storedGeoData, {
+      style: (feature) => {
+        const iso = feature.properties["ISO3166-1-Alpha-3"];
+        const hasCrisis = crisisISOs.has(iso);
+        const hasSoE = soeISOs.has(iso);
+
+        if (hasCrisis && hasSoE) {
+          return {
+            fillColor: CRISIS_COLORS.overlap,
+            fillOpacity: 0.6,
+            color: CRISIS_COLORS.overlap,
+            weight: 1.5,
+            opacity: 0.8,
+          };
+        }
+        if (hasCrisis) {
+          return {
+            fillColor: CRISIS_COLORS.crisis_only,
+            fillOpacity: 0.5,
+            color: CRISIS_COLORS.crisis_only,
+            weight: 1.5,
+            opacity: 0.8,
+          };
+        }
+        if (hasSoE) {
+          return {
+            fillColor: CRISIS_COLORS.soe_only,
+            fillOpacity: 0.5,
+            color: CRISIS_COLORS.soe_only,
+            weight: 1.5,
+            opacity: 0.8,
+          };
+        }
+        return {
+          fillColor: "#1a1a1a",
+          fillOpacity: 0.3,
+          color: "#3e3e3e",
+          weight: 0.5,
+          opacity: 0.5,
+        };
+      },
+      onEachFeature: (feature, layer) => {
+        const iso = feature.properties["ISO3166-1-Alpha-3"];
+        const crisis = crisisISOs.get(iso);
+        const hasSoE = soeISOs.has(iso);
+        const name = feature.properties.name || iso;
+
+        if (crisis || hasSoE) {
+          let lines = [`<strong>${escapeHtml(name)}</strong>`];
+
+          if (crisis && hasSoE) {
+            lines.push('<span style="color:#9887b0">Crisis + Declared SoE</span>');
+          } else if (crisis) {
+            lines.push('<span style="color:#c47060">Active Crisis — No Declared SoE</span>');
+          } else {
+            lines.push('<span style="color:#7094ab">Declared SoE — No Crisis Data</span>');
+          }
+
+          if (crisis) {
+            if (crisis.crisis_count > 0) {
+              lines.push(`${crisis.crisis_count} active disaster${crisis.crisis_count > 1 ? "s" : ""}`);
+            }
+            if (crisis.types && crisis.types.length) {
+              lines.push(escapeHtml(crisis.types.join(", ")));
+            }
+            if (crisis.irc_watchlist) {
+              lines.push('<span style="color:#c49a6c">⚠ IRC Emergency Watchlist</span>');
+            }
+          }
+
+          layer.bindTooltip(lines.join("<br>"), { className: "dark-tooltip" });
+        } else {
+          layer.bindTooltip(escapeHtml(name));
+        }
+      },
+    }).addTo(crisisMap);
+  }
+
   /* ── Render All ── */
   function renderAll() {
     const data = filteredEmergencies();
@@ -409,6 +555,7 @@
     renderTable();
     renderEventStream();
     renderGeoJson();
+    renderCrisisMap();
   }
 
   /* ── Event Listeners ── */
@@ -518,6 +665,7 @@
     initCitation();
     await loadData();
     await initMap();
+    await initCrisisMap();
     renderAll();
     // Remove loading class after first render
     document.body.classList.add("loaded");

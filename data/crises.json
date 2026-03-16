@@ -1,0 +1,957 @@
+{
+  "generated_at": "2026-03-16T07:09:58.233194+00:00",
+  "crises": [
+    {
+      "iso3": "MDG",
+      "country": "Madagascar",
+      "continent": "Africa",
+      "crisis_count": 8,
+      "types": [
+        "Drought",
+        "Epidemic",
+        "Flood",
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 8
+    },
+    {
+      "iso3": "MOZ",
+      "country": "Mozambique",
+      "continent": "Africa",
+      "crisis_count": 6,
+      "types": [
+        "Drought",
+        "Epidemic",
+        "Flood",
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 6
+    },
+    {
+      "iso3": "ETH",
+      "country": "Ethiopia",
+      "continent": "Africa",
+      "crisis_count": 5,
+      "types": [
+        "Drought",
+        "Epidemic",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": true,
+      "source_count": 5
+    },
+    {
+      "iso3": "ZWE",
+      "country": "Zimbabwe",
+      "continent": "Africa",
+      "crisis_count": 5,
+      "types": [
+        "Drought",
+        "Epidemic",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 5
+    },
+    {
+      "iso3": "SOM",
+      "country": "Somalia",
+      "continent": "Africa",
+      "crisis_count": 5,
+      "types": [
+        "Drought",
+        "Epidemic"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Somalia",
+      "source_count": 5
+    },
+    {
+      "iso3": "COD",
+      "country": "Democratic Republic of the Congo",
+      "continent": "Africa",
+      "crisis_count": 4,
+      "types": [
+        "Drought",
+        "Epidemic",
+        "Flood",
+        "Land Slide",
+        "Severe Local Storm"
+      ],
+      "irc_watchlist": true,
+      "has_soe": true,
+      "irc_description": "DRC (#7 — M23 conflict, record hunger)",
+      "source_count": 4
+    },
+    {
+      "iso3": "ZMB",
+      "country": "Zambia",
+      "continent": "Africa",
+      "crisis_count": 3,
+      "types": [
+        "Drought",
+        "Epidemic",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 3
+    },
+    {
+      "iso3": "CMR",
+      "country": "Cameroon",
+      "continent": "Africa",
+      "crisis_count": 3,
+      "types": [
+        "Epidemic",
+        "Fire"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Cameroon",
+      "source_count": 3
+    },
+    {
+      "iso3": "ECU",
+      "country": "Ecuador",
+      "continent": "Americas",
+      "crisis_count": 3,
+      "types": [
+        "Epidemic",
+        "Flood",
+        "Land Slide",
+        "Technological Disaster"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 3
+    },
+    {
+      "iso3": "BOL",
+      "country": "Bolivia (Plurinational State of)",
+      "continent": "Americas",
+      "crisis_count": 3,
+      "types": [
+        "Drought",
+        "Flash Flood",
+        "Flood",
+        "Wild Fire"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 3
+    },
+    {
+      "iso3": "AFG",
+      "country": "Afghanistan",
+      "continent": "Asia",
+      "crisis_count": 3,
+      "types": [
+        "Drought",
+        "Earthquake"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Afghanistan",
+      "source_count": 3
+    },
+    {
+      "iso3": "SSD",
+      "country": "South Sudan",
+      "continent": "Africa",
+      "crisis_count": 3,
+      "types": [
+        "Epidemic",
+        "Flood"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "South Sudan (#3 — extreme flooding and conflict)",
+      "source_count": 3
+    },
+    {
+      "iso3": "AGO",
+      "country": "Angola",
+      "continent": "Africa",
+      "crisis_count": 3,
+      "types": [
+        "Drought",
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 3
+    },
+    {
+      "iso3": "DZA",
+      "country": "Algeria",
+      "continent": "Africa",
+      "crisis_count": 2,
+      "types": [
+        "Flash Flood",
+        "Flood",
+        "Severe Local Storm"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "ZAF",
+      "country": "South Africa",
+      "continent": "Africa",
+      "crisis_count": 2,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "MWI",
+      "country": "Malawi",
+      "continent": "Africa",
+      "crisis_count": 2,
+      "types": [
+        "Drought",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "SYR",
+      "country": "Syrian Arab Republic",
+      "continent": "Asia",
+      "crisis_count": 2,
+      "types": [
+        "Cold Wave",
+        "Drought",
+        "Flood"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Syria (#5 — 17M depend on humanitarian aid)",
+      "source_count": 2
+    },
+    {
+      "iso3": "CHL",
+      "country": "Chile",
+      "continent": "Americas",
+      "crisis_count": 2,
+      "types": [
+        "Wild Fire",
+        "Wildfire"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "COG",
+      "country": "Congo",
+      "continent": "Africa",
+      "crisis_count": 2,
+      "types": [
+        "Epidemic",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "IDN",
+      "country": "Indonesia",
+      "continent": "Asia",
+      "crisis_count": 2,
+      "types": [
+        "Flood",
+        "Land Slide"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "PHL",
+      "country": "Philippines",
+      "continent": "Asia",
+      "crisis_count": 2,
+      "types": [
+        "Earthquake"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "NGA",
+      "country": "Nigeria",
+      "continent": "Africa",
+      "crisis_count": 2,
+      "types": [
+        "Epidemic",
+        "Flood"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Nigeria",
+      "source_count": 2
+    },
+    {
+      "iso3": "ARG",
+      "country": "Argentina",
+      "continent": "Americas",
+      "crisis_count": 2,
+      "types": [
+        "Drought",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "COM",
+      "country": "Comoros",
+      "continent": "Unknown",
+      "crisis_count": 2,
+      "types": [
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "KEN",
+      "country": "Kenya",
+      "continent": "Africa",
+      "crisis_count": 2,
+      "types": [
+        "Drought"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 2
+    },
+    {
+      "iso3": "MNG",
+      "country": "Mongolia",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Cold Wave",
+        "Severe Local Storm"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "COL",
+      "country": "Colombia",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Colombia",
+      "source_count": 1
+    },
+    {
+      "iso3": "MKD",
+      "country": "the Republic of North Macedonia",
+      "continent": "Europe",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "SRB",
+      "country": "Serbia",
+      "continent": "Europe",
+      "crisis_count": 1,
+      "types": [
+        "Cold Wave",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "IRN",
+      "country": "Iran (Islamic Republic of)",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "GAB",
+      "country": "Gabon",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Severe Local Storm"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "PSE",
+      "country": "occupied Palestinian territory",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Palestine (#2 — catastrophic humanitarian conditions in Gaza)",
+      "source_count": 1
+    },
+    {
+      "iso3": "MAR",
+      "country": "Morocco",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "IRQ",
+      "country": "Iraq",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "LKA",
+      "country": "Sri Lanka",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Flood",
+        "Land Slide",
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "MYS",
+      "country": "Malaysia",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "TWN",
+      "country": "China - Taiwan Province",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "LAO",
+      "country": "Lao People's Democratic Republic (the)",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "BHS",
+      "country": "Bahamas",
+      "continent": "Unknown",
+      "crisis_count": 1,
+      "types": [
+        "Flood",
+        "Tropical Cyclone"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "CUB",
+      "country": "Cuba",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "EGY",
+      "country": "Egypt",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "GEO",
+      "country": "Georgia",
+      "continent": "Europe",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "SLE",
+      "country": "Sierra Leone",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "CPV",
+      "country": "Cabo Verde",
+      "continent": "Unknown",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "GNQ",
+      "country": "Equatorial Guinea",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "GIN",
+      "country": "Guinea",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "SDN",
+      "country": "Sudan",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood",
+        "Flood"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Sudan (#1 — world's largest displacement and hunger crisis)",
+      "source_count": 1
+    },
+    {
+      "iso3": "TCD",
+      "country": "Chad",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Chad",
+      "source_count": 1
+    },
+    {
+      "iso3": "GTM",
+      "country": "Guatemala",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Earthquake"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "PAK",
+      "country": "Pakistan",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Flash Flood"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "HND",
+      "country": "Honduras",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Flood",
+        "Land Slide"
+      ],
+      "irc_watchlist": false,
+      "has_soe": true,
+      "source_count": 1
+    },
+    {
+      "iso3": "PAN",
+      "country": "Panama",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Technological Disaster"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "VEN",
+      "country": "Venezuela (Bolivarian Republic of)",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Flood",
+        "Land Slide"
+      ],
+      "irc_watchlist": false,
+      "has_soe": true,
+      "source_count": 1
+    },
+    {
+      "iso3": "CIV",
+      "country": "Côte d'Ivoire",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "PNG",
+      "country": "Papua New Guinea",
+      "continent": "Oceania",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": true,
+      "source_count": 1
+    },
+    {
+      "iso3": "CHN",
+      "country": "China",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Earthquake"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "GHA",
+      "country": "Ghana",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "NAM",
+      "country": "Namibia",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Drought"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "YEM",
+      "country": "Yemen",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Yemen",
+      "source_count": 1
+    },
+    {
+      "iso3": "NER",
+      "country": "Niger",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Niger",
+      "source_count": 1
+    },
+    {
+      "iso3": "TZA",
+      "country": "United Republic of Tanzania",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "BDI",
+      "country": "Burundi",
+      "continent": "Africa",
+      "crisis_count": 1,
+      "types": [
+        "Epidemic"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "BRA",
+      "country": "Brazil",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Drought"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "PER",
+      "country": "Peru",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Drought"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "URY",
+      "country": "Uruguay",
+      "continent": "Americas",
+      "crisis_count": 1,
+      "types": [
+        "Drought"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "BGD",
+      "country": "Bangladesh",
+      "continent": "Asia",
+      "crisis_count": 1,
+      "types": [
+        "Earthquake"
+      ],
+      "irc_watchlist": false,
+      "has_soe": false,
+      "source_count": 1
+    },
+    {
+      "iso3": "MMR",
+      "country": "Myanmar",
+      "continent": "Asia",
+      "crisis_count": 0,
+      "types": [],
+      "irc_watchlist": true,
+      "has_soe": true,
+      "irc_description": "Myanmar (#4 — civil war since 2021 coup)",
+      "source_count": 0
+    },
+    {
+      "iso3": "HTI",
+      "country": "Haiti",
+      "continent": "Americas",
+      "crisis_count": 0,
+      "types": [],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Haiti (#6 — armed gangs control capital)",
+      "source_count": 0
+    },
+    {
+      "iso3": "MLI",
+      "country": "Mali",
+      "continent": "Africa",
+      "crisis_count": 0,
+      "types": [],
+      "irc_watchlist": true,
+      "has_soe": true,
+      "irc_description": "Mali (#8 — JNIM insurgency, fuel blockade)",
+      "source_count": 0
+    },
+    {
+      "iso3": "BFA",
+      "country": "Burkina Faso",
+      "continent": "Africa",
+      "crisis_count": 0,
+      "types": [],
+      "irc_watchlist": true,
+      "has_soe": true,
+      "irc_description": "Burkina Faso (#9 — epicenter of Sahel jihadist violence)",
+      "source_count": 0
+    },
+    {
+      "iso3": "LBN",
+      "country": "Lebanon",
+      "continent": "Asia",
+      "crisis_count": 0,
+      "types": [],
+      "irc_watchlist": true,
+      "has_soe": false,
+      "irc_description": "Lebanon (#10 — 80% in poverty)",
+      "source_count": 0
+    },
+    {
+      "iso3": "UKR",
+      "country": "Ukraine",
+      "continent": "Europe",
+      "crisis_count": 0,
+      "types": [],
+      "irc_watchlist": true,
+      "has_soe": true,
+      "irc_description": "Ukraine",
+      "source_count": 0
+    }
+  ],
+  "stats": {
+    "total_crisis_countries": 72,
+    "total_soe_countries": 20,
+    "overlap": 9,
+    "crisis_only": 63,
+    "soe_only": 11,
+    "overlap_countries": [
+      "BFA",
+      "COD",
+      "ETH",
+      "HND",
+      "MLI",
+      "MMR",
+      "PNG",
+      "UKR",
+      "VEN"
+    ],
+    "soe_only_countries": [
+      "BRN",
+      "HUN",
+      "ISR",
+      "KGZ",
+      "LTU",
+      "MDA",
+      "PRY",
+      "SLV",
+      "TGO",
+      "TTO",
+      "USA"
+    ]
+  }
+}
