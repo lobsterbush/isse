@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-16T08:56:43.858934+00:00",
-  "active_count": 24,
+  "generated_at": "2026-03-16T10:06:59.906658+00:00",
+  "active_count": 25,
   "total_count": 48,
   "emergencies": [
     {
@@ -574,6 +574,45 @@
       "override": true,
       "legal_basis": "Constitution Art. 164 (Estado de excepción)",
       "scope": "National"
+    },
+    {
+      "iso3": "PHL",
+      "country": "Philippines",
+      "continent": "Asia",
+      "emergency_type": "public_health",
+      "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases …",
+      "declared_by": "",
+      "start_date": "2020-03-17",
+      "status": "active",
+      "confidence": 0.85,
+      "recent_events": [
+        {
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity follo",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-16",
+          "source": "reference"
+        },
+        {
+          "title": "Volcanic Eruption: Kanlaon",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1000138&episodeid=1&eventtype=VO",
+          "date": "2026-03-15",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a sta",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "Volcanic Eruption: Kanlaon",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1000138&episodeid=1&eventtype=VO",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases of COVID-19, the declaration was eventually lifted in September 2022.",
+      "source_count": 2
     },
     {
       "iso3": "MLI",
@@ -1372,46 +1411,6 @@
       "override": true
     },
     {
-      "iso3": "LKA",
-      "country": "Sri Lanka",
-      "continent": "Asia",
-      "emergency_type": "governance",
-      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
-      "declared_by": "",
-      "start_date": "2022-04-02",
-      "status": "expired",
-      "confidence": 0.85,
-      "recent_events": [
-        {
-          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-16",
-          "source": "reference"
-        },
-        {
-          "title": "Sri Lanka Restricts Fuel with QR System as Middle East Crisis Depletes Stock  | Peak Oil News and Message Boards",
-          "url": "https://peakoil.com/consumption/sri-lanka-restricts-fuel-with-qr-system-as-middle-east-crisis-depletes-stock",
-          "date": "2026-03-15",
-          "source": "gdelt"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-16"
-        },
-        {
-          "title": "Sri Lanka Restricts Fuel with QR System as Middle East Crisis Depletes Stock  | Peak Oil News and Me",
-          "url": "https://peakoil.com/consumption/sri-lanka-restricts-fuel-with-qr-system-as-middle-east-crisis-depletes-stock",
-          "date": "2026-03-15"
-        }
-      ],
-      "notes": "State of emergency declared April 2022 during economic crisis, lifted after July 2022.",
-      "source_count": 2,
-      "override": true
-    },
-    {
       "iso3": "HUN",
       "country": "Hungary",
       "continent": "Europe",
@@ -1472,6 +1471,45 @@
       "override": true,
       "legal_basis": "Constitution Art. 164 (Estado de excepción)",
       "scope": "National"
+    },
+    {
+      "iso3": "PHL",
+      "country": "Philippines",
+      "continent": "Asia",
+      "emergency_type": "public_health",
+      "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases …",
+      "declared_by": "",
+      "start_date": "2020-03-17",
+      "status": "active",
+      "confidence": 0.85,
+      "recent_events": [
+        {
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity follo",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-16",
+          "source": "reference"
+        },
+        {
+          "title": "Volcanic Eruption: Kanlaon",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1000138&episodeid=1&eventtype=VO",
+          "date": "2026-03-15",
+          "source": "gdacs"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a sta",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-16"
+        },
+        {
+          "title": "Volcanic Eruption: Kanlaon",
+          "url": "https://www.gdacs.org/report.aspx?eventid=1000138&episodeid=1&eventtype=VO",
+          "date": "2026-03-15"
+        }
+      ],
+      "notes": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases of COVID-19, the declaration was eventually lifted in September 2022.",
+      "source_count": 2
     },
     {
       "iso3": "MLI",
@@ -1667,6 +1705,35 @@
         }
       ],
       "notes": "State of emergency declared Jan 5, 2022, lifted Jan 19, 2022.",
+      "source_count": 1,
+      "override": true
+    },
+    {
+      "iso3": "LKA",
+      "country": "Sri Lanka",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan protests…",
+      "declared_by": "",
+      "start_date": "2022-04-02",
+      "status": "expired",
+      "confidence": 0.59,
+      "recent_events": [
+        {
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2022 Sri Lankan prote",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-16",
+          "source": "reference"
+        }
+      ],
+      "source_urls": [
+        {
+          "title": "On 2 April 2022, Sri Lanka's President Gotabaya Rajapaksa declared a state of emergency due to the 2",
+          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
+          "date": "2026-03-16"
+        }
+      ],
+      "notes": "State of emergency declared April 2022 during economic crisis, lifted after July 2022.",
       "source_count": 1,
       "override": true
     },
@@ -2039,34 +2106,6 @@
         }
       ],
       "notes": "On 18 March 2020, North Macedonia President Stevo Pendarovski declared a state of emergency for COVID-19.",
-      "source_count": 1
-    },
-    {
-      "iso3": "PHL",
-      "country": "Philippines",
-      "continent": "Asia",
-      "emergency_type": "public_health",
-      "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases …",
-      "declared_by": "",
-      "start_date": "2020-03-17",
-      "status": "active",
-      "confidence": 0.41,
-      "recent_events": [
-        {
-          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity follo",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-16",
-          "source": "reference"
-        }
-      ],
-      "source_urls": [
-        {
-          "title": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a sta",
-          "url": "https://en.wikipedia.org/wiki/State_of_emergency",
-          "date": "2026-03-16"
-        }
-      ],
-      "notes": "On 17 March 2020, Philippine President Rodrigo Duterte declared all of the Philippinesto be in a state of calamity following a dramatic rise in cases of COVID-19, the declaration was eventually lifted in September 2022.",
       "source_count": 1
     },
     {

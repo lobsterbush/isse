@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T08:56:43.858160+00:00",
+  "generated_at": "2026-03-16T10:06:59.905728+00:00",
   "crises": [
     {
       "iso3": "MDG",
@@ -163,6 +163,19 @@
       "source_count": 3
     },
     {
+      "iso3": "PHL",
+      "country": "Philippines",
+      "continent": "Asia",
+      "crisis_count": 3,
+      "types": [
+        "Earthquake",
+        "Volcanic Eruption"
+      ],
+      "irc_watchlist": false,
+      "has_soe": true,
+      "source_count": 3
+    },
+    {
       "iso3": "SSD",
       "country": "South Sudan",
       "continent": "Africa",
@@ -277,18 +290,6 @@
       "types": [
         "Flood",
         "Land Slide"
-      ],
-      "irc_watchlist": false,
-      "has_soe": false,
-      "source_count": 2
-    },
-    {
-      "iso3": "PHL",
-      "country": "Philippines",
-      "continent": "Asia",
-      "crisis_count": 2,
-      "types": [
-        "Earthquake"
       ],
       "irc_watchlist": false,
       "has_soe": false,
@@ -925,9 +926,9 @@
   ],
   "stats": {
     "total_crisis_countries": 72,
-    "total_soe_countries": 24,
-    "overlap": 13,
-    "crisis_only": 59,
+    "total_soe_countries": 25,
+    "overlap": 14,
+    "crisis_only": 58,
     "soe_only": 11,
     "overlap_countries": [
       "BFA",
@@ -939,6 +940,7 @@
       "MLI",
       "MMR",
       "NGA",
+      "PHL",
       "PNG",
       "SDN",
       "UKR",

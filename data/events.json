@@ -1,36 +1,27 @@
 {
-  "generated_at": "2026-03-16T08:56:43.858934+00:00",
-  "event_count": 122,
+  "generated_at": "2026-03-16T10:06:59.906658+00:00",
+  "event_count": 121,
   "events": [
     {
       "source": "gdelt",
-      "title": "State of Emergency Declared for Historic Winter Storm",
-      "date": "2026-03-15",
+      "title": "Wisconsin Hit With Blizzard Emergency , 19 . 3 Inches of Snow",
+      "date": "2026-03-16",
       "iso3": "",
       "country": "",
-      "url": "https://wdez.com/2026/03/15/949633/",
-      "source_name": "wdez.com",
-      "emergency_type": "disaster"
-    },
-    {
-      "source": "gdelt",
-      "title": "Fuel Crisis Pushes Government Toward Radical Four - Day Work Week",
-      "date": "2026-03-15",
-      "iso3": "",
-      "country": "",
-      "url": "https://slguardian.org/fuel-crisis-pushes-government-toward-radical-four-day-work-week/",
-      "source_name": "slguardian.org",
-      "emergency_type": "conflict"
-    },
-    {
-      "source": "gdelt",
-      "title": "Sri Lanka Restricts Fuel with QR System as Middle East Crisis Depletes Stock  | Peak Oil News and Message Boards",
-      "date": "2026-03-15",
-      "iso3": "LKA",
-      "country": "Sri Lanka",
-      "url": "https://peakoil.com/consumption/sri-lanka-restricts-fuel-with-qr-system-as-middle-east-crisis-depletes-stock",
-      "source_name": "peakoil.com",
+      "url": "https://www.aol.com/lifestyle/wisconsin-hit-blizzard-emergency-19-041156268.html",
+      "source_name": "aol.com",
       "emergency_type": "governance"
+    },
+    {
+      "source": "gdacs",
+      "title": "Volcanic Eruption: Kanlaon",
+      "date": "2026-03-15",
+      "iso3": "PHL",
+      "country": "Philippines",
+      "url": "https://www.gdacs.org/report.aspx?eventid=1000138&episodeid=1&eventtype=VO",
+      "source_name": "GDACS",
+      "emergency_type": "disaster",
+      "alert_level": "Orange"
     },
     {
       "source": "gdacs",
@@ -1236,7 +1227,7 @@
     },
     {
       "source": "reliefweb",
-      "title": "DR Congo: Cholera and Measles Outbreaks - 2013-2025",
+      "title": "DR Congo: Cholera and Measles Outbreaks - 2013-2026",
       "date": "2013-01-01",
       "iso3": "cod",
       "country": "Democratic Republic of the Congo",
