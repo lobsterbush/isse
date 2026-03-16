@@ -171,6 +171,18 @@
       "notes": "State of emergency in Savanes region due to jihadist insurgency. Extended for 12 months starting March 13, 2026 by National Assembly."
     },
     {
+      "iso3": "USA",
+      "country": "United States",
+      "status": "active",
+      "title": "51 concurrent national emergencies under the NEA (11 declared by Trump, 9 in second term alone)",
+      "emergency_type": "governance",
+      "confidence": 0.99,
+      "legal_basis": "National Emergencies Act of 1976 (50 U.S.C. §1601); IEEPA (50 U.S.C. §1701)",
+      "scope": "National (multiple concurrent declarations)",
+      "start_date": "2025-01-20",
+      "notes": "As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies."
+    },
+    {
       "iso3": "PRY",
       "country": "Paraguay",
       "status": "active",

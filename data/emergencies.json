@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-16T04:28:34.913608+00:00",
-  "active_count": 13,
-  "total_count": 38,
+  "generated_at": "2026-03-16T04:33:40.868511+00:00",
+  "active_count": 14,
+  "total_count": 39,
   "emergencies": [
     {
       "iso3": "UKR",
@@ -85,6 +85,30 @@
       "source_count": 2,
       "legal_basis": "Constitution Art. 29 (Régimen de Excepción)",
       "scope": "National",
+      "override": true
+    },
+    {
+      "iso3": "USA",
+      "country": "United States",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "51 concurrent national emergencies under the NEA (11 declared by Trump, 9 in second term alone)",
+      "declared_by": "",
+      "start_date": "2025-01-20",
+      "status": "active",
+      "confidence": 0.99,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies.",
+      "legal_basis": "National Emergencies Act of 1976 (50 U.S.C. §1601); IEEPA (50 U.S.C. §1701)",
+      "scope": "National (multiple concurrent declarations)",
       "override": true
     },
     {
@@ -527,6 +551,30 @@
       "source_count": 2,
       "legal_basis": "Constitution Art. 29 (Régimen de Excepción)",
       "scope": "National",
+      "override": true
+    },
+    {
+      "iso3": "USA",
+      "country": "United States",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "51 concurrent national emergencies under the NEA (11 declared by Trump, 9 in second term alone)",
+      "declared_by": "",
+      "start_date": "2025-01-20",
+      "status": "active",
+      "confidence": 0.99,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies.",
+      "legal_basis": "National Emergencies Act of 1976 (50 U.S.C. §1601); IEEPA (50 U.S.C. §1701)",
+      "scope": "National (multiple concurrent declarations)",
       "override": true
     },
     {
