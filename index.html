@@ -172,6 +172,7 @@
                     <label for="stream-filter-source">Source</label>
                     <select id="stream-filter-source" aria-label="Filter by data source">
                         <option value="">All Sources</option>
+                        <option value="reliefweb">ReliefWeb</option>
                         <option value="gdelt">GDELT / News</option>
                         <option value="gdacs">GDACS Disasters</option>
                     </select>
@@ -219,6 +220,7 @@
                     <li><strong>Wikipedia</strong> — Active states of emergency and martial law declarations scraped from the <a href="https://en.wikipedia.org/wiki/State_of_emergency" target="_blank" rel="noopener">State of emergency</a> and <a href="https://en.wikipedia.org/wiki/Martial_law" target="_blank" rel="noopener">Martial law</a> articles via the MediaWiki API. This serves as the primary baseline.</li>
                     <li><strong>ICCPR Article 4(3) Derogations</strong> — Formal notifications by states parties to the <a href="https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4" target="_blank" rel="noopener">International Covenant on Civil and Political Rights</a> declaring derogations from treaty obligations during emergencies. Sourced from the UN Treaty Collection.</li>
                     <li><strong>GDACS</strong> — Active disaster alerts (earthquakes, floods, cyclones, etc.) from the <a href="https://www.gdacs.org/" target="_blank" rel="noopener">Global Disaster Alert and Coordination System</a>. Used to corroborate disaster-related emergencies, not as a standalone source.</li>
+                    <li><strong>ReliefWeb API</strong> — Humanitarian reports and ongoing disaster tracking from <a href="https://reliefweb.int/" target="_blank" rel="noopener">OCHA/ReliefWeb</a>. Used to corroborate disaster-related emergencies.</li>
                     <li><strong>GDELT DOC 2.0</strong> — Global news monitoring for recent articles mentioning emergency-related terms. Used to confirm and boost existing entries.</li>
                     <li><strong>Curated Overrides</strong> — Hand-verified corrections and additions maintained by ISSE researchers to mark expired declarations, confirm active ones, and add entries not captured by automated scrapers.</li>
                 </ul>
@@ -249,7 +251,7 @@
             A project of the <a href="https://www.statesofexception.org/" target="_blank">Institute for the Study of States of Exception</a>.
         </p>
         <p class="footer-note">
-            Data sourced from Wikipedia, ICCPR Treaty Collection, GDACS, and GDELT. Dashboard updated every 6 hours.
+            Data sourced from Wikipedia, ICCPR Treaty Collection, ReliefWeb, GDACS, and GDELT. Dashboard updated every 6 hours.
         </p>
     </footer>
 

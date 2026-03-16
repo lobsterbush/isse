@@ -256,26 +256,15 @@ def build_emergencies(
             "_classification_text": ref.get("title", "") + " " + ref.get("notes", ""),
         }
 
-    # 2) Process ReliefWeb records
+    # 2) Process ReliefWeb records — corroborative only (don't create new entries).
+    #    ReliefWeb tracks humanitarian situations and ongoing disasters, not
+    #    formal state-of-emergency declarations.
     for rec in rw_records:
         iso3 = rec.get("iso3", "")
         if not iso3:
             continue
         if iso3 not in by_country:
-            by_country[iso3] = {
-                "iso3": iso3,
-                "country": rec.get("country", ""),
-                "continent": get_continent(iso3),
-                "emergency_type": "",
-                "title": "",
-                "declared_by": "",
-                "start_date": "",
-                "status": "active",
-                "confidence": 0.0,
-                "sources": [],
-                "recent_events": [],
-                "source_urls": [],
-            }
+            continue  # Skip — no declared SoE for this country
 
         entry = by_country[iso3]
         entry["sources"].append({

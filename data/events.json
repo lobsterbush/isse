@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-16T00:30:36.592939+00:00",
-  "event_count": 25,
+  "generated_at": "2026-03-16T04:28:34.913608+00:00",
+  "event_count": 122,
   "events": [
     {
       "source": "gdelt",
@@ -44,6 +44,26 @@
       "alert_level": "Orange"
     },
     {
+      "source": "reliefweb",
+      "title": "Ethiopia launches digitalization of public health emergency management system, advances toward PHEM Center of Excellence",
+      "date": "2026-03-03",
+      "iso3": "eth",
+      "country": "Ethiopia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/report/ethiopia/ethiopia-launches-digitalization-public-health-emergency-management-system-advances-toward-phem-center-excellence",
+      "source_name": "World Health Organization",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Fytia - Jan 2026",
+      "date": "2026-02-28",
+      "iso3": "mdg",
+      "country": "Madagascar",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2026-000009-mdg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
       "source": "gdacs",
       "title": "Earthquake in Bangladesh",
       "date": "2026-02-27",
@@ -55,6 +75,16 @@
       "alert_level": "Orange"
     },
     {
+      "source": "reliefweb",
+      "title": "Mongolia: Snowstorm - Feb 2026",
+      "date": "2026-02-21",
+      "iso3": "mng",
+      "country": "Mongolia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/cw-2026-000024-mng",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
       "source": "gdacs",
       "title": "Flood in Democratic Republic of Congo",
       "date": "2026-02-11",
@@ -64,6 +94,36 @@
       "source_name": "GDACS",
       "emergency_type": "disaster",
       "alert_level": "Orange"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Gezani - Feb 2026",
+      "date": "2026-02-10",
+      "iso3": "mdg",
+      "country": "Madagascar",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2026-000015-mdg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zambia: Cholera Outbreak - Feb 2026",
+      "date": "2026-02-09",
+      "iso3": "zmb",
+      "country": "Zambia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2026-000029-zmb",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Cameroon: Fires - Feb 2026",
+      "date": "2026-02-07",
+      "iso3": "cmr",
+      "country": "Cameroon",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fr-2026-000022-cmr",
+      "source_name": "ReliefWeb",
+      "emergency_type": "governance"
     },
     {
       "source": "gdacs",
@@ -97,6 +157,26 @@
       "source_name": "GDACS",
       "emergency_type": "disaster",
       "alert_level": "Orange"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Colombia: Floods - Jan 2026",
+      "date": "2026-01-26",
+      "iso3": "col",
+      "country": "Colombia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000017-col",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Algeria: Floods - Jan 2026",
+      "date": "2026-01-20",
+      "iso3": "dza",
+      "country": "Algeria",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000008-dza",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
     },
     {
       "source": "gdacs",
@@ -143,6 +223,116 @@
       "alert_level": "Orange"
     },
     {
+      "source": "reliefweb",
+      "title": "South Africa: Floods - Jan 2026",
+      "date": "2026-01-16",
+      "iso3": "zaf",
+      "country": "South Africa",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000011-zaf",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "DR Congo: Floods and Landslides - Nov 2025",
+      "date": "2026-01-13",
+      "iso3": "cod",
+      "country": "Democratic Republic of the Congo",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000237-cod",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zambia: Floods - Jan 2026",
+      "date": "2026-01-08",
+      "iso3": "zmb",
+      "country": "Zambia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000020-zmb",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "North Macedonia: Floods - Jan 2026",
+      "date": "2026-01-08",
+      "iso3": "mkd",
+      "country": "the Republic of North Macedonia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000005-mkd",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Malawi: Floods - Jan 2026",
+      "date": "2026-01-05",
+      "iso3": "mwi",
+      "country": "Malawi",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000021-mwi",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Serbia: Cold Wave - Jan 2026",
+      "date": "2026-01-04",
+      "iso3": "srb",
+      "country": "Serbia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/cw-2026-000002-srb",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Ecuador: Floods - Jan 2026",
+      "date": "2026-01-01",
+      "iso3": "ecu",
+      "country": "Ecuador",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000027-ecu",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zimbabwe: Floods - Jan 2026",
+      "date": "2026-01-01",
+      "iso3": "zwe",
+      "country": "Zimbabwe",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000023-zwe",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Madagascar: Mpox Outbreak - Dec 2025",
+      "date": "2025-12-31",
+      "iso3": "mdg",
+      "country": "Madagascar",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000230-mdg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Syria: Severe Weather - Dec 2025",
+      "date": "2025-12-31",
+      "iso3": "syr",
+      "country": "Syrian Arab Republic",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2026-000018-syr",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Mozambique: Floods - Dec 2025",
+      "date": "2025-12-27",
+      "iso3": "moz",
+      "country": "Mozambique",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000227-moz",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
       "source": "gdacs",
       "title": "Flood in Mozambique",
       "date": "2025-12-22",
@@ -152,6 +342,66 @@
       "source_name": "GDACS",
       "emergency_type": "disaster",
       "alert_level": "Orange"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Chile: Wild Fires - Dec 2025",
+      "date": "2025-12-18",
+      "iso3": "chl",
+      "country": "Chile",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/wf-2026-000003-chl",
+      "source_name": "ReliefWeb",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Iran: Floods - Dec 2025",
+      "date": "2025-12-15",
+      "iso3": "irn",
+      "country": "Iran (Islamic Republic of)",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ff-2025-000225-irn",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Gabon: Windstorms - Dec 2025",
+      "date": "2025-12-15",
+      "iso3": "gab",
+      "country": "Gabon",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/st-2025-000231-gab",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "occupied Palestinian territory: Floods - Nov 2025",
+      "date": "2025-12-15",
+      "iso3": "pse",
+      "country": "occupied Palestinian territory",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000224-pse",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Morocco: Floods - Dec 2025",
+      "date": "2025-12-14",
+      "iso3": "mar",
+      "country": "Morocco",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ff-2025-000223-mar",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Bolivia: Floods - Dec 2025",
+      "date": "2025-12-12",
+      "iso3": "bol",
+      "country": "Bolivia (Plurinational State of)",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000235-bol",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
     },
     {
       "source": "gdacs",
@@ -176,6 +426,36 @@
       "alert_level": "Orange"
     },
     {
+      "source": "reliefweb",
+      "title": "Iraq: Floods - Dec 2025",
+      "date": "2025-12-09",
+      "iso3": "irq",
+      "country": "Iraq",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ff-2025-000222-irq",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Ditwah - Nov 2025",
+      "date": "2025-11-27",
+      "iso3": "lka",
+      "country": "Sri Lanka",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000218-lka",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Malaysia: Floods - Nov 2025",
+      "date": "2025-11-22",
+      "iso3": "mys",
+      "country": "Malaysia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000211-mys",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
       "source": "gdacs",
       "title": "Drought: Argentina-Uruguay-2025",
       "date": "2025-11-21",
@@ -198,6 +478,16 @@
       "alert_level": "Orange"
     },
     {
+      "source": "reliefweb",
+      "title": "Congo: Floods - Nov 2025",
+      "date": "2025-11-19",
+      "iso3": "cog",
+      "country": "Congo",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000219-cog",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
       "source": "gdacs",
       "title": "Flood in Indonesia",
       "date": "2025-11-17",
@@ -207,6 +497,326 @@
       "source_name": "GDACS",
       "emergency_type": "disaster",
       "alert_level": "Orange"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Indonesia: Floods and Landslides - Nov 2025",
+      "date": "2025-11-13",
+      "iso3": "idn",
+      "country": "Indonesia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ls-2025-000205-idn",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Typhoon Fung-Wong - Nov 2025",
+      "date": "2025-11-05",
+      "iso3": "twn",
+      "country": "China - Taiwan Province",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000204-phl",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Typhoon Kalmaegi - Nov 2025",
+      "date": "2025-11-03",
+      "iso3": "lao",
+      "country": "Lao People's Democratic Republic (the)",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000203-phl",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Afghanistan: Earthquake - Nov 2025",
+      "date": "2025-11-02",
+      "iso3": "afg",
+      "country": "Afghanistan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/eq-2025-000202-afg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Hurricane Melissa - Oct 2025",
+      "date": "2025-10-21",
+      "iso3": "bhs",
+      "country": "Bahamas",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000196-hti",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Cuba: Arboviral Outbreak - Oct 2025",
+      "date": "2025-10-15",
+      "iso3": "cub",
+      "country": "Cuba",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000200-cub",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Philippines: Earthquakes - Oct 2025",
+      "date": "2025-10-10",
+      "iso3": "phl",
+      "country": "Philippines",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/eq-2025-000189-phl",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Egypt: Floods - Oct 2025",
+      "date": "2025-10-03",
+      "iso3": "egy",
+      "country": "Egypt",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000190-egy",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Philippines: Earthquake - Sep 2025",
+      "date": "2025-09-30",
+      "iso3": "phl",
+      "country": "Philippines",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/eq-2025-000181-phl",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Georgia: Flash Floods - Sep 2025",
+      "date": "2025-09-27",
+      "iso3": "geo",
+      "country": "Georgia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000185-geo",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Nigeria: Floods - Sep 2025",
+      "date": "2025-09-13",
+      "iso3": "nga",
+      "country": "Nigeria",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000187-nga",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Sierra Leone: Floods - Aug 2025",
+      "date": "2025-08-31",
+      "iso3": "sle",
+      "country": "Sierra Leone",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000169-sle",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Afghanistan: Earthquakes - Aug 2025",
+      "date": "2025-08-31",
+      "iso3": "afg",
+      "country": "Afghanistan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/eq-2025-000153-afg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Bolivia: Wild Fires - Aug 2025",
+      "date": "2025-08-20",
+      "iso3": "bol",
+      "country": "Bolivia (Plurinational State of)",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/wf-2025-000163-bol",
+      "source_name": "ReliefWeb",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Cabo Verde: Flash Floods - Aug 2025",
+      "date": "2025-08-11",
+      "iso3": "cpv",
+      "country": "Cabo Verde",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000147-cpv",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Equatorial Guinea: Floods - Aug 2025",
+      "date": "2025-08-02",
+      "iso3": "gnq",
+      "country": "Equatorial Guinea",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000145-gnq",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Somalia: Diphtheria Outbreak - Jul 2025",
+      "date": "2025-07-31",
+      "iso3": "som",
+      "country": "Somalia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000142-som",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "South Sudan: Floods - Jul 2025",
+      "date": "2025-07-30",
+      "iso3": "ssd",
+      "country": "South Sudan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000158-ssd",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Congo: Cholera Outbreak - Jul 2025",
+      "date": "2025-07-26",
+      "iso3": "cog",
+      "country": "Congo",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000130-cog",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Guinea: Floods - Jul 2025",
+      "date": "2025-07-22",
+      "iso3": "gin",
+      "country": "Guinea",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000150-gin",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Sudan: Floods - Jul 2025",
+      "date": "2025-07-14",
+      "iso3": "sdn",
+      "country": "Sudan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000154-sdn",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Chad: Cholera Outbreak - Jul 2025",
+      "date": "2025-07-13",
+      "iso3": "tcd",
+      "country": "Chad",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000149-tcd",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Guatemala: Earthquake - Jul 2025",
+      "date": "2025-07-08",
+      "iso3": "gtm",
+      "country": "Guatemala",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/eq-2025-000111-gtm",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Pakistan: Flash Floods - Jun 2025",
+      "date": "2025-06-26",
+      "iso3": "pak",
+      "country": "Pakistan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000100-pak",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Honduras: Floods - Jun 2025",
+      "date": "2025-06-17",
+      "iso3": "hnd",
+      "country": "Honduras",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000112-hnd",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Panama: River Pollution - Jun 2025",
+      "date": "2025-06-10",
+      "iso3": "pan",
+      "country": "Panama",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ac-2025-000098-pan",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Venezuela: Floods and Landslides - Jun 2025",
+      "date": "2025-06-07",
+      "iso3": "ven",
+      "country": "Venezuela (Bolivarian Republic of)",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000110-ven",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Côte d'Ivoire: Cholera Outbreak - Jun 2025",
+      "date": "2025-06-05",
+      "iso3": "civ",
+      "country": "Côte d'Ivoire",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000087-civ",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Papua New Guinea: Polio Outbreak - May 2025",
+      "date": "2025-05-16",
+      "iso3": "png",
+      "country": "Papua New Guinea",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000107-png",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Ecuador: Yellow Fever Outbreak - May 2025",
+      "date": "2025-05-15",
+      "iso3": "ecu",
+      "country": "Ecuador",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000062-ecu",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Algeria: Floods - May 2025",
+      "date": "2025-05-14",
+      "iso3": "dza",
+      "country": "Algeria",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000068-dza",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zimbabwe: Malaria Outbreak - May 2025",
+      "date": "2025-05-03",
+      "iso3": "zwe",
+      "country": "Zimbabwe",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000075-zwe",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
     },
     {
       "source": "gdacs",
@@ -242,6 +852,246 @@
       "alert_level": "Orange"
     },
     {
+      "source": "reliefweb",
+      "title": "Myanmar: Earthquake - Mar 2025",
+      "date": "2025-03-28",
+      "iso3": "chn",
+      "country": "China",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/eq-2025-000043-mmr",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Ecuador: Oil Spill - Mar 2025",
+      "date": "2025-03-13",
+      "iso3": "ecu",
+      "country": "Ecuador",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ac-2025-000037-ecu",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Jude - Mar 2025",
+      "date": "2025-03-07",
+      "iso3": "mdg",
+      "country": "Madagascar",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000027-moz",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Argentina: Floods - Mar 2025",
+      "date": "2025-03-06",
+      "iso3": "arg",
+      "country": "Argentina",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/fl-2025-000036-arg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Honde - Feb 2025",
+      "date": "2025-02-27",
+      "iso3": "mdg",
+      "country": "Madagascar",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000025-mdg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Dikeledi - Jan 2025",
+      "date": "2025-01-11",
+      "iso3": "com",
+      "country": "Comoros",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2025-000009-mdg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Angola: Cholera Outbreak - Jan 2025",
+      "date": "2025-01-07",
+      "iso3": "ago",
+      "country": "Angola",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2025-000013-ago",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tropical Cyclone Chido - Dec 2024",
+      "date": "2024-12-10",
+      "iso3": "com",
+      "country": "Comoros",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/tc-2024-000224-moz",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zimbabwe: Cholera Outbreak - Dec 2024",
+      "date": "2024-12-06",
+      "iso3": "zwe",
+      "country": "Zimbabwe",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2024-000233-zwe",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "South Sudan: Cholera Outbreak - Oct 2024",
+      "date": "2024-10-28",
+      "iso3": "ssd",
+      "country": "South Sudan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2024-000201-ssd",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Ghana: Cholera Outbreak - Oct 2024",
+      "date": "2024-10-04",
+      "iso3": "gha",
+      "country": "Ghana",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2024-000231-gha",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Mozambique: Drought - May 2024",
+      "date": "2024-05-23",
+      "iso3": "moz",
+      "country": "Mozambique",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2024-000073-moz",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Angola: Drought - 2024-2026",
+      "date": "2024-05-22",
+      "iso3": "ago",
+      "country": "Angola",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2024-000095-ago",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Namibia: Drought - May 2024",
+      "date": "2024-05-22",
+      "iso3": "nam",
+      "country": "Namibia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2024-000094-nam",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zimbabwe: Drought - Apr 2024",
+      "date": "2024-04-03",
+      "iso3": "zwe",
+      "country": "Zimbabwe",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2024-000066-zwe",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Malawi: Drought - Mar 2024",
+      "date": "2024-03-25",
+      "iso3": "mwi",
+      "country": "Malawi",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2024-000069-mwi",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Yemen: Cholera Outbreak - Mar 2024",
+      "date": "2024-03-15",
+      "iso3": "yem",
+      "country": "Yemen",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2024-000164-yem",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Zambia: Drought - 2024-2026",
+      "date": "2024-01-15",
+      "iso3": "zmb",
+      "country": "Zambia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2024-000018-zmb",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Niger: Diphtheria Outbreak - Oct 2023",
+      "date": "2023-10-20",
+      "iso3": "ner",
+      "country": "Niger",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2023-000223-ner",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Tanzania: Cholera Outbreak - Jul 2023",
+      "date": "2023-07-01",
+      "iso3": "tza",
+      "country": "United Republic of Tanzania",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2023-000224-tza",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Nigeria: Lassa Fever Outbreak - Jan 2023",
+      "date": "2023-01-20",
+      "iso3": "nga",
+      "country": "Nigeria",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2023-000090-nga",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Burundi: Cholera Outbreak - Jan 2023",
+      "date": "2023-01-01",
+      "iso3": "bdi",
+      "country": "Burundi",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2023-000075-bdi",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Mozambique: Cholera Outbreak - Dec 2022",
+      "date": "2022-12-21",
+      "iso3": "moz",
+      "country": "Mozambique",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2023-000006-moz",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "South Sudan: Measles - Dec 2022",
+      "date": "2022-12-10",
+      "iso3": "ssd",
+      "country": "South Sudan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2023-000048-ssd",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
       "source": "gdacs",
       "title": "Drought: South America-2023",
       "date": "2022-09-21",
@@ -273,6 +1123,126 @@
       "source_name": "GDACS",
       "emergency_type": "disaster",
       "alert_level": "Orange"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Ethiopia: Cholera Outbreak - Sep 2022",
+      "date": "2022-09-16",
+      "iso3": "eth",
+      "country": "Ethiopia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2022-000323-eth",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Syria: Drought - 2021-2026",
+      "date": "2021-06-01",
+      "iso3": "syr",
+      "country": "Syrian Arab Republic",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2021-000125-syr",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Afghanistan: Drought - 2021-2026",
+      "date": "2021-02-01",
+      "iso3": "afg",
+      "country": "Afghanistan",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2021-000022-afg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Madagascar: Drought - 2018-2025",
+      "date": "2018-08-30",
+      "iso3": "mdg",
+      "country": "Madagascar",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2018-000141-mdg",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Cameroon: Cholera Outbreak - Jul 2018",
+      "date": "2018-07-15",
+      "iso3": "cmr",
+      "country": "Cameroon",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2018-000142-cmr",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Nigeria: Cholera Outbreak - Jun 2017",
+      "date": "2017-06-07",
+      "iso3": "cmr",
+      "country": "Cameroon",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2017-000077-nga",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Somalia: Measles Outbreak - 2016-2026",
+      "date": "2016-12-13",
+      "iso3": "som",
+      "country": "Somalia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2016-000131-som",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Somalia: Cholera Outbreak - 2016-2026",
+      "date": "2016-04-29",
+      "iso3": "som",
+      "country": "Somalia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2016-000053-som",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Somalia: Drought - 2015-2026",
+      "date": "2015-06-09",
+      "iso3": "som",
+      "country": "Somalia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2015-000134-som",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Ethiopia: Drought - 2015-2026",
+      "date": "2015-06-09",
+      "iso3": "eth",
+      "country": "Ethiopia",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2015-000109-eth",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "Kenya: Drought - 2014-2026",
+      "date": "2014-08-29",
+      "iso3": "ken",
+      "country": "Kenya",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/dr-2014-000131-ken",
+      "source_name": "ReliefWeb",
+      "emergency_type": "disaster"
+    },
+    {
+      "source": "reliefweb",
+      "title": "DR Congo: Cholera and Measles Outbreaks - 2013-2025",
+      "date": "2013-01-01",
+      "iso3": "cod",
+      "country": "Democratic Republic of the Congo",
+      "url": "https://reliefweb.inthttps://reliefweb.int/disaster/ep-2013-000175-cod",
+      "source_name": "ReliefWeb",
+      "emergency_type": "public_health"
     }
   ]
 }

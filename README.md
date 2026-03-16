@@ -12,9 +12,10 @@ This dashboard combines data from multiple automated sources to track countries 
 
 1. **Wikipedia** — Active states of emergency and martial law declarations scraped from the [State of emergency](https://en.wikipedia.org/wiki/State_of_emergency) and [Martial law](https://en.wikipedia.org/wiki/Martial_law) articles via the MediaWiki API (primary baseline)
 2. **ICCPR Article 4(3) Derogations** — Formal derogation notifications from the [UN Treaty Collection](https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4), indicating states that have suspended civil liberties obligations
-3. **GDACS** — Active disaster alerts from the [Global Disaster Alert and Coordination System](https://www.gdacs.org/) (corroborative only)
-4. **GDELT DOC 2.0 API** — Global news monitoring for emergency-related terms (corroborative only)
-5. **Curated overrides** — Hand-verified corrections and additions maintained by ISSE researchers
+3. **ReliefWeb API** — Humanitarian reports and ongoing disasters from [OCHA/ReliefWeb](https://reliefweb.int/) (corroborative only)
+4. **GDACS** — Active disaster alerts from the [Global Disaster Alert and Coordination System](https://www.gdacs.org/) (corroborative only)
+5. **GDELT DOC 2.0 API** — Global news monitoring for emergency-related terms (corroborative only)
+6. **Curated overrides** — Hand-verified corrections and additions maintained by ISSE researchers
 
 A GitHub Actions pipeline runs every 6 hours to fetch fresh data, classify emergencies by type (disaster, public health, conflict, migration, governance), and publish updated JSON files that power the static frontend.
 
@@ -67,13 +68,13 @@ isse/
 │   ├── gdacs_raw.json             # Generated: GDACS disaster alerts
 │   ├── emergencies.json           # Generated: merged active emergencies
 │   ├── events.json                # Generated: news event stream
-│   ├── reliefweb_raw.json         # Generated: raw ReliefWeb data (dormant)
+│   ├── reliefweb_raw.json         # Generated: raw ReliefWeb data
 │   └── gdelt_raw.json             # Generated: raw GDELT data
 ├── js/
 │   └── app.js                     # Dashboard application
 ├── scripts/
 │   ├── 00_fetch_wikipedia_soe.py  # Wikipedia state-of-emergency + martial law scraper
-│   ├── 01_fetch_reliefweb.py      # ReliefWeb API fetcher (currently dormant — 403)
+│   ├── 01_fetch_reliefweb.py      # ReliefWeb API fetcher
 │   ├── 01b_fetch_gdacs.py         # GDACS disaster alert fetcher
 │   ├── 01c_fetch_iccpr_derogations.py  # ICCPR Art. 4(3) derogation scraper
 │   ├── 02_fetch_gdelt.py          # GDELT DOC API fetcher
@@ -90,6 +91,7 @@ isse/
 - [Wikipedia: Martial law](https://en.wikipedia.org/wiki/Martial_law) — Supplementary baseline for martial law declarations
 - [ICCPR Article 4(3)](https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4) — UN Treaty Collection derogation notifications
 - [GDACS](https://www.gdacs.org/) — Global Disaster Alert and Coordination System
+- [ReliefWeb API](https://api.reliefweb.int/) — OCHA humanitarian information service
 - [GDELT Project](https://www.gdeltproject.org/) — Global news event monitoring
 
 ## License

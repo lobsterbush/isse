@@ -15,7 +15,7 @@ import requests
 
 # ── Config ──────────────────────────────────────────────────────────────────
 BASE_URL = "https://api.reliefweb.int/v2"
-APP_NAME = "isse-dashboard"
+APP_NAME = "isse-dashboard-2126g5pVgIsE16SfP4cWJ9K1"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data"
 
 SOE_QUERIES: list[str] = [
