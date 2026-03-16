@@ -48,6 +48,30 @@
       .replace(/'/g, "&#039;");
   }
 
+  function confidenceLabel(conf) {
+    const pct = Math.round((conf || 0) * 100);
+    if (pct >= 90) return { label: "Verified", cls: "conf-verified" };
+    if (pct >= 75) return { label: "Likely Active", cls: "conf-likely" };
+    return { label: "Unconfirmed", cls: "conf-unconfirmed" };
+  }
+
+  function durationText(startDate) {
+    if (!startDate) return "";
+    const start = new Date(startDate);
+    if (isNaN(start)) return "";
+    const now = new Date();
+    const diffMs = now - start;
+    const days = Math.floor(diffMs / 86400000);
+    if (days < 1) return "<1 day";
+    const years = Math.floor(days / 365);
+    const months = Math.floor((days % 365) / 30);
+    const parts = [];
+    if (years > 0) parts.push(`${years}y`);
+    if (months > 0) parts.push(`${months}m`);
+    if (years === 0 && months === 0) parts.push(`${days}d`);
+    return parts.join(" ");
+  }
+
   /* ── Data Loading ── */
   async function loadData() {
     try {
@@ -247,7 +271,7 @@
     const tbody = document.getElementById("emergencies-tbody");
 
     if (data.length === 0) {
-      tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:2rem;">
+      tbody.innerHTML = `<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:2rem;">
         ${emergenciesData.length === 0 ? "No data available — run the data pipeline to populate." : "No emergencies match the current filters."}
       </td></tr>`;
       document.getElementById("table-count").textContent = "0 emergencies";
@@ -256,17 +280,17 @@
 
     tbody.innerHTML = data
       .map((e) => {
+        const conf = confidenceLabel(e.confidence);
         const confPct = Math.round((e.confidence || 0) * 100);
+        const dur = durationText(e.start_date);
         const topSource = e.source_urls && e.source_urls[0];
         return `<tr data-iso3="${escapeHtml(e.iso3)}" style="cursor:pointer">
           <td><strong>${escapeHtml(e.country || e.iso3)}</strong></td>
           <td><span class="type-badge ${escapeHtml(e.emergency_type)}">${escapeHtml(TYPE_LABELS[e.emergency_type] || e.emergency_type)}</span></td>
           <td title="${escapeHtml(e.title)}">${escapeHtml(e.title ? (e.title.length > 60 ? e.title.substring(0, 57) + "…" : e.title) : "") || "—"}</td>
-          <td>${escapeHtml(e.declared_by) || "—"}</td>
-          <td style="font-family:var(--font-mono);font-size:0.75rem">${escapeHtml(e.start_date) || "—"}</td>
+          <td style="font-family:var(--font-mono);font-size:0.75rem">${escapeHtml(e.start_date) || "—"}${dur ? ` <span style="color:var(--text-muted);font-size:0.65rem">(${dur})</span>` : ""}</td>
           <td>
-            ${confPct}%
-            <span class="confidence-bar"><span class="confidence-fill" style="width:${confPct}%"></span></span>
+            <span class="conf-label ${conf.cls}" title="${confPct}% confidence">${conf.label}</span>
           </td>
           <td>${topSource ? `<a href="${escapeHtml(topSource.url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escapeHtml((topSource.title || "").substring(0, 30))}…</a>` : "—"}</td>
         </tr>`;
@@ -344,12 +368,16 @@
       emerg.country || emerg.iso3;
 
     const meta = document.getElementById("modal-meta");
+    const conf = confidenceLabel(emerg.confidence);
+    const dur = durationText(emerg.start_date);
     meta.innerHTML = `
       <span class="tag type-badge ${escapeHtml(emerg.emergency_type)}">${escapeHtml(TYPE_LABELS[emerg.emergency_type] || emerg.emergency_type)}</span>
       ${emerg.continent ? `<span class="tag">${escapeHtml(emerg.continent)}</span>` : ""}
-      ${emerg.start_date ? `<span class="tag">Since ${escapeHtml(emerg.start_date)}</span>` : ""}
+      ${emerg.start_date ? `<span class="tag">Since ${escapeHtml(emerg.start_date)}${dur ? ` (${dur})` : ""}</span>` : ""}
       ${emerg.declared_by ? `<span class="tag">${escapeHtml(emerg.declared_by)}</span>` : ""}
-      <span class="tag">Confidence: ${Math.round((emerg.confidence || 0) * 100)}%</span>
+      <span class="tag ${conf.cls}">${conf.label}</span>
+      ${emerg.scope ? `<span class="tag">Scope: ${escapeHtml(emerg.scope)}</span>` : ""}
+      ${emerg.legal_basis ? `<span class="tag">Legal basis: ${escapeHtml(emerg.legal_basis)}</span>` : ""}
     `;
 
     document.getElementById("modal-notes").textContent = emerg.notes || emerg.title || "";
@@ -435,9 +463,59 @@
     });
   }
 
+  /* ── CSV Download ── */
+  function downloadCSV() {
+    const headers = ["iso3", "country", "continent", "emergency_type", "title", "start_date", "declared_by", "confidence", "verification", "duration", "scope", "legal_basis", "notes"];
+    const rows = emergenciesData.map((e) => {
+      const conf = confidenceLabel(e.confidence);
+      return headers.map((h) => {
+        let val = "";
+        if (h === "verification") val = conf.label;
+        else if (h === "duration") val = durationText(e.start_date);
+        else val = e[h] ?? "";
+        // Escape CSV
+        val = String(val).replace(/"/g, '""');
+        return `"${val}"`;
+      }).join(",");
+    });
+    const csv = [headers.join(","), ...rows].join("\n");
+    const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `isse_emergencies_${new Date().toISOString().slice(0, 10)}.csv`;
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  /* ── Citation ── */
+  function initCitation() {
+    const dateEl = document.getElementById("cite-date");
+    if (dateEl) {
+      dateEl.textContent = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+    }
+    const yearEl = document.getElementById("cite-year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+    const copyBtn = document.getElementById("copy-citation-btn");
+    if (copyBtn) {
+      copyBtn.addEventListener("click", () => {
+        const text = document.getElementById("citation-text").textContent;
+        navigator.clipboard.writeText(text).then(() => {
+          copyBtn.textContent = "Copied!";
+          setTimeout(() => { copyBtn.textContent = "Copy"; }, 2000);
+        });
+      });
+    }
+
+    const csvBtn = document.getElementById("download-csv-btn");
+    if (csvBtn) csvBtn.addEventListener("click", downloadCSV);
+  }
+
   /* ── Init ── */
   async function init() {
     initEvents();
+    initCitation();
     await loadData();
     await initMap();
     renderAll();

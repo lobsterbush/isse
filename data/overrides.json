@@ -75,6 +75,8 @@
       "title": "Martial law (extended 18 times since Feb 2022, currently until May 2026)",
       "emergency_type": "conflict",
       "confidence": 0.99,
+      "legal_basis": "Constitution Art. 106(20); Law on Legal Regime of Martial Law",
+      "scope": "National",
       "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022."
     },
     {
@@ -84,6 +86,8 @@
       "title": "State of exception for gang crackdown (extended 48+ times since March 2022)",
       "emergency_type": "governance",
       "confidence": 0.99,
+      "legal_basis": "Constitution Art. 29 (Régimen de Excepción)",
+      "scope": "National",
       "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026."
     },
     {
@@ -93,6 +97,8 @@
       "title": "State of danger due to Ukraine conflict (extended repeatedly since May 2022)",
       "emergency_type": "governance",
       "confidence": 0.85,
+      "legal_basis": "Fundamental Law Art. 53 (Veszélyhelyzet)",
+      "scope": "National",
       "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025."
     },
     {
@@ -102,6 +108,8 @@
       "title": "State of emergency due to Ukraine conflict (extended repeatedly since Feb 2022)",
       "emergency_type": "governance",
       "confidence": 0.85,
+      "legal_basis": "Constitution Art. 66(2); Law on State of Emergency",
+      "scope": "National",
       "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025."
     },
     {
@@ -111,6 +119,8 @@
       "title": "State of emergency due to Russian security threat (extended since Feb 2022)",
       "emergency_type": "governance",
       "confidence": 0.80,
+      "legal_basis": "Constitution Art. 144; Law on State of Emergency",
+      "scope": "National",
       "notes": "State of emergency declared Feb 24, 2022, extended multiple times."
     },
     {
@@ -156,6 +166,8 @@
       "title": "State of security emergency in Savanes region (extended since June 2022)",
       "emergency_type": "conflict",
       "confidence": 0.90,
+      "legal_basis": "Constitution Art. 94; Loi organique on State of Siege/Emergency",
+      "scope": "Regional (Savanes)",
       "notes": "State of emergency in Savanes region due to jihadist insurgency. Extended for 12 months starting March 13, 2026 by National Assembly."
     },
     {
@@ -165,6 +177,8 @@
       "title": "Penitentiary state of emergency (extended through Dec 2025)",
       "emergency_type": "governance",
       "confidence": 0.75,
+      "legal_basis": "Constitution Art. 288; Presidential Decree",
+      "scope": "Sectoral (penitentiary system)",
       "notes": "Sector-specific penitentiary emergency extended through at least December 2025. Also flooding emergency in Chaco region declared April 2025."
     }
   ]

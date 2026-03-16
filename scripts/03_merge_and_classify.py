@@ -456,6 +456,8 @@ def build_emergencies(
                 "recent_events": [],
                 "source_count": 1,
                 "notes": ov.get("notes", ""),
+                "legal_basis": ov.get("legal_basis", ""),
+                "scope": ov.get("scope", ""),
                 "override": True,
             }
             boosted_count += 1
@@ -481,6 +483,10 @@ def build_emergencies(
                     "date": ov.get("start_date", "")[:10],
                 })
             entry["notes"] = ov.get("notes", "")
+            if ov.get("legal_basis"):
+                entry["legal_basis"] = ov["legal_basis"]
+            if ov.get("scope"):
+                entry["scope"] = ov["scope"]
             entry["override"] = True
             if not entry.get("country"):
                 entry["country"] = ov.get("country", "")

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T23:54:59.647523+00:00",
+  "generated_at": "2026-03-16T00:30:36.592939+00:00",
   "active_count": 13,
   "total_count": 38,
   "emergencies": [
@@ -41,6 +41,8 @@
       ],
       "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022.",
       "source_count": 2,
+      "legal_basis": "Constitution Art. 106(20); Law on Legal Regime of Martial Law",
+      "scope": "National",
       "override": true
     },
     {
@@ -81,6 +83,8 @@
       ],
       "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026.",
       "source_count": 2,
+      "legal_basis": "Constitution Art. 29 (Régimen de Excepción)",
+      "scope": "National",
       "override": true
     },
     {
@@ -227,6 +231,8 @@
       ],
       "notes": "Sector-specific penitentiary emergency extended through at least December 2025. Also flooding emergency in Chaco region declared April 2025.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 288; Presidential Decree",
+      "scope": "Sectoral (penitentiary system)",
       "override": true
     },
     {
@@ -256,6 +262,8 @@
       ],
       "notes": "State of emergency in Savanes region due to jihadist insurgency. Extended for 12 months starting March 13, 2026 by National Assembly.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 94; Loi organique on State of Siege/Emergency",
+      "scope": "Regional (Savanes)",
       "override": true
     },
     {
@@ -285,6 +293,8 @@
       ],
       "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 66(2); Law on State of Emergency",
+      "scope": "National",
       "override": true
     },
     {
@@ -314,6 +324,8 @@
       ],
       "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025.",
       "source_count": 1,
+      "legal_basis": "Fundamental Law Art. 53 (Veszélyhelyzet)",
+      "scope": "National",
       "override": true
     },
     {
@@ -343,6 +355,8 @@
       ],
       "notes": "State of emergency declared Feb 24, 2022, extended multiple times.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 144; Law on State of Emergency",
+      "scope": "National",
       "override": true
     },
     {
@@ -469,6 +483,8 @@
       ],
       "notes": "Martial law extended until May 4, 2026 (18th extension). Continuous since Feb 24, 2022.",
       "source_count": 2,
+      "legal_basis": "Constitution Art. 106(20); Law on Legal Regime of Martial Law",
+      "scope": "National",
       "override": true
     },
     {
@@ -509,6 +525,8 @@
       ],
       "notes": "Régimen de excepción in effect since March 27, 2022. Extended 48 times as of Feb 2026.",
       "source_count": 2,
+      "legal_basis": "Constitution Art. 29 (Régimen de Excepción)",
+      "scope": "National",
       "override": true
     },
     {
@@ -742,6 +760,8 @@
       ],
       "notes": "Sector-specific penitentiary emergency extended through at least December 2025. Also flooding emergency in Chaco region declared April 2025.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 288; Presidential Decree",
+      "scope": "Sectoral (penitentiary system)",
       "override": true
     },
     {
@@ -829,6 +849,8 @@
       ],
       "notes": "State of emergency in Savanes region due to jihadist insurgency. Extended for 12 months starting March 13, 2026 by National Assembly.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 94; Loi organique on State of Siege/Emergency",
+      "scope": "Regional (Savanes)",
       "override": true
     },
     {
@@ -858,6 +880,8 @@
       ],
       "notes": "State of emergency declared Feb 24, 2022, extended repeatedly through 2025.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 66(2); Law on State of Emergency",
+      "scope": "National",
       "override": true
     },
     {
@@ -927,6 +951,8 @@
       ],
       "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025.",
       "source_count": 1,
+      "legal_basis": "Fundamental Law Art. 53 (Veszélyhelyzet)",
+      "scope": "National",
       "override": true
     },
     {
@@ -956,6 +982,8 @@
       ],
       "notes": "State of emergency declared Feb 24, 2022, extended multiple times.",
       "source_count": 1,
+      "legal_basis": "Constitution Art. 144; Law on State of Emergency",
+      "scope": "National",
       "override": true
     },
     {

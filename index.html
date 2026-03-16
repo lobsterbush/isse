@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global States of Emergency Dashboard — ISSE</title>
     <meta name="description" content="Real-time tracker of global states of emergency, emergency powers, and executive emergency declarations. A project of the Institute for the Study of States of Exception.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Global States of Emergency Dashboard — ISSE">
+    <meta property="og:description" content="Real-time tracker of global states of emergency, emergency powers, and executive emergency declarations.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lobsterbush.github.io/isse/">
+    <meta property="og:image" content="https://lobsterbush.github.io/isse/assets/og_preview.png">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Global States of Emergency Dashboard — ISSE">
+    <meta name="twitter:description" content="Real-time tracker of global states of emergency, emergency powers, and executive emergency declarations.">
+    <meta name="twitter:image" content="https://lobsterbush.github.io/isse/assets/og_preview.png">
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Global States of Emergency Dashboard",
+      "url": "https://lobsterbush.github.io/isse/",
+      "description": "Real-time tracker of global states of emergency, emergency powers, and executive emergency declarations.",
+      "author": {
+        "@type": "Organization",
+        "name": "Institute for the Study of States of Exception",
+        "url": "https://www.statesofexception.org/"
+      },
+      "applicationCategory": "Reference",
+      "operatingSystem": "Any"
+    }
+    </script>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
     <link rel="stylesheet" href="css/style.css">
@@ -73,7 +101,7 @@
                 </div>
                 <div class="filter-group">
                     <label for="filter-type">Emergency Type</label>
-                    <select id="filter-type">
+                    <select id="filter-type" aria-label="Filter by emergency type">
                         <option value="">All Types</option>
                         <option value="disaster">Disaster</option>
                         <option value="public_health">Public Health</option>
@@ -84,7 +112,7 @@
                 </div>
                 <div class="filter-group">
                     <label for="filter-continent">Region</label>
-                    <select id="filter-continent">
+                    <select id="filter-continent" aria-label="Filter by region">
                         <option value="">All Regions</option>
                         <option value="Africa">Africa</option>
                         <option value="Americas">Americas</option>
@@ -110,14 +138,13 @@
                             <th data-sort="country">Country ↕</th>
                             <th data-sort="emergency_type">Type ↕</th>
                             <th data-sort="title">Emergency ↕</th>
-                            <th data-sort="declared_by">Declared By ↕</th>
                             <th data-sort="start_date">Start Date ↕</th>
-                            <th data-sort="confidence">Confidence ↕</th>
+                            <th data-sort="confidence">Status ↕</th>
                             <th>Sources</th>
                         </tr>
                     </thead>
                     <tbody id="emergencies-tbody">
-                        <tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:2rem;">Loading emergency data…</td></tr>
+                        <tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:2rem;">Loading emergency data…</td></tr>
                     </tbody>
                 </table>
             </div>
@@ -132,7 +159,7 @@
             <div class="filters" style="margin-bottom:0.75rem;">
                 <div class="filter-group" style="min-width:120px;">
                     <label for="stream-filter-type">Type</label>
-                    <select id="stream-filter-type">
+                    <select id="stream-filter-type" aria-label="Filter events by type">
                         <option value="">All Types</option>
                         <option value="disaster">Disaster</option>
                         <option value="public_health">Public Health</option>
@@ -143,10 +170,10 @@
                 </div>
                 <div class="filter-group" style="min-width:120px;">
                     <label for="stream-filter-source">Source</label>
-                    <select id="stream-filter-source">
+                    <select id="stream-filter-source" aria-label="Filter by data source">
                         <option value="">All Sources</option>
-                        <option value="reliefweb">ReliefWeb</option>
                         <option value="gdelt">GDELT / News</option>
+                        <option value="gdacs">GDACS Disasters</option>
                     </select>
                 </div>
             </div>
@@ -156,21 +183,49 @@
             <button class="load-more-btn" id="load-more-btn" style="display:none;">Load More</button>
         </section>
 
+        <!-- About ISSE -->
+        <section class="table-section" id="about">
+            <h2>About This Dashboard</h2>
+            <div style="font-size:0.85rem; color:var(--text-secondary); line-height:1.7;">
+                <p>A <strong>state of exception</strong> — whether called a state of emergency, martial law, or emergency decree — is a legal mechanism by which governments suspend ordinary constitutional protections and concentrate power in the executive. While sometimes justified by genuine crises, emergency powers are frequently abused to suppress dissent, circumvent legislative oversight, and entrench authoritarian rule. Many countries have remained under continuous emergency for years or decades.</p>
+                <p style="margin-top:0.75rem;">The <a href="https://www.statesofexception.org/" target="_blank" rel="noopener">Institute for the Study of States of Exception (ISSE)</a> monitors the global landscape of emergency powers to promote accountability, informed public dialogue, and evidence-based scholarship. This dashboard provides a real-time view of countries currently operating under declared or de facto states of emergency, drawing on multiple automated data sources and manual verification.</p>
+            </div>
+        </section>
+
+        <!-- Download & Citation -->
+        <section class="table-section" id="data-access">
+            <h2>Data Access &amp; Citation</h2>
+            <div style="font-size:0.85rem; color:var(--text-secondary); line-height:1.7;">
+                <p>The underlying data are freely available for research and journalism.</p>
+                <div style="display:flex; gap:0.75rem; flex-wrap:wrap; margin:0.75rem 0;">
+                    <button id="download-csv-btn" class="btn-secondary" style="display:inline-flex; align-items:center; gap:0.4rem;">↓ Download CSV</button>
+                    <a href="data/emergencies.json" download class="btn-secondary" style="display:inline-flex; align-items:center; gap:0.4rem; text-decoration:none;">↓ Download JSON</a>
+                </div>
+                <p style="margin-top:0.75rem;"><strong>Suggested citation:</strong></p>
+                <div class="cite-block" style="background:var(--bg-secondary); border:1px solid var(--border-light); border-radius:6px; padding:0.75rem 1rem; margin-top:0.4rem; font-family:var(--font-mono); font-size:0.72rem; color:var(--text-secondary); line-height:1.6; position:relative;">
+                    <span id="citation-text">Crabtree, Charles. <span id="cite-year">2026</span>. "Global States of Emergency Dashboard." Institute for the Study of States of Exception. Accessed <span id="cite-date"></span>. https://lobsterbush.github.io/isse/</span>
+                    <button id="copy-citation-btn" class="btn-secondary" style="position:absolute; top:0.4rem; right:0.4rem; padding:0.2rem 0.5rem; font-size:0.6rem;">Copy</button>
+                </div>
+            </div>
+        </section>
+
         <!-- Methodology -->
         <section class="table-section" id="methodology">
             <h2>Methodology &amp; Data Sources</h2>
             <div style="font-size:0.85rem; color:var(--text-secondary); line-height:1.7;">
-                <p>This dashboard combines data from multiple automated sources to track active states of emergency worldwide.</p>
+                <p>This dashboard combines data from multiple automated sources, cross-referenced and verified through manual overrides, to track active states of emergency worldwide.</p>
                 <p style="margin-top:0.75rem;"><strong>Data Sources:</strong></p>
                 <ul style="margin:0.5rem 0 0.5rem 1.5rem;">
-                    <li><strong>Wikipedia</strong> — Active states of emergency scraped from the <a href="https://en.wikipedia.org/wiki/State_of_emergency" target="_blank" rel="noopener">State of emergency</a> article via the MediaWiki API. This serves as the primary baseline.</li>
-                    <li><strong>GDELT DOC 2.0</strong> — Global news monitoring for recent articles mentioning emergency-related terms.</li>
-                    <li><strong>ReliefWeb API</strong> — Humanitarian reports and active disaster declarations from OCHA/ReliefWeb.</li>
+                    <li><strong>Wikipedia</strong> — Active states of emergency and martial law declarations scraped from the <a href="https://en.wikipedia.org/wiki/State_of_emergency" target="_blank" rel="noopener">State of emergency</a> and <a href="https://en.wikipedia.org/wiki/Martial_law" target="_blank" rel="noopener">Martial law</a> articles via the MediaWiki API. This serves as the primary baseline.</li>
+                    <li><strong>ICCPR Article 4(3) Derogations</strong> — Formal notifications by states parties to the <a href="https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4" target="_blank" rel="noopener">International Covenant on Civil and Political Rights</a> declaring derogations from treaty obligations during emergencies. Sourced from the UN Treaty Collection.</li>
+                    <li><strong>GDACS</strong> — Active disaster alerts (earthquakes, floods, cyclones, etc.) from the <a href="https://www.gdacs.org/" target="_blank" rel="noopener">Global Disaster Alert and Coordination System</a>. Used to corroborate disaster-related emergencies, not as a standalone source.</li>
+                    <li><strong>GDELT DOC 2.0</strong> — Global news monitoring for recent articles mentioning emergency-related terms. Used to confirm and boost existing entries.</li>
+                    <li><strong>Curated Overrides</strong> — Hand-verified corrections and additions maintained by ISSE researchers to mark expired declarations, confirm active ones, and add entries not captured by automated scrapers.</li>
                 </ul>
-                <p style="margin-top:0.75rem;"><strong>Confidence Score:</strong> Each emergency is assigned a confidence score (50–100%) based on the recency and number of confirming sources, agreement between the Wikipedia baseline and live news feeds, and source authoritativeness. Only entries with ≥50% confidence are displayed.</p>
+                <p style="margin-top:0.75rem;"><strong>Verification Status:</strong> Each emergency is assigned a verification level — <span style="color:var(--accent-green)">Verified</span> (confirmed by multiple sources or manual review, ≥90%), <span style="color:var(--accent)">Likely Active</span> (strong evidence but not fully confirmed, 75–89%), or <span style="color:var(--text-muted)">Unconfirmed</span> (single-source or aging data, 50–74%). Only entries meeting the 50% threshold are displayed.</p>
                 <p style="margin-top:0.75rem;"><strong>Emergency Types:</strong> Entries are automatically classified into five categories — Disaster, Public Health, Conflict/Security, Migration, and Governance — using keyword matching against titles and descriptions.</p>
                 <p style="margin-top:0.75rem;"><strong>Update Frequency:</strong> The data pipeline runs automatically every 6 hours via GitHub Actions.</p>
-                <p style="margin-top:0.75rem;"><strong>Limitations:</strong> This dashboard relies on automated data collection and may miss emergencies not covered by Wikipedia or English-language news sources. Classification is keyword-based and may occasionally miscategorize entries. Emergency start dates may be approximate.</p>
+                <p style="margin-top:0.75rem;"><strong>Limitations:</strong> This dashboard relies on automated data collection and may miss emergencies not covered by Wikipedia or English-language news sources. Classification is keyword-based and may occasionally miscategorize entries. Emergency start dates may be approximate. ICCPR derogation notifications may remain on file after an emergency has lapsed; we use manual overrides to correct for this.</p>
             </div>
         </section>
 
@@ -194,7 +249,7 @@
             A project of the <a href="https://www.statesofexception.org/" target="_blank">Institute for the Study of States of Exception</a>.
         </p>
         <p class="footer-note">
-            Data sourced from Wikipedia, GDELT, and ReliefWeb. Dashboard updated every 6 hours.
+            Data sourced from Wikipedia, ICCPR Treaty Collection, GDACS, and GDELT. Dashboard updated every 6 hours.
         </p>
     </footer>
 

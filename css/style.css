@@ -368,6 +368,31 @@ main {
     background: var(--accent);
 }
 
+/* Confidence / verification labels */
+.conf-label {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: var(--font-mono);
+    letter-spacing: 0.04em;
+    cursor: help;
+}
+.conf-verified {
+    background: rgba(16, 185, 129, 0.15);
+    color: var(--accent-green);
+}
+.conf-likely {
+    background: rgba(232, 93, 4, 0.15);
+    color: var(--accent);
+}
+.conf-unconfirmed {
+    background: rgba(106, 106, 106, 0.15);
+    color: var(--text-muted);
+}
+
 /* ── Event Stream ── */
 .stream-section {
     background: var(--bg-card);
