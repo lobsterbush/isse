@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-16T10:06:59.906658+00:00",
-  "event_count": 121,
+  "generated_at": "2026-03-16T10:14:31.440168+00:00",
+  "event_count": 122,
   "events": [
     {
       "source": "gdelt",
@@ -10,6 +10,16 @@
       "country": "",
       "url": "https://www.aol.com/lifestyle/wisconsin-hit-blizzard-emergency-19-041156268.html",
       "source_name": "aol.com",
+      "emergency_type": "governance"
+    },
+    {
+      "source": "gdelt",
+      "title": "Gridlock as governance failure : A long - term policy framework for Accra traffic crisis",
+      "date": "2026-03-16",
+      "iso3": "",
+      "country": "",
+      "url": "https://www.myjoyonline.com/gridlock-as-governance-failure-a-long-term-policy-framework-for-accras-traffic-crisis/",
+      "source_name": "myjoyonline.com",
       "emergency_type": "governance"
     },
     {
