@@ -264,6 +264,54 @@
       "legal_basis": "Constitution Art. 288; Presidential Decree",
       "scope": "Sectoral (penitentiary system)",
       "notes": "Sector-specific penitentiary emergency extended through at least December 2025. Also flooding emergency in Chaco region declared April 2025."
+    },
+    {
+      "iso3": "NGA",
+      "country": "Nigeria",
+      "status": "active",
+      "title": "Nationwide security emergency (declared Nov 26, 2025 amid mass kidnappings)",
+      "emergency_type": "conflict",
+      "confidence": 0.95,
+      "legal_basis": "Presidential executive authority (Constitution §130(2), §5(1)(a)); distinct from formal Section 305 SoE",
+      "scope": "National (security surge focused on North Central, North East, North West)",
+      "start_date": "2025-11-26",
+      "notes": "President Tinubu declared a nationwide security emergency following a wave of mass kidnappings, including 300+ schoolchildren from a Catholic school in Niger State. Ordered mass military/police recruitment (50,000 police, expanded army), deployment of forest guards, withdrawal of VIP bodyguards to core policing duties. Not a formal Section 305 state of emergency requiring National Assembly approval, but a presidential security emergency with sweeping operational measures."
+    },
+    {
+      "iso3": "SDN",
+      "country": "Sudan",
+      "status": "active",
+      "title": "De facto state of emergency (civil war since April 2023, world's largest displacement crisis)",
+      "emergency_type": "conflict",
+      "confidence": 0.95,
+      "legal_basis": "Constitutional Declaration 2019 Art. 40 (Emergency Powers); de facto military authority",
+      "scope": "National",
+      "start_date": "2023-04-15",
+      "notes": "Civil war between SAF and RSF since April 15, 2023. The world's largest displacement crisis (10M+ displaced) and approaching famine. Formal governance structures have collapsed in much of the country. Military emergency powers in effect under Gen. al-Burhan. IRC ranks Sudan #1 on 2026 Emergency Watchlist."
+    },
+    {
+      "iso3": "HTI",
+      "country": "Haiti",
+      "status": "active",
+      "title": "State of emergency (gang violence, Transitional Presidential Council since March 2024)",
+      "emergency_type": "conflict",
+      "confidence": 0.90,
+      "legal_basis": "Constitution Art. 278-1 (État de siège); Presidential decree",
+      "scope": "National (focused on Port-au-Prince)",
+      "start_date": "2024-03-03",
+      "notes": "State of emergency declared March 2024 as armed gangs seized control of much of Port-au-Prince. PM Henry resigned; Transitional Presidential Council installed. MSS/Kenyan-led multinational security mission deployed. IRC ranks Haiti #6 on 2026 Emergency Watchlist."
+    },
+    {
+      "iso3": "ECU",
+      "country": "Ecuador",
+      "status": "active",
+      "title": "Internal armed conflict emergency (declared Jan 2024, extended repeatedly)",
+      "emergency_type": "conflict",
+      "confidence": 0.85,
+      "legal_basis": "Constitution Art. 164 (Estado de excepción)",
+      "scope": "National",
+      "start_date": "2024-01-09",
+      "notes": "President Noboa declared a state of internal armed conflict and state of exception in January 2024 after Los Choneros gang leader escaped prison and gang members stormed a live TV broadcast. State of exception has been extended repeatedly in various provinces throughout 2024-2025 to combat narco-violence."
     }
   ]
 }

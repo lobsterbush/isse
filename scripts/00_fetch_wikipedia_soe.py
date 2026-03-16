@@ -20,7 +20,10 @@ from bs4 import BeautifulSoup
 # ── Config ──────────────────────────────────────────────────────────────────
 WIKI_API = "https://en.wikipedia.org/w/api.php"
 ARTICLE = "State_of_emergency"
-SUPPLEMENTARY_ARTICLES = ["Martial_law"]
+SUPPLEMENTARY_ARTICLES = [
+    "Martial_law",
+    "State_of_exception",
+]
 UA = {"User-Agent": "ISSE-Dashboard/1.0 (https://statesofexception.org)"}
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "data"
 
@@ -259,7 +262,8 @@ def _api_get(params: dict) -> dict:
 def fetch_sections(article: str = ARTICLE) -> dict[str, str]:
     """Return mapping of section_index → section_title for the article."""
     data = _api_get({
-        "action": "parse", "page": article, "format": "json", "prop": "sections",
+        "action": "parse", "page": article, "format": "json",
+        "prop": "sections", "redirects": "",
     })
     result: dict[str, str] = {}
     for s in data.get("parse", {}).get("sections", []):
@@ -271,7 +275,7 @@ def fetch_section_html(section_index: str, article: str = ARTICLE) -> str:
     """Fetch the HTML of a specific section."""
     data = _api_get({
         "action": "parse", "page": article, "format": "json",
-        "prop": "text", "section": section_index,
+        "prop": "text", "section": section_index, "redirects": "",
     })
     return data.get("parse", {}).get("text", {}).get("*", "")
 

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T07:09:58.233194+00:00",
+  "generated_at": "2026-03-16T08:56:43.858160+00:00",
   "crises": [
     {
       "iso3": "MDG",
@@ -130,7 +130,7 @@
         "Technological Disaster"
       ],
       "irc_watchlist": false,
-      "has_soe": false,
+      "has_soe": true,
       "source_count": 3
     },
     {
@@ -304,7 +304,7 @@
         "Flood"
       ],
       "irc_watchlist": true,
-      "has_soe": false,
+      "has_soe": true,
       "irc_description": "Nigeria",
       "source_count": 2
     },
@@ -619,7 +619,7 @@
         "Flood"
       ],
       "irc_watchlist": true,
-      "has_soe": false,
+      "has_soe": true,
       "irc_description": "Sudan (#1 — world's largest displacement and hunger crisis)",
       "source_count": 1
     },
@@ -874,7 +874,7 @@
       "crisis_count": 0,
       "types": [],
       "irc_watchlist": true,
-      "has_soe": false,
+      "has_soe": true,
       "irc_description": "Haiti (#6 — armed gangs control capital)",
       "source_count": 0
     },
@@ -925,18 +925,22 @@
   ],
   "stats": {
     "total_crisis_countries": 72,
-    "total_soe_countries": 20,
-    "overlap": 9,
-    "crisis_only": 63,
+    "total_soe_countries": 24,
+    "overlap": 13,
+    "crisis_only": 59,
     "soe_only": 11,
     "overlap_countries": [
       "BFA",
       "COD",
+      "ECU",
       "ETH",
       "HND",
+      "HTI",
       "MLI",
       "MMR",
+      "NGA",
       "PNG",
+      "SDN",
       "UKR",
       "VEN"
     ],
