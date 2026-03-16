@@ -9,11 +9,11 @@
 
   /* ── Constants ── */
   const TYPE_COLORS = {
-    disaster: "#f0523d",
-    public_health: "#10B981",
-    conflict: "#E85D04",
-    migration: "#ae81ff",
-    governance: "#00b2ff",
+    disaster: "#c47060",
+    public_health: "#7ba68a",
+    conflict: "#b8864e",
+    migration: "#9887b0",
+    governance: "#7094ab",
   };
 
   const TYPE_LABELS = {

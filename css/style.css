@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=IBM+Plex+Mono:wght@400;500;600&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-    --bg-primary: #0e0e0e;
-    --bg-secondary: #1a1a1a;
-    --bg-card: #272727;
-    --bg-card-hover: #2f2f2f;
-    --text-primary: #f6f6f6;
-    --text-secondary: #c4c4c4;
-    --text-muted: #6a6a6a;
-    --accent: #E85D04;
-    --accent-hover: #FF6719;
-    --accent-red: #f0523d;
-    --accent-green: #10B981;
-    --accent-blue: #00b2ff;
-    --accent-purple: #ae81ff;
-    --border: #3e3e3e;
-    --border-light: #2a2a2a;
-    --shadow: rgba(0, 0, 0, 0.4);
-    --shadow-hover: rgba(232, 93, 4, 0.15);
+    --bg-primary: #121418;
+    --bg-secondary: #1a1e24;
+    --bg-card: #252a32;
+    --bg-card-hover: #2d3340;
+    --text-primary: #e8e6e3;
+    --text-secondary: #a8a5a0;
+    --text-muted: #6b6863;
+    --accent: #c49a6c;
+    --accent-hover: #d4aa7c;
+    --accent-red: #c47060;
+    --accent-green: #7ba68a;
+    --accent-blue: #7094ab;
+    --accent-purple: #9887b0;
+    --border: #3a3f4c;
+    --border-light: #2e3340;
+    --shadow: rgba(0, 0, 0, 0.35);
+    --shadow-hover: rgba(196, 154, 108, 0.12);
     --font-display: 'Gilda Display', Georgia, serif;
     --font-serif: 'PT Serif', Georgia, serif;
     --font-mono: 'IBM Plex Mono', 'SF Mono', monospace;
@@ -25,12 +25,12 @@
     --transition-fast: 0.2s ease;
     --transition-med: 0.3s ease;
 
-    /* Emergency type colors */
-    --c-disaster: #f0523d;
-    --c-public-health: #10B981;
-    --c-conflict: #E85D04;
-    --c-migration: #ae81ff;
-    --c-governance: #00b2ff;
+    /* Emergency type colors (muted, desaturated) */
+    --c-disaster: #c47060;
+    --c-public-health: #7ba68a;
+    --c-conflict: #b8864e;
+    --c-migration: #9887b0;
+    --c-governance: #7094ab;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -164,7 +164,7 @@ main {
 }
 
 /* Leaflet dark overrides */
-.leaflet-container { background: #1a1a1a; }
+.leaflet-container { background: #1a1e24; }
 .leaflet-control-zoom a {
     background: var(--bg-card) !important;
     color: var(--text-primary) !important;
@@ -381,15 +381,15 @@ main {
     cursor: help;
 }
 .conf-verified {
-    background: rgba(16, 185, 129, 0.15);
+    background: rgba(123, 166, 138, 0.15);
     color: var(--accent-green);
 }
 .conf-likely {
-    background: rgba(232, 93, 4, 0.15);
+    background: rgba(196, 154, 108, 0.15);
     color: var(--accent);
 }
 .conf-unconfirmed {
-    background: rgba(106, 106, 106, 0.15);
+    background: rgba(107, 104, 99, 0.15);
     color: var(--text-muted);
 }
 
@@ -599,18 +599,18 @@ footer {
 
 /* ── Leaflet tooltip (dark theme) ── */
 .dark-tooltip {
-    background: #272727 !important;
-    color: #f6f6f6 !important;
-    border: 1px solid #3e3e3e !important;
+    background: #252a32 !important;
+    color: #e8e6e3 !important;
+    border: 1px solid #3a3f4c !important;
     border-radius: 6px !important;
     padding: 0.5rem 0.75rem !important;
     font-family: 'PT Serif', Georgia, serif !important;
     font-size: 0.8rem !important;
     line-height: 1.4 !important;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.4) !important;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.35) !important;
 }
 .dark-tooltip .leaflet-tooltip-tip {
-    border-top-color: #272727 !important;
+    border-top-color: #252a32 !important;
 }
 
 /* ── Responsive ── */

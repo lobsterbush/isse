@@ -1,0 +1,1575 @@
+{
+  "fetched_at": "2026-03-16T04:40:31.309253+00:00",
+  "source": "https://en.wikipedia.org/wiki/List_of_national_emergencies_in_the_United_States",
+  "total_count": 93,
+  "active_count": 41,
+  "records": [
+    {
+      "raw_cells": [
+        "Ended",
+        "Wilson",
+        "February 5, 1917[7]",
+        "March 3, 1921[8]",
+        "Maritime",
+        "Proclamation 1354[7]",
+        "Emergency in Water Transportation of the United States",
+        "Declared a national emergency arising from insufficient tonnage to carry the products of the farms, forests, mines and manufacturing industries of the United States, and admonishes all citizens to abide by the regulations in the Shipping Act."
+      ],
+      "date": "February 5, 1917",
+      "instrument": "Proc. 1354",
+      "active": false,
+      "title": "Declared a national emergency arising from insufficient tonnage to carry the products of the farms, forests, mines and manufacturing industries of the United States, and admonishes all citizens to abi"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Franklin Roosevelt",
+        "March 6, 1933[9]",
+        "September 14, 1978[10]",
+        "Economic",
+        "Proclamation 2039[11]",
+        "Declaring Bank Holiday",
+        "Declared abank holidayfrom March 6 through March 9, 1933, using theTrading with the Enemy Act of 1917as a legal basis.[9]The first of four emergencies cited bySenate Report 93-549(1973) as never having been terminated.[9]"
+      ],
+      "date": "March 6, 1933",
+      "instrument": "Proc. 2039",
+      "active": false,
+      "title": "Declared abank holidayfrom March 6 through March 9, 1933, using theTrading with the Enemy Act of 1917as a legal basis.[9]The first of four emergencies cited bySenate Report 93-549(1973) as never havin"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Franklin Roosevelt",
+        "September 8, 1939[12]",
+        "April 28, 1952[12][9]",
+        "Military",
+        "Proclamation 2352[13]",
+        "Proclaiming a National Emergency in Connection with the Observance, Safeguarding, and Enforcement of Neutrality and the Strengthening of the National Defense Within the Limits of Peace-Time Authorizations",
+        ""
+      ],
+      "date": "September 8, 1939",
+      "instrument": "Proc. 2352",
+      "active": false,
+      "title": "Proclaiming a National Emergency in Connection with the Observance, Safeguarding, and Enforcement of Neutrality and the Strengthening of the National Defense Within the Limits of Peace-Time Authorizat"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Franklin Roosevelt",
+        "May 27, 1941",
+        "Military",
+        "Proclamation 2487[14]",
+        "Proclaiming That an Unlimited National Emergency Confronts This Country, Which Requires That Its Military, Naval, Air and Civilian Defenses Be Put on the Basis of Readiness to Repel Any and All Acts or Threats of Aggression Directed Toward Any Part of the Western Hemisphere",
+        "Declaration of an unlimited national emergency under threat fromNazi Germany.[15]"
+      ],
+      "date": "May 27, 1941",
+      "instrument": "Proc. 2487",
+      "active": false,
+      "title": "Proclaiming That an Unlimited National Emergency Confronts This Country, Which Requires That Its Military, Naval, Air and Civilian Defenses Be Put on the Basis of Readiness to Repel Any and All Acts o"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Truman",
+        "December 16, 1950[9]",
+        "September 14, 1978",
+        "Military",
+        "Proclamation 2914[16]",
+        "Proclaiming the Existence of a National Emergency",
+        "Declared that the United States' \"military, naval, air and civilian defenses\" should be used to fightcommunismas part of theKorean War.[17]The second of four emergencies cited bySenate Report 93-549as never having been terminated.[9]"
+      ],
+      "date": "December 16, 1950",
+      "instrument": "Proc. 2914",
+      "active": false,
+      "title": "Declared that the United States' \"military, naval, air and civilian defenses\" should be used to fightcommunismas part of theKorean War.[17]The second of four emergencies cited bySenate Report 93-549as"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Nixon",
+        "March 23, 1970[9]",
+        "Economic",
+        "Proclamation 3972[18]",
+        "Declaring a National Emergency",
+        "Declaration in response to the1970 United States Postal Service strike. The third of four emergencies cited bySenate Report 93-549as never having been terminated.[9]"
+      ],
+      "date": "March 23, 1970",
+      "instrument": "Proc. 3972",
+      "active": false,
+      "title": "Declaration in response to the1970 United States Postal Service strike. The third of four emergencies cited bySenate Report 93-549as never having been terminated.[9]",
+      "president": "Nixon"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "August 15, 1971[9][19]",
+        "Trade",
+        "Proclamation 4074[19]",
+        "Imposition of Supplemental Duty for Balance of Payments Purposes",
+        "Imposed import controls in response to theNixon shock. The last of four emergencies cited bySenate Report 93-549as never having been terminated.[9]"
+      ],
+      "date": "August 15, 1971",
+      "instrument": "Proc. 4074",
+      "active": false,
+      "title": "Imposed import controls in response to theNixon shock. The last of four emergencies cited bySenate Report 93-549as never having been terminated.[9]",
+      "president": "Nixon"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Carter",
+        "November 14, 1979",
+        "",
+        "Sanctions",
+        "Executive Order 12170[20]",
+        "Blocking Iranian Government Property",
+        "Ordered the freezing of Iranian assets as part of the U.S. response during theIran hostage crisis[4]"
+      ],
+      "date": "November 14, 1979",
+      "instrument": "EO 12170",
+      "active": true,
+      "title": "Ordered the freezing of Iranian assets as part of the U.S. response during theIran hostage crisis[4]",
+      "president": "Carter"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "April 17, 1980",
+        "April 17, 1981",
+        "Executive Order 12211,[21]Executive Order 12282[22]",
+        "Further Prohibitions on Transactions with Iran",
+        "Prohibitions revoked on January 19, 1981, but national emergency neither terminated nor continued[23]"
+      ],
+      "date": "April 17, 1980",
+      "instrument": "EO 12211",
+      "active": false,
+      "title": "Prohibitions revoked on January 19, 1981, but national emergency neither terminated nor continued[23]"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Reagan",
+        "October 14, 1983",
+        "December 20, 1983",
+        "Trade",
+        "Executive Order 12444",
+        "Continuation of Export Control Regulations",
+        "Expiry of theExport Administration Act of 1979[23]"
+      ],
+      "date": "October 14, 1983",
+      "instrument": "EO 12444",
+      "active": false,
+      "title": "Expiry of theExport Administration Act of 1979[23]",
+      "president": "Reagan"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Reagan",
+        "March 30, 1984",
+        "July 12, 1985",
+        "Executive Order 12470",
+        "Continuation of Export Control Regulations",
+        "Expiry of theExport Administration Act of 1979[23]"
+      ],
+      "date": "March 30, 1984",
+      "instrument": "EO 12470",
+      "active": false,
+      "title": "Expiry of theExport Administration Act of 1979[23]",
+      "president": "Reagan"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Reagan",
+        "May 1, 1985[24]",
+        "March 13, 1990[25]",
+        "Sanctions",
+        "Executive Order 12513[24]",
+        "Prohibiting Trade and Certain Other Transactions Involving Nicaragua",
+        "TheUnited States embargo against Nicaragua,[26]followed the victory bySandinistacandidateDaniel Ortegain the1984 Nicaraguan general electionover the U.S.-backedContras"
+      ],
+      "date": "May 1, 1985",
+      "instrument": "EO 12513",
+      "active": false,
+      "title": "TheUnited States embargo against Nicaragua,[26]followed the victory bySandinistacandidateDaniel Ortegain the1984 Nicaraguan general electionover the U.S.-backedContras",
+      "president": "Reagan"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Reagan",
+        "September 9, 1985",
+        "July 10, 1991",
+        "Sanctions",
+        "Executive Order 12532",
+        "Prohibiting Trade and Certain Other Transactions Involving South Africa",
+        "Response to the initial attempt by Senate Democrats to pass what would be theComprehensive Anti-Apartheid Actof 1986[23]"
+      ],
+      "date": "September 9, 1985",
+      "instrument": "EO 12532",
+      "active": false,
+      "title": "Response to the initial attempt by Senate Democrats to pass what would be theComprehensive Anti-Apartheid Actof 1986[23]",
+      "president": "Reagan"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Reagan",
+        "January 7, 1986",
+        "September 20, 2004",
+        "Sanctions",
+        "Executive Order 12543",
+        "Prohibiting Trade and Certain Transactions Involving Libya",
+        "Followed the1985 Rome and Vienna airport attacks[23]"
+      ],
+      "date": "January 7, 1986",
+      "instrument": "EO 12543",
+      "active": false,
+      "title": "Prohibiting Trade and Certain Transactions Involving Libya",
+      "president": "Reagan"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Reagan",
+        "April 8, 1988",
+        "April 5, 1990",
+        "Sanctions",
+        "Executive Order 12635",
+        "Prohibiting Certain Transactions with Respect to Panama",
+        "Deteriorating relationship between the U.S. and GeneralManuel Noriega[23]"
+      ],
+      "date": "April 8, 1988",
+      "instrument": "EO 12635",
+      "active": false,
+      "title": "Deteriorating relationship between the U.S. and GeneralManuel Noriega[23]",
+      "president": "Reagan"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush(H.W.)",
+        "August 2, 1990",
+        "July 29, 2004",
+        "Sanctions",
+        "Executive Order 12722",
+        "Blocking Iraqi Government Property and Prohibiting Transactions with Iraq",
+        "In response to theinvasion of Kuwait[23]"
+      ],
+      "date": "August 2, 1990",
+      "instrument": "EO 12722",
+      "active": false,
+      "title": "Blocking Iraqi Government Property and Prohibiting Transactions with Iraq",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush(H.W.)",
+        "September 30, 1990",
+        "September 30, 1993",
+        "Trade",
+        "Executive Order 12730",
+        "Continuation of Export Control Regulations",
+        "Expiry of theExport Administration Act of 1979[23]"
+      ],
+      "date": "September 30, 1990",
+      "instrument": "EO 12730",
+      "active": false,
+      "title": "Expiry of theExport Administration Act of 1979[23]",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush(H.W.)",
+        "November 16, 1990",
+        "November 11, 1994",
+        "Arms",
+        "Executive Order 12735",
+        "Chemical and Biological Weapons Proliferation",
+        "Followed the signing with the U.S.S.R. of the1990 Chemical Weapons Accord, and preceded the May 1991 commitment by George H.W. Bush to destroy weapon agents, systems, and production facilities of theUnited States chemical weapons program[23]"
+      ],
+      "date": "November 16, 1990",
+      "instrument": "EO 12735",
+      "active": false,
+      "title": "Followed the signing with the U.S.S.R. of the1990 Chemical Weapons Accord, and preceded the May 1991 commitment by George H.W. Bush to destroy weapon agents, systems, and production facilities of theU",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush(H.W.)",
+        "October 4, 1991[27]",
+        "October 14, 1994[28]",
+        "Sanctions",
+        "Executive Order 12775,Executive Order 12914[29]",
+        "Prohibiting Certain Transactions with Respect to Haiti",
+        "Followed the1991 Haitian coup d'étatagainst PresidentJean-Bertrand Aristide.[23]Re-declared by Clinton on May 7, 1994 in Executive Order 12914"
+      ],
+      "date": "October 4, 1991",
+      "instrument": "EO 12775",
+      "active": false,
+      "title": "Followed the1991 Haitian coup d'étatagainst PresidentJean-Bertrand Aristide.[23]Re-declared by Clinton on May 7, 1994 in Executive Order 12914",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush(H.W.)",
+        "May 30, 1992",
+        "May 28, 2003",
+        "Sanctions",
+        "Executive Order 12808",
+        "Blocking \"Yugoslav Government\" Property and Property of the Governments of Serbia and Montenegro",
+        "In response to the start of theBosnian War[23]"
+      ],
+      "date": "May 30, 1992",
+      "instrument": "EO 12808",
+      "active": false,
+      "title": "Blocking \"Yugoslav Government\" Property and Property of the Governments of Serbia and Montenegro",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended[30]",
+        "Clinton",
+        "September 26, 1993",
+        "May 6, 2003",
+        "Sanctions",
+        "Executive Order 12865[31]",
+        "Prohibiting Certain Transactions Involving UNITA",
+        "Imposed economic sanctions onUNITA, a political group in Angola."
+      ],
+      "date": "September 26, 1993",
+      "instrument": "EO 12865",
+      "active": false,
+      "title": "Imposed economic sanctions onUNITA, a political group in Angola.",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "September 30, 1993",
+        "September 29, 1994",
+        "Arms",
+        "Executive Order 12868[32]",
+        "Measures To Restrict the Participation by United States Persons in Weapons Proliferation Activities",
+        "Restricted US development of nuclear and chemical weapons."
+      ],
+      "date": "September 30, 1993",
+      "instrument": "EO 12868",
+      "active": false,
+      "title": "Measures To Restrict the Participation by United States Persons in Weapons Proliferation Activities",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "June 30, 1994",
+        "August 19, 1994",
+        "Trade",
+        "Executive Order 12923[33]",
+        "Continuation of Export Control Regulations",
+        ""
+      ],
+      "date": "June 30, 1994",
+      "instrument": "EO 12923",
+      "active": false,
+      "title": "Continuation of Export Control Regulations",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "August 19, 1994",
+        "April 4, 2001[34]",
+        "Executive Order 12924[35]",
+        "Continuation of Export Control Regulations",
+        "Revoked and revised Executive Order 12923."
+      ],
+      "date": "August 19, 1994",
+      "instrument": "EO 12924",
+      "active": false,
+      "title": "Continuation of Export Control Regulations",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "September 29, 1994",
+        "November 14, 1994",
+        "Sanctions",
+        "Executive Order 12930[36]",
+        "Measures to Restrict the Participation by United States Persons in Weapons Proliferation Activities",
+        ""
+      ],
+      "date": "September 29, 1994",
+      "instrument": "EO 12930",
+      "active": false,
+      "title": "Measures to Restrict the Participation by United States Persons in Weapons Proliferation Activities",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "October 25, 1994",
+        "May 28, 2003",
+        "Sanctions",
+        "Executive Order 12934[37]",
+        "Blocking Property and Additional Measures With Respect to the Bosnian Serb-Controlled Areas of the Republic of Bosnia and Herzegovina",
+        ""
+      ],
+      "date": "October 25, 1994",
+      "instrument": "EO 12934",
+      "active": false,
+      "title": "Blocking Property and Additional Measures With Respect to the Bosnian Serb-Controlled Areas of the Republic of Bosnia and Herzegovina",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Clinton",
+        "November 14, 1994[38]",
+        "",
+        "Arms",
+        "Executive Order 12938[39][40]",
+        "Proliferation of Weapons of Mass Destruction",
+        "Provides for control over the export of weapons;[38]combined two previous national emergencies regardingWMDs.[4]"
+      ],
+      "date": "November 14, 1994",
+      "instrument": "EO 12938",
+      "active": true,
+      "title": "Provides for control over the export of weapons;[38]combined two previous national emergencies regardingWMDs.[4]",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "January 23, 1995[41]",
+        "September 10, 2019[42]",
+        "Sanctions",
+        "Executive Order 12947[41]",
+        "Prohibiting Transactions With Terrorists Who Threaten To Disrupt the Middle East Peace Process",
+        "Imposed economic sanctions onSpecially Designated Terrorists, including theANO,Hezbollah, theDFLP,Hamas, and thePFLP."
+      ],
+      "date": "January 23, 1995",
+      "instrument": "EO 12947",
+      "active": false,
+      "title": "Imposed economic sanctions onSpecially Designated Terrorists, including theANO,Hezbollah, theDFLP,Hamas, and thePFLP.",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Clinton",
+        "March 15, 1995[43]",
+        "",
+        "Sanctions",
+        "Executive Order 12957[43]",
+        "Prohibiting Certain Transactions with Respect to the Development of Iranian Petroleum Resources[4]",
+        "Intended to prevent a business deal between Iran andConoco.[44]"
+      ],
+      "date": "March 15, 1995",
+      "instrument": "EO 12957",
+      "active": false,
+      "title": "Prohibiting Certain Transactions with Respect to the Development of Iranian Petroleum Resources[4]",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Clinton",
+        "October 21, 1995",
+        "",
+        "Sanctions",
+        "Executive Order 12978[45]",
+        "Blocking Assets and Prohibiting Transactions with Significant Narcotics Traffickers",
+        "Declared in response to Colombiandrug cartelsusing American companies tolaunder money.[4]"
+      ],
+      "date": "October 21, 1995",
+      "instrument": "EO 12978",
+      "active": true,
+      "title": "Declared in response to Colombiandrug cartelsusing American companies tolaunder money.[4]",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Clinton",
+        "March 1, 1996[4]",
+        "",
+        "Maritime",
+        "Proclamation 6867[46]",
+        "Declaration of a National Emergency and Invocation of Emergency Authority Relating to the Regulation of the Anchorage and Movement of Vessels",
+        "Implemented following thedestruction of two civilian aircraft by the Cuban militaryon February 24, 1996.[47]"
+      ],
+      "date": "March 1, 1996",
+      "instrument": "Proc. 6867",
+      "active": true,
+      "title": "Declaration of a National Emergency and Invocation of Emergency Authority Relating to the Regulation of the Anchorage and Movement of Vessels",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "May 20, 1997",
+        "October 7, 2016[48]",
+        "Sanctions",
+        "Executive Order 13047[49]",
+        "Prohibiting New Investment in Burma",
+        ""
+      ],
+      "date": "May 20, 1997",
+      "instrument": "EO 13047",
+      "active": false,
+      "title": "Prohibiting New Investment in Burma",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Clinton",
+        "November 3, 1997[4]",
+        "",
+        "Sanctions",
+        "Executive Order 13067[50]",
+        "Blocking Sudanese Government Property and Prohibiting Transactions With Sudan",
+        "Established atrade embargoagainstSudan, specifically targeting the Sudanese government.[51]"
+      ],
+      "date": "November 3, 1997",
+      "instrument": "EO 13067",
+      "active": true,
+      "title": "Established atrade embargoagainstSudan, specifically targeting the Sudanese government.[51]",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "June 9, 1998[52]",
+        "May 28, 2003[53]",
+        "Sanctions",
+        "Executive Order 13088[52]",
+        "Blocking Property of the Governments of the Federal Republic of Yugoslavia (Serbia and Montenegro), the Republic of Serbia, and the Republic of Montenegro, and Prohibiting New Investment in the Republic of Serbia in Response to the Situation in Kosovo",
+        "Declaration of a national emergency during theNATO bombing of Yugoslavia.[54]"
+      ],
+      "date": "June 9, 1998",
+      "instrument": "EO 13088",
+      "active": false,
+      "title": "Blocking Property of the Governments of the Federal Republic of Yugoslavia (Serbia and Montenegro), the Republic of Serbia, and the Republic of Montenegro, and Prohibiting New Investment in the Republ",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "July 4, 1999",
+        "July 2, 2002",
+        "Sanctions",
+        "Executive Order 13129[55]",
+        "Blocking Property and Prohibiting Transactions With the Taliban",
+        ""
+      ],
+      "date": "July 4, 1999",
+      "instrument": "EO 13129",
+      "active": false,
+      "title": "Blocking Property and Prohibiting Transactions With the Taliban",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "June 21, 2000",
+        "June 25, 2012",
+        "Sanctions",
+        "Executive Order 13159[56]",
+        "Blocking Property of the Government of the Russian Federation Relating to the Disposition of Highly Enriched Uranium Extracted From Nuclear Weapons",
+        ""
+      ],
+      "date": "June 21, 2000",
+      "instrument": "EO 13159",
+      "active": false,
+      "title": "Blocking Property of the Government of the Russian Federation Relating to the Disposition of Highly Enriched Uranium Extracted From Nuclear Weapons",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Clinton",
+        "January 18, 2001[57]",
+        "January 15, 2004[58]",
+        "Trade",
+        "Executive Order 13194[57]",
+        "Prohibiting the Importation of Rough Diamonds From Sierra Leone",
+        ""
+      ],
+      "date": "January 18, 2001",
+      "instrument": "EO 13194",
+      "active": false,
+      "title": "Prohibiting the Importation of Rough Diamonds From Sierra Leone",
+      "president": "Clinton"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "June 26, 2001[4]",
+        "",
+        "Sanctions",
+        "Executive Order 13219,[59][60]Executive Order 13304",
+        "Blocking Property of Persons Who Threaten International Stabilization Efforts in the Western Balkans",
+        "Intended to combatextremist Albanian insurgentsoperating inNorth Macedoniaand limit obstruction of theDayton Accords. Amended on May 28, 2003, by Executive Order 13304 following theOhrid Agreement, signed in 2001.[61]"
+      ],
+      "date": "June 26, 2001",
+      "instrument": "EO 13219",
+      "active": false,
+      "title": "Intended to combatextremist Albanian insurgentsoperating inNorth Macedoniaand limit obstruction of theDayton Accords. Amended on May 28, 2003, by Executive Order 13304 following theOhrid Agreement, si",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "August 17, 2001",
+        "",
+        "Trade",
+        "Executive Order 13222,[62]Executive Order 13637",
+        "Continuation of Export Control Regulations",
+        "Reasserted presidential control of exports of \"defense articles\" following the expiration of theExport Administration Act of 1979in 1994.[4]Amended on March 8, 2013, by Executive Order 13637[63]to delegate authority provided by Section 38 of theArms Export Control Actfrom the president to theSecretary of State.[64]"
+      ],
+      "date": "August 17, 2001",
+      "instrument": "EO 13222",
+      "active": false,
+      "title": "Reasserted presidential control of exports of \"defense articles\" following the expiration of theExport Administration Act of 1979in 1994.[4]Amended on March 8, 2013, by Executive Order 13637[63]to del",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "September 14, 2001[4]",
+        "",
+        "Military",
+        "Proclamation 7463[65]",
+        "Declaration of National Emergency by Reason of Certain Terrorist Attacks",
+        "The first of two national emergencies declared following theSeptember 11 attacks, allowing the president to call troops from theNational Guardor from retirement, to apportion military funding, to exercise more discretion over hiring military officers, and to promote more generals than previously allowed.[66][67]"
+      ],
+      "date": "September 14, 2001",
+      "instrument": "Proc. 7463",
+      "active": true,
+      "title": "The first of two national emergencies declared following theSeptember 11 attacks, allowing the president to call troops from theNational Guardor from retirement, to apportion military funding, to exer",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "September 23, 2001[68]",
+        "",
+        "Sanctions",
+        "Executive Order 13224",
+        "Blocking Property and Prohibiting Transactions With Persons Who Commit, Threaten To Commit, or Support Terrorism[67]",
+        "The second of two national emergencies declared following theSeptember 11 attacks,[69]allowing theStateandTreasurydepartments (through the Treasury'sOffice of Foreign Assets Control) to designate entities as terrorists and apply economic sanctions. Due to the order's broad language, its scope has grown over the years to become one of the Treasury's \"cornerstone sanctions programs\" in fighting terrorism worldwide.[67]Amended on July 2, 2002 (Executive Order 13268)[70]to include theTaliban, and on January 23, 2003 (Executive Order 13284)[71]to integrate the newly created position ofSecretary of Homeland Securityinto the order's process."
+      ],
+      "date": "September 23, 2001",
+      "instrument": "EO 13224",
+      "active": false,
+      "title": "The second of two national emergencies declared following theSeptember 11 attacks,[69]allowing theStateandTreasurydepartments (through the Treasury'sOffice of Foreign Assets Control) to designate enti",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush",
+        "March 6, 2003[72]",
+        "March 4, 2024[73]",
+        "Sanctions",
+        "Executive Order 13288[72]",
+        "Blocking Property of Persons Undermining Democratic Processes or Institutions in Zimbabwe",
+        "Imposed economic sanctions onZimbabwepresidentRobert Mugabeand 76 other government officials[74]following years of rigged elections and a recent food shortage,[75]echoing similar sanctions imposed the previous year by theEuropean Union.[76]Amended on November 22, 2005 (Executive Order 13391)[77]to revise the EO's annex listing the individuals targeted with sanctions."
+      ],
+      "date": "March 6, 2003",
+      "instrument": "EO 13288",
+      "active": false,
+      "title": "Imposed economic sanctions onZimbabwepresidentRobert Mugabeand 76 other government officials[74]following years of rigged elections and a recent food shortage,[75]echoing similar sanctions imposed the",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "May 22, 2003",
+        "",
+        "Legal",
+        "Executive Order 13303[78]",
+        "Protecting the Development Fund for Iraq and Certain Other Property in Which Iraq Has an Interest",
+        "Granted theDevelopment Fund for Iraq, established the same day, legal protection in the wake of theinvasion of Iraqand amidst theIraq War."
+      ],
+      "date": "May 22, 2003",
+      "instrument": "EO 13303",
+      "active": true,
+      "title": "Granted theDevelopment Fund for Iraq, established the same day, legal protection in the wake of theinvasion of Iraqand amidst theIraq War.",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush",
+        "May 11, 2004",
+        "July 1, 2025[79]",
+        "Sanctions",
+        "Executive Order 13338[80]",
+        "Blocking Property of Certain Persons and Prohibiting the Export of Certain Goods to Syria",
+        "Imposed mostly symbolic economic sanctions on Syria,[81]grounding all flights between the two countries, banning all exports to Syria but food and medicine, and freezing some Syrians' assets.[82]"
+      ],
+      "date": "May 11, 2004",
+      "instrument": "EO 13338",
+      "active": false,
+      "title": "Imposed mostly symbolic economic sanctions on Syria,[81]grounding all flights between the two countries, banning all exports to Syria but food and medicine, and freezing some Syrians' assets.[82]",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush",
+        "July 22, 2004",
+        "November 12, 2015",
+        "Sanctions",
+        "Executive Order 13348[83]",
+        "Blocking Property of Certain Persons and Prohibiting the Importation of Certain Goods from Liberia",
+        ""
+      ],
+      "date": "July 22, 2004",
+      "instrument": "EO 13348",
+      "active": false,
+      "title": "Blocking Property of Certain Persons and Prohibiting the Importation of Certain Goods from Liberia",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Bush",
+        "February 7, 2006[84]",
+        "September 14, 2016",
+        "Sanctions",
+        "Executive Order 13396[84]",
+        "Blocking Property of Certain Persons Contributing to the Conflict in Côte d'Ivoire",
+        ""
+      ],
+      "date": "February 7, 2006",
+      "instrument": "EO 13396",
+      "active": false,
+      "title": "Blocking Property of Certain Persons Contributing to the Conflict in Côte d'Ivoire",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "June 16, 2006",
+        "",
+        "Sanctions",
+        "Executive Order 13405[85]",
+        "Blocking Property of Certain Persons Undermining Democratic Processes or Institutions in Belarus",
+        "Imposed sanctions, including a travel ban, onAlexander LukashenkoafterBelarus's crackdown onpeaceful protestsagainst therecent presidential electionand following similar sanctions by theEuropean Union.[86]"
+      ],
+      "date": "June 16, 2006",
+      "instrument": "EO 13405",
+      "active": true,
+      "title": "Imposed sanctions, including a travel ban, onAlexander LukashenkoafterBelarus's crackdown onpeaceful protestsagainst therecent presidential electionand following similar sanctions by theEuropean Union",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "October 27, 2006",
+        "",
+        "Sanctions",
+        "Executive Order 13413[87]",
+        "Blocking Property of Certain Persons Contributing to the Conflict in the Democratic Republic of the Congo",
+        "Imposed economic sanctions onDRCgovernment officials amidst widespread violence taking place during runoffs for Congo'sfirst free election in decades.[88]"
+      ],
+      "date": "October 27, 2006",
+      "instrument": "EO 13413",
+      "active": true,
+      "title": "Imposed economic sanctions onDRCgovernment officials amidst widespread violence taking place during runoffs for Congo'sfirst free election in decades.[88]",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "August 1, 2007",
+        "",
+        "Sanctions",
+        "Executive Order 13441[89]",
+        "Blocking Property of Persons Undermining the Sovereignty of Lebanon or Its Democratic Processes and Institutions",
+        "Imposed sanctions intended as a warning toSyriaandHezbollah, months after a similar travel ban, duringwidespread unrest in the country, and out of concern over rifts between prime ministerFouad Sinioraand presidentÉmile Lahoud.[90][91]"
+      ],
+      "date": "August 1, 2007",
+      "instrument": "EO 13441",
+      "active": false,
+      "title": "Imposed sanctions intended as a warning toSyriaandHezbollah, months after a similar travel ban, duringwidespread unrest in the country, and out of concern over rifts between prime ministerFouad Sinior",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Bush",
+        "June 26, 2008",
+        "",
+        "Sanctions",
+        "Executive Order 13466[92]",
+        "Continuing Certain Restrictions With Respect to North Korea and North Korean Nationals",
+        "Retained \"certain restrictions\" onNorth Koreaas the United States removed North Korea from its list ofstate sponsors of terrorismand as North Korea publicly declared itsnuclear program.[93]"
+      ],
+      "date": "June 26, 2008",
+      "instrument": "EO 13466",
+      "active": true,
+      "title": "Retained \"certain restrictions\" onNorth Koreaas the United States removed North Korea from its list ofstate sponsors of terrorismand as North Korea publicly declared itsnuclear program.[93]",
+      "president": "Bush"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Obama",
+        "October 24, 2009[94]",
+        "October 23, 2010[95]",
+        "Public health",
+        "Proclamation 8443[94]",
+        "Declaration of a National Emergency With Respect to the2009 H1N1 Influenza Pandemic",
+        "Empowered the secretary ofHealth and Human Servicesto issue waivers allowing overcrowded hospitals to moveswine flupatients to satellite facilities or other hospitals.[96]Months before this national emergency was declared, on April 26, 2009, Obama's acting director of Health and Human Services declared H1N1 a public health emergency.[97]Later on October 24, 2009, a second declaration was made by Obama to temporarily waive or modify certain requirements of the Medicare, Medicaid, and State Children's Health Insurance programs and of theHealth Insurance Portability and Accountability ActPrivacy Rule."
+      ],
+      "date": "October 24, 2009",
+      "instrument": "Proc. 8443",
+      "active": false,
+      "title": "Empowered the secretary ofHealth and Human Servicesto issue waivers allowing overcrowded hospitals to moveswine flupatients to satellite facilities or other hospitals.[96]Months before this national e",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "April 12, 2010[38]",
+        "",
+        "Sanctions",
+        "Executive Order 13536[98]",
+        "Blocking Property of Certain Persons Contributing to the Conflict in Somalia",
+        "Intended to help combatSomali pirates.[4]"
+      ],
+      "date": "April 12, 2010",
+      "instrument": "EO 13536",
+      "active": false,
+      "title": "Blocking Property of Certain Persons Contributing to the Conflict in Somalia",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "February 25, 2011",
+        "",
+        "Sanctions",
+        "Executive Order 13566[99]",
+        "Blocking Property and Prohibiting Certain Transactions Related to Libya",
+        "Imposed sanctions onMuammar Gaddafi, his family, andLibyanofficials afterprotestors were killed by government forces, including freezing assets and consideration of prosecution forwar crimes.[100]"
+      ],
+      "date": "February 25, 2011",
+      "instrument": "EO 13566",
+      "active": true,
+      "title": "Imposed sanctions onMuammar Gaddafi, his family, andLibyanofficials afterprotestors were killed by government forces, including freezing assets and consideration of prosecution forwar crimes.[100]",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "July 24, 2011[101]",
+        "",
+        "Sanctions",
+        "Executive Order 13581[101]",
+        "Blocking Property of Transnational Criminal Organizations",
+        "Levied sanctions against four criminal organizations—Los Zetas, theBrothers' Circle, theYakuza, and theCamorra—including freezing assets, barring ownership of American real estate, and implementing travel bans.[102]"
+      ],
+      "date": "July 24, 2011",
+      "instrument": "EO 13581",
+      "active": true,
+      "title": "Levied sanctions against four criminal organizations—Los Zetas, theBrothers' Circle, theYakuza, and theCamorra—including freezing assets, barring ownership of American real estate, and implementing tr",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "May 16, 2012",
+        "",
+        "Sanctions",
+        "Executive Order 13611[103]",
+        "Blocking Property of Persons Threatening the Peace, Security, or Stability of Yemen",
+        "Intended to counter unrest inYemenin the aftermath of theYemeni Revolution.[4]"
+      ],
+      "date": "May 16, 2012",
+      "instrument": "EO 13611",
+      "active": false,
+      "title": "Blocking Property of Persons Threatening the Peace, Security, or Stability of Yemen",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Obama",
+        "June 25, 2012[104]",
+        "May 26, 2015[105]",
+        "Sanctions",
+        "Executive Order 13617[104]",
+        "Blocking Property of the Government of the Russian Federation Relating to the Disposition of Highly Enriched Uranium Extracted From Nuclear Weapons",
+        "Imposed sanctions on Russia over the disposal ofhighly enriched uranium."
+      ],
+      "date": "June 25, 2012",
+      "instrument": "EO 13617",
+      "active": false,
+      "title": "Blocking Property of the Government of the Russian Federation Relating to the Disposition of Highly Enriched Uranium Extracted From Nuclear Weapons",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "March 6, 2014[106]",
+        "",
+        "Sanctions",
+        "Executive Order 13660[106]",
+        "Blocking Property of Certain Persons Contributing to the Situation in Ukraine",
+        "Imposed sanctions, including restrictingvisas, in concert with the European Union and theinternational communityagainst Russia after itsAnnexation of Crimea by the Russian Federation.[107][108]Amended on  March 16, 2014 (Executive Order 13661),[109]March 20, 2014 (Executive Order 13662),[110]and December 19, 2014 (Executive Order 13685)[111]to expand the scope of sanctions."
+      ],
+      "date": "March 6, 2014",
+      "instrument": "EO 13660",
+      "active": false,
+      "title": "Imposed sanctions, including restrictingvisas, in concert with the European Union and theinternational communityagainst Russia after itsAnnexation of Crimea by the Russian Federation.[107][108]Amended",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "April 3, 2014[38]",
+        "",
+        "Sanctions",
+        "Executive Order 13664[112]",
+        "Blocking Property of Certain Persons With Respect to South Sudan",
+        "Enabled economic sanctions to be placed due to thecivil warinSouth Sudan; sanctions were first imposed a month later.[113]"
+      ],
+      "date": "April 3, 2014",
+      "instrument": "EO 13664",
+      "active": true,
+      "title": "Enabled economic sanctions to be placed due to thecivil warinSouth Sudan; sanctions were first imposed a month later.[113]",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "May 12, 2014",
+        "",
+        "Sanctions",
+        "Executive Order 13667[114]",
+        "Blocking Property of Certain Persons Contributing to the Conflict in the Central African Republic",
+        "Imposed sanctions against formerCentral African RepublicpresidentFrançois Bozizé, following similar sanctions placed on Bozizé by theUnited Nations Security Councilthe previous week;[115]also contains provisions against the use ofchild soldiers.[38]"
+      ],
+      "date": "May 12, 2014",
+      "instrument": "EO 13667",
+      "active": true,
+      "title": "Imposed sanctions against formerCentral African RepublicpresidentFrançois Bozizé, following similar sanctions placed on Bozizé by theUnited Nations Security Councilthe previous week;[115]also contains",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "March 8, 2015",
+        "",
+        "Sanctions",
+        "Executive Order 13692[116]",
+        "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Venezuela",
+        "Imposed sanctions on seven high-ranking Venezuelan government officials, includingSEBINdirectorGustavo Enrique González López,PNBdirector Manuel Perez, andCVGheadJusto Noguero.[117][118]"
+      ],
+      "date": "March 8, 2015",
+      "instrument": "EO 13692",
+      "active": true,
+      "title": "Imposed sanctions on seven high-ranking Venezuelan government officials, includingSEBINdirectorGustavo Enrique González López,PNBdirector Manuel Perez, andCVGheadJusto Noguero.[117][118]",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Obama",
+        "April 1, 2015",
+        "",
+        "Sanctions",
+        "Executive Order 13694[119]",
+        "Blocking the Property of Certain Persons Engaging in Significant Malicious Cyber-Enabled Activities",
+        "Intended to allow sanctions to be levied on foreign individuals determined by theDepartment of the Treasuryto have engaged in cyber-crime orcyber-terrorism; was in the works for two years.[120]"
+      ],
+      "date": "April 1, 2015",
+      "instrument": "EO 13694",
+      "active": false,
+      "title": "Intended to allow sanctions to be levied on foreign individuals determined by theDepartment of the Treasuryto have engaged in cyber-crime orcyber-terrorism; was in the works for two years.[120]",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Obama",
+        "November 22, 2015[121]",
+        "November 18, 2021[122]",
+        "Sanctions",
+        "Executive Order 13712[121]",
+        "Blocking Property of Certain Persons Contributing to the Situation in Burundi",
+        "Imposed sanctions on fourBurundinationals—minister of public securityAlain Guillaume Bunyoni,National Police of Burundideputy director-generalGodefroid Bizimana,Godefroid Niyombare, andCyrille Ndayirukiye—in the wake ofwidespread unrest.[123]"
+      ],
+      "date": "November 22, 2015",
+      "instrument": "EO 13712",
+      "active": false,
+      "title": "Imposed sanctions on fourBurundinationals—minister of public securityAlain Guillaume Bunyoni,National Police of Burundideputy director-generalGodefroid Bizimana,Godefroid Niyombare, andCyrille Ndayiru",
+      "president": "Obama"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "December 20, 2017",
+        "",
+        "Sanctions",
+        "Executive Order 13818[124]",
+        "Blocking the Property of Persons Involved in Serious Human Rights Abuse or Corruption",
+        "Imposed sanctions due to theRohingya conflictinMyanmar, specifically against generalMaung Maung Soe;[125]works in tandem with theGlobal Magnitsky Human Rights Accountability Act.[38]"
+      ],
+      "date": "December 20, 2017",
+      "instrument": "EO 13818",
+      "active": true,
+      "title": "Imposed sanctions due to theRohingya conflictinMyanmar, specifically against generalMaung Maung Soe;[125]works in tandem with theGlobal Magnitsky Human Rights Accountability Act.[38]",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "September 12, 2018[38]",
+        "",
+        "Sanctions",
+        "Executive Order 13848[126]",
+        "Imposing Certain Sanctions in the Event of Foreign Interference in a United States Election",
+        "Intended to enable automatic sanctions in response toelection interference;[127][128]intelligence agencies are given 45 days after an election to assess any possible interference.[38]"
+      ],
+      "date": "September 12, 2018",
+      "instrument": "EO 13848",
+      "active": false,
+      "title": "Intended to enable automatic sanctions in response toelection interference;[127][128]intelligence agencies are given 45 days after an election to assess any possible interference.[38]",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "November 27, 2018",
+        "",
+        "Sanctions",
+        "Executive Order 13851[129]",
+        "Blocking Property of Certain Persons Contributing to the Situation in Nicaragua",
+        "Announces certain sanctions against current and formerDaniel Ortegagovernment officials engaging in human rights abuse or corruption.[130]"
+      ],
+      "date": "November 27, 2018",
+      "instrument": "EO 13851",
+      "active": true,
+      "title": "Announces certain sanctions against current and formerDaniel Ortegagovernment officials engaging in human rights abuse or corruption.[130]",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Trump",
+        "February 15, 2019",
+        "January 20, 2021[131]",
+        "Military",
+        "Proclamation 9844[132]",
+        "Declaring aNational Emergency Concerning the Southern Border of the United States",
+        "Seeks to divert $8 billion of funds, which were previously allocated to other programs, to build a wall on thesouthern border of the United States, which the order calls a \"major entry point for criminals, gang members, and illicit narcotics\" into the United States.[133][134][135]This emergency declaration is the first since the passage of the National Emergencies Act in which the president sought to take funds for which Congress previously denied appropriation, and the first time both houses of Congress passed a resolution declaring the emergency terminated, sending it to the president for his signature. The resolution passed, but failed to acquire the two thirds support in both houses of congress needed to override a veto. It was subsequently vetoed and failed to become law.[136]"
+      ],
+      "date": "February 15, 2019",
+      "instrument": "Proc. 9844",
+      "active": false,
+      "title": "Seeks to divert $8 billion of funds, which were previously allocated to other programs, to build a wall on thesouthern border of the United States, which the order calls a \"major entry point for crimi",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "May 15, 2019",
+        "",
+        "Sanctions",
+        "Executive Order 13873[137]",
+        "Securing the Information and Communications Technology and Services Supply Chain",
+        "Bans American companies from using any telecommunications equipment that the secretary of Commerce declares to be a national security risk.[138]Soon after the executive order was signed, the Bureau of Industry and Security (BIS) of the Department of Commerce announced that it will be adding Huawei Technologies Co. Ltd and 70 affiliates to its Entity List. The Department of Commerce alleged that Huawei was engaged in activities that are contrary to US national security or foreign policy interest. As a result, sale or transfer of American technology to a company or person on the Entity List requires a license issued by the BIS, and a license may be denied if the sale or transfer would harm US national security or foreign policy interests."
+      ],
+      "date": "May 15, 2019",
+      "instrument": "EO 13873",
+      "active": true,
+      "title": "Bans American companies from using any telecommunications equipment that the secretary of Commerce declares to be a national security risk.[138]Soon after the executive order was signed, the Bureau of",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "July 26, 2019",
+        "",
+        "Sanctions",
+        "Executive Order 13882[139]",
+        "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Mali",
+        "Freezes property and suspends entry to the United States of persons who threaten the peace and security ofMali, and prohibits making donations to such persons."
+      ],
+      "date": "July 26, 2019",
+      "instrument": "EO 13882",
+      "active": true,
+      "title": "Freezes property and suspends entry to the United States of persons who threaten the peace and security ofMali, and prohibits making donations to such persons.",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "October 14, 2019",
+        "",
+        "Sanctions",
+        "Executive Order 13894[140]",
+        "Blocking Property and Suspending Entry of Certain Persons Contributing to the Situation in Syria",
+        "Imposes sanctions against persons involved in war-time actions of theBashar al-Assadgovernment during theSyrian Civil War, or who obstruct postwar stabilization. (Repurposed in 2025 from an emergency that targetedTurkey)"
+      ],
+      "date": "October 14, 2019",
+      "instrument": "EO 13894",
+      "active": true,
+      "title": "Imposes sanctions against persons involved in war-time actions of theBashar al-Assadgovernment during theSyrian Civil War, or who obstruct postwar stabilization. (Repurposed in 2025 from an emergency ",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Trump",
+        "March 13, 2020",
+        "April 10, 2023[141]",
+        "Public health",
+        "Proclamation 9994[142][143]",
+        "Declaring a National Emergency Concerning the Novel Coronavirus Disease (COVID-19) Outbreak",
+        "On March 13, 2020, President Donald Trump declared that he would give the states and territories access to up to 50 billion dollars in federal funds to fight theCOVID-19 pandemic. This includes the ability to waive laws to enabletele-health. Stated by President Trump: \"It gives remote doctor's visits and hospital check ins. The power to waive certain federal license requirements so the doctors from other states can provide services in states with the greatest need.\"[144][145]On April 10, 2023, three years after the emergency declaration, Congress sent a Joint Resolution terminating the national emergency to the President's desk, at which point it was signed into law. This marks the first time since the passage of the National Emergencies Act that a National Emergency was terminated through Congressional action.[146]"
+      ],
+      "date": "March 13, 2020",
+      "instrument": "Proc. 9994",
+      "active": false,
+      "title": "On March 13, 2020, President Donald Trump declared that he would give the states and territories access to up to 50 billion dollars in federal funds to fight theCOVID-19 pandemic. This includes the ab",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Trump",
+        "June 11, 2020",
+        "April 1, 2021[147]",
+        "Sanctions",
+        "Executive Order 13928[148]",
+        "Blocking Property of Certain Persons Associated with theInternational Criminal Court",
+        "Freezes property of persons directly engaged in, or materially supporting, any effort by the ICC to investigate, arrest, detain or prosecute US or US-allied personnel in connection with theWar in Afghanistan; bars entry into the US by such directly engaged persons and their immediate families."
+      ],
+      "date": "June 11, 2020",
+      "instrument": "EO 13928",
+      "active": false,
+      "title": "Freezes property of persons directly engaged in, or materially supporting, any effort by the ICC to investigate, arrest, detain or prosecute US or US-allied personnel in connection with theWar in Afgh",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "July 14, 2020",
+        "",
+        "Sanctions",
+        "Executive Order 13936[149]",
+        "The President’s Executive Order on Hong Kong Normalization",
+        "Freezes property of persons involved in the implementation of theHong Kong national security lawby thePeople's Republic of China."
+      ],
+      "date": "July 14, 2020",
+      "instrument": "EO 13936",
+      "active": true,
+      "title": "Freezes property of persons involved in the implementation of theHong Kong national security lawby thePeople's Republic of China.",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "November 12, 2020",
+        "",
+        "Sanctions",
+        "Executive Order 13959[150]",
+        "Addressing the Threat From Securities Investments That Finance Communist Chinese Military Companies",
+        "Prohibits transactions in securities and derivatives of military companies in thePeople's Republic of China."
+      ],
+      "date": "November 12, 2020",
+      "instrument": "EO 13959",
+      "active": true,
+      "title": "Prohibits transactions in securities and derivatives of military companies in thePeople's Republic of China.",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "February 10, 2021",
+        "",
+        "Sanctions",
+        "Executive Order 14014[151]",
+        "Blocking Property with Respect to the Situation in Burma",
+        "Freezes property of and denies entry to persons involved in the2021 Myanmar coup d'étatand their immediate families, and likewise for all businesses operating in Myanmar's defense sector or controlled by the Myanmar military."
+      ],
+      "date": "February 10, 2021",
+      "instrument": "EO 14014",
+      "active": true,
+      "title": "Freezes property of and denies entry to persons involved in the2021 Myanmar coup d'étatand their immediate families, and likewise for all businesses operating in Myanmar's defense sector or controlled",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "April 15, 2021",
+        "",
+        "Sanctions",
+        "Executive Order 14024[152]",
+        "Blocking Property with Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation",
+        "Freezes the property of persons involved in cyber and other threats coming from Russian government."
+      ],
+      "date": "April 15, 2021",
+      "instrument": "EO 14024",
+      "active": true,
+      "title": "Blocking Property with Respect to Specified Harmful Foreign Activities of the Government of the Russian Federation",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "September 17, 2021",
+        "",
+        "Sanctions",
+        "Executive Order 14046[153]",
+        "Imposing Sanctions on Certain Persons With Respect to the Humanitarian and Human Rights Crisis in Ethiopia",
+        "Imposes sanctions on individuals threatening the stability in Ethiopia or undermining democratic processes or institutions in Ethiopia or its territorial integrity."
+      ],
+      "date": "September 17, 2021",
+      "instrument": "EO 14046",
+      "active": true,
+      "title": "Imposes sanctions on individuals threatening the stability in Ethiopia or undermining democratic processes or institutions in Ethiopia or its territorial integrity.",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "December 15, 2021",
+        "",
+        "Sanctions",
+        "Executive Order 14059[154][155]",
+        "Imposing Sanctions on Foreign Persons Involved in the Global Illicit Drug Trade",
+        "Authorizes the Secretary of the Treasury to issue sanctions on persons who have engaged in activities that contributed to the international trade of illegal drugs or gained property that was from or caused those drug trading activities.[156]"
+      ],
+      "date": "December 15, 2021",
+      "instrument": "EO 14059",
+      "active": true,
+      "title": "Authorizes the Secretary of the Treasury to issue sanctions on persons who have engaged in activities that contributed to the international trade of illegal drugs or gained property that was from or c",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "February 11, 2022",
+        "",
+        "Seizure",
+        "Executive Order 14064[157][158]",
+        "Protecting Certain Property of Da Afghanistan Bank for the Benefit of the People of Afghanistan",
+        "Requires the transfer of all US-held assets ofDa Afghanistan Bankto an account at theFederal Reserve Bank of New York."
+      ],
+      "date": "February 11, 2022",
+      "instrument": "EO 14064",
+      "active": true,
+      "title": "Requires the transfer of all US-held assets ofDa Afghanistan Bankto an account at theFederal Reserve Bank of New York.",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "April 21, 2022",
+        "",
+        "Security",
+        "Proclamation 10371[159]",
+        "Invocation of Emergency Authority Relating to the Regulation of the Anchorage and Movement of Russian-Affiliated Vessels to United States Ports",
+        "Prohibits Russian-affiliated vessels from entering into United States ports, except those ships that transport source material, special nuclear material, and nuclear byproduct material, or provide humanitarian aid."
+      ],
+      "date": "April 21, 2022",
+      "instrument": "Proc. 10371",
+      "active": true,
+      "title": "Prohibits Russian-affiliated vessels from entering into United States ports, except those ships that transport source material, special nuclear material, and nuclear byproduct material, or provide hum",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "July 19, 2022",
+        "",
+        "Sanctions",
+        "Executive Order 14078[160]",
+        "Bolstering Efforts To Bring Hostages and Wrongfully Detained United States Nationals Home",
+        ""
+      ],
+      "date": "July 19, 2022",
+      "instrument": "EO 14078",
+      "active": true,
+      "title": "Bolstering Efforts To Bring Hostages and Wrongfully Detained United States Nationals Home",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Biden",
+        "August 9, 2023",
+        "",
+        "Sanctions",
+        "Executive Order 14105[161]",
+        "Addressing United States Investments in Certain National Security Technologies and Products in Countries of Concern",
+        "Directs the Secretary of the Treasury to issue regulations that monitor or prohibit transactions that may help China develop technology to counter US national security capabilities"
+      ],
+      "date": "August 9, 2023",
+      "instrument": "EO 14105",
+      "active": true,
+      "title": "Directs the Secretary of the Treasury to issue regulations that monitor or prohibit transactions that may help China develop technology to counter US national security capabilities",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Ended",
+        "Biden",
+        "February 1, 2024",
+        "January 20, 2025[162]",
+        "Sanctions",
+        "Executive Order 14115[163]",
+        "Imposing Certain Sanctions on Persons Undermining Peace, Security, and Stability in the West Bank",
+        "Prohibits transactions involving property of foreign persons who participate in activities that threaten the peace and security of theWest Bank, including settler violence against Palestinian civilians; suspends entry of such persons into the U.S."
+      ],
+      "date": "February 1, 2024",
+      "instrument": "EO 14115",
+      "active": false,
+      "title": "Prohibits transactions involving property of foreign persons who participate in activities that threaten the peace and security of theWest Bank, including settler violence against Palestinian civilian",
+      "president": "Biden"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "January 20, 2025",
+        "",
+        "Security",
+        "Proclamation 10886[164]",
+        "Declaring a National Emergency at the Southern Border of the United States",
+        "Directing Secretary of Defense to redirect as many military units as needed to aid the Secretary of Homeland Security in achieving full control of the United States' southern border and take all legal measures possible to deny physical entry into the United States of all illegal migrants. The order also orders the Departments of Defense and Homeland Security to start construction for additional physical barriers on the southern border."
+      ],
+      "date": "January 20, 2025",
+      "instrument": "Proc. 10886",
+      "active": true,
+      "title": "Directing Secretary of Defense to redirect as many military units as needed to aid the Secretary of Homeland Security in achieving full control of the United States' southern border and take all legal",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "January 20, 2025",
+        "",
+        "Economic",
+        "Executive Order 14156[165]",
+        "Declaring a National Energy Emergency",
+        "Directs federal agencies to use emergency authorities to facilitate acquisition and exploitation of domestic energy resources, and orders theSecretary of the Armyto report possible actions to facilitate the national energy supply"
+      ],
+      "date": "January 20, 2025",
+      "instrument": "EO 14156",
+      "active": true,
+      "title": "Directs federal agencies to use emergency authorities to facilitate acquisition and exploitation of domestic energy resources, and orders theSecretary of the Armyto report possible actions to facilita",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "January 20, 2025",
+        "",
+        "Economic",
+        "Executive Order 14157[166]",
+        "Designating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially Designated Global Terrorists",
+        ""
+      ],
+      "date": "January 20, 2025",
+      "instrument": "EO 14157",
+      "active": true,
+      "title": "Designating Cartels and Other Organizations as Foreign Terrorist Organizations and Specially Designated Global Terrorists",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "Feb 1, 2025",
+        "",
+        "Economic",
+        "Executive Order 14193[167]",
+        "Imposing Duties to Address the Flow of Illicit Drugs Across Our Northern Border",
+        "Imposes tariffs on imports from Canada[a]"
+      ],
+      "date": "Feb 1, 2025",
+      "instrument": "EO 14193",
+      "active": true,
+      "title": "Imposing Duties to Address the Flow of Illicit Drugs Across Our Northern Border",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "Feb 1, 2025",
+        "",
+        "Economic",
+        "Executive Order 14194[168]",
+        "Imposing Duties to Address the Situation at Our Southern Border",
+        "Imposes tariffs on imports from Mexico[a]"
+      ],
+      "date": "Feb 1, 2025",
+      "instrument": "EO 14194",
+      "active": true,
+      "title": "Imposing Duties to Address the Situation at Our Southern Border",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "Feb 1, 2025",
+        "",
+        "Economic",
+        "Executive Order 14195[169]",
+        "Imposing Duties to Address the Synthetic Opioid Supply Chain in the People's Republic of China",
+        "Imposes tariffs on imports from China[a]"
+      ],
+      "date": "Feb 1, 2025",
+      "instrument": "EO 14195",
+      "active": true,
+      "title": "Imposing Duties to Address the Synthetic Opioid Supply Chain in the People's Republic of China",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "Feb 6, 2025",
+        "",
+        "Sanctions",
+        "Executive Order 14203[170]",
+        "Imposing Sanctions on the International Criminal Court",
+        ""
+      ],
+      "date": "Feb 6, 2025",
+      "instrument": "EO 14203",
+      "active": true,
+      "title": "Imposing Sanctions on the International Criminal Court",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "April 2, 2025",
+        "",
+        "Economic",
+        "Executive Order 14257[171]",
+        "Regulating Imports with a Reciprocal Tariff to Rectify Trade Practices that Contribute to Large and Persistent Annual United States Goods Trade Deficits",
+        "Imposes \"reciprocal tariffs\" of 10% or more on imports[a]"
+      ],
+      "date": "April 2, 2025",
+      "instrument": "EO 14257",
+      "active": true,
+      "title": "Regulating Imports with a Reciprocal Tariff to Rectify Trade Practices that Contribute to Large and Persistent Annual United States Goods Trade Deficits",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "July 30, 2025",
+        "",
+        "Sanctions",
+        "Executive Order 14323[172]",
+        "Addressing Threats to the United States by the Government of Brazil",
+        "Imposes a 40% tariff on Brazilian goods[a]"
+      ],
+      "date": "July 30, 2025",
+      "instrument": "EO 14323",
+      "active": true,
+      "title": "Addressing Threats to the United States by the Government of Brazil",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "January 9, 2026",
+        "",
+        "Sanctions",
+        "Executive Order 14373[173]",
+        "Safeguarding Venezuelan oil revenue for the good of the American and Venezuelan people",
+        "Preventing Venezuelan oil funds in U.S. treasury accounts from being seized through judicial processes."
+      ],
+      "date": "January 9, 2026",
+      "instrument": "EO 14373",
+      "active": true,
+      "title": "Preventing Venezuelan oil funds in U.S. treasury accounts from being seized through judicial processes.",
+      "president": "Trump"
+    },
+    {
+      "raw_cells": [
+        "Current",
+        "Trump",
+        "January 29, 2026",
+        "",
+        "Sanctions",
+        "Executive Order 14380[174]",
+        "Addressing Threats to the United States by the Government of Cuba",
+        "Allows for the imposition of additional tariffs on countries that supply oil to Cuba."
+      ],
+      "date": "January 29, 2026",
+      "instrument": "EO 14380",
+      "active": true,
+      "title": "Allows for the imposition of additional tariffs on countries that supply oil to Cuba.",
+      "president": "Trump"
+    }
+  ]
+}

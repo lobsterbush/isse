@@ -197,6 +197,19 @@ def load_iccpr() -> list[dict]:
     return []
 
 
+def load_us_nea() -> dict:
+    """Load US NEA emergency data and summarize."""
+    path = DATA_DIR / "us_nea_emergencies.json"
+    if path.exists():
+        data = json.loads(path.read_text(encoding="utf-8"))
+        total = data.get("total_count", 0)
+        active = data.get("active_count", 0)
+        if total:
+            print(f"  Loaded {total} US NEA emergencies ({active} active)")
+        return data
+    return {}
+
+
 def load_overrides() -> list[dict]:
     """Load optional curated overrides (supplements/corrections)."""
     path = DATA_DIR / "overrides.json"
@@ -216,6 +229,7 @@ def build_emergencies(
     reference: list[dict],
     iccpr_records: list[dict],
     overrides: list[dict],
+    us_nea: dict | None = None,
 ) -> list[dict]:
     """Build the emergencies list by country, merging all sources.
 
@@ -486,6 +500,27 @@ def build_emergencies(
     if expired_count or boosted_count:
         print(f"  Overrides applied: {expired_count} marked expired, {boosted_count} boosted")
 
+    # 8) Auto-update US entry from NEA data if available
+    if us_nea and us_nea.get("active_count"):
+        active_count = us_nea["active_count"]
+        total_count = us_nea["total_count"]
+        # Count by president
+        records = us_nea.get("records", [])
+        active_records = [r for r in records if r.get("active")]
+        trump_count = sum(1 for r in active_records if r.get("president") == "Trump")
+        if "USA" in by_country:
+            entry = by_country["USA"]
+            entry["title"] = (
+                f"{active_count} concurrent national emergencies under the NEA"
+                f" ({trump_count} declared by Trump)"
+            )
+            entry["notes"] = (
+                f"As of {us_nea.get('fetched_at', '')[:10]}, {active_count} of "
+                f"{total_count} total NEA emergencies remain in effect. "
+                f"{trump_count} were declared by Trump. "
+                + (entry.get("notes", "") or "")
+            )
+
     # Resolve country names via pycountry for any missing
     for iso3, entry in by_country.items():
         if not entry.get("country"):
@@ -579,7 +614,8 @@ def main() -> None:
     iccpr_records = load_iccpr()
     overrides = load_overrides()
 
-    emergencies = build_emergencies(rw_records, gd_records, gc_records, reference, iccpr_records, overrides)
+    us_nea = load_us_nea()
+    emergencies = build_emergencies(rw_records, gd_records, gc_records, reference, iccpr_records, overrides, us_nea)
     events = build_events(rw_records, gd_records, gc_records)
 
     # Filter to only active emergencies with confidence >= 50%

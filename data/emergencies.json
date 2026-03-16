@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-16T04:33:40.868511+00:00",
-  "active_count": 14,
-  "total_count": 39,
+  "generated_at": "2026-03-16T04:41:07.882299+00:00",
+  "active_count": 20,
+  "total_count": 45,
   "emergencies": [
     {
       "iso3": "UKR",
@@ -92,7 +92,7 @@
       "country": "United States",
       "continent": "Americas",
       "emergency_type": "governance",
-      "title": "51 concurrent national emergencies under the NEA (11 declared by Trump, 9 in second term alone)",
+      "title": "41 concurrent national emergencies under the NEA (18 declared by Trump)",
       "declared_by": "",
       "start_date": "2025-01-20",
       "status": "active",
@@ -106,9 +106,57 @@
       ],
       "recent_events": [],
       "source_count": 1,
-      "notes": "As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies.",
+      "notes": "As of 2026-03-16, 41 of 93 total NEA emergencies remain in effect. 18 were declared by Trump. As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies.",
       "legal_basis": "National Emergencies Act of 1976 (50 U.S.C. §1601); IEEPA (50 U.S.C. §1701)",
       "scope": "National (multiple concurrent declarations)",
+      "override": true
+    },
+    {
+      "iso3": "ISR",
+      "country": "Israel",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "Continuous state of emergency since founding in 1948 (renewed annually by Knesset)",
+      "declared_by": "",
+      "start_date": "1948-05-19",
+      "status": "active",
+      "confidence": 0.99,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "Israel's state of emergency has been in continuous effect since founding. Renewed annually by Knesset vote. Empowers government to issue emergency regulations, including administrative detention. The world's longest continuously active state of emergency.",
+      "legal_basis": "Law and Administration Ordinance 1948 §9; Basic Law: The Government (2001) §38-39",
+      "scope": "National",
+      "override": true
+    },
+    {
+      "iso3": "BRN",
+      "country": "Brunei",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "State of emergency since 1962 Brunei revolt (never lifted, Sultan rules by decree)",
+      "declared_by": "",
+      "start_date": "1962-12-12",
+      "status": "active",
+      "confidence": 0.99,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of emergency invoked by Sultan Omar Ali Saifuddien III on Dec 12, 1962 in response to the Brunei revolt. Never lifted. Sultan rules by decree; elected Legislative Council dissolved. Emergency renewed every 2 years. The world's second-longest continuously active state of emergency.",
+      "legal_basis": "Emergency (Sultan's Powers) Order 1962; Constitution Art. 83(6)",
+      "scope": "National",
       "override": true
     },
     {
@@ -138,6 +186,30 @@
       ],
       "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
       "source_count": 1
+    },
+    {
+      "iso3": "HND",
+      "country": "Honduras",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "State of exception for gang crackdown (extended ~17 times since Dec 2022)",
+      "declared_by": "",
+      "start_date": "2022-12-06",
+      "status": "active",
+      "confidence": 0.95,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "Estado de excepción declared for gang crackdown, extended approximately 17 times. UN High Commissioner for Human Rights called on Honduras to end the emergency. Suspension of constitutional guarantees in effect.",
+      "legal_basis": "Constitution Art. 187 (Suspensión de garantías)",
+      "scope": "National",
+      "override": true
     },
     {
       "iso3": "KGZ",
@@ -291,6 +363,54 @@
       "override": true
     },
     {
+      "iso3": "COD",
+      "country": "Democratic Republic of the Congo",
+      "continent": "Africa",
+      "emergency_type": "conflict",
+      "title": "State of siege in North Kivu and Ituri (extended since May 2021)",
+      "declared_by": "",
+      "start_date": "2021-05-06",
+      "status": "active",
+      "confidence": 0.9,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of siege declared in North Kivu and Ituri provinces due to ADF and M23 armed group violence. Repeatedly extended by Parliament. Military governors replace civilian administration. M23 conflict with Rwandan backing ongoing.",
+      "legal_basis": "Constitution Art. 85 (État de siège)",
+      "scope": "Regional (North Kivu, Ituri)",
+      "override": true
+    },
+    {
+      "iso3": "BFA",
+      "country": "Burkina Faso",
+      "continent": "Africa",
+      "emergency_type": "conflict",
+      "title": "State of emergency in multiple regions (jihadist insurgency under military junta)",
+      "declared_by": "",
+      "start_date": "2022-01-01",
+      "status": "active",
+      "confidence": 0.9,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of emergency in multiple northern and eastern regions due to escalating jihadist insurgency (JNIM, Islamic State Sahel Province). Military junta under Captain Traoré since Sept 2022. Epicenter of Sahel conflict with 55% of regional fatalities.",
+      "legal_basis": "Presidential decree under Transition Charter",
+      "scope": "Regional (Sahel, Est, Boucle du Mouhoun, Nord, Centre-Nord)",
+      "override": true
+    },
+    {
       "iso3": "MDA",
       "country": "Moldova",
       "continent": "Europe",
@@ -349,6 +469,30 @@
       "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025.",
       "source_count": 1,
       "legal_basis": "Fundamental Law Art. 53 (Veszélyhelyzet)",
+      "scope": "National",
+      "override": true
+    },
+    {
+      "iso3": "MLI",
+      "country": "Mali",
+      "continent": "Africa",
+      "emergency_type": "conflict",
+      "title": "State of emergency under military junta (JNIM insurgency)",
+      "declared_by": "",
+      "start_date": "2022-01-01",
+      "status": "active",
+      "confidence": 0.85,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of emergency under military junta. JNIM has blockaded Bamako fuel supply corridors and expanded across central and southern Mali. Alliance of Sahel States (AES) with Burkina Faso and Niger providing mutual military support. Russian Africa Corps present.",
+      "legal_basis": "Décret d'état d'urgence; Transition Charter",
       "scope": "National",
       "override": true
     },
@@ -558,7 +702,7 @@
       "country": "United States",
       "continent": "Americas",
       "emergency_type": "governance",
-      "title": "51 concurrent national emergencies under the NEA (11 declared by Trump, 9 in second term alone)",
+      "title": "41 concurrent national emergencies under the NEA (18 declared by Trump)",
       "declared_by": "",
       "start_date": "2025-01-20",
       "status": "active",
@@ -572,9 +716,57 @@
       ],
       "recent_events": [],
       "source_count": 1,
-      "notes": "As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies.",
+      "notes": "As of 2026-03-16, 41 of 93 total NEA emergencies remain in effect. 18 were declared by Trump. As of mid-2025, 51 national emergencies are simultaneously in effect. Trump declared 9 new emergencies in his second term covering the southern border (Proc. 10886), energy (EO 14156), cartel designations (EO 14157), northern border drugs (EO 14193), tariffs on Mexico/Canada/China, cybersecurity, ICC sanctions (EO 14203), reciprocal tariffs (EO 14257), and Brazil sanctions (EO 14323). Two first-term emergencies also remain active: Global Magnitsky (EO 13818, 2017) and foreign election interference (EO 13848, 2018). Critics argue most second-term declarations are designed to bypass Congress on domestic policy rather than address genuine emergencies.",
       "legal_basis": "National Emergencies Act of 1976 (50 U.S.C. §1601); IEEPA (50 U.S.C. §1701)",
       "scope": "National (multiple concurrent declarations)",
+      "override": true
+    },
+    {
+      "iso3": "ISR",
+      "country": "Israel",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "Continuous state of emergency since founding in 1948 (renewed annually by Knesset)",
+      "declared_by": "",
+      "start_date": "1948-05-19",
+      "status": "active",
+      "confidence": 0.99,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "Israel's state of emergency has been in continuous effect since founding. Renewed annually by Knesset vote. Empowers government to issue emergency regulations, including administrative detention. The world's longest continuously active state of emergency.",
+      "legal_basis": "Law and Administration Ordinance 1948 §9; Basic Law: The Government (2001) §38-39",
+      "scope": "National",
+      "override": true
+    },
+    {
+      "iso3": "BRN",
+      "country": "Brunei",
+      "continent": "Asia",
+      "emergency_type": "governance",
+      "title": "State of emergency since 1962 Brunei revolt (never lifted, Sultan rules by decree)",
+      "declared_by": "",
+      "start_date": "1962-12-12",
+      "status": "active",
+      "confidence": 0.99,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of emergency invoked by Sultan Omar Ali Saifuddien III on Dec 12, 1962 in response to the Brunei revolt. Never lifted. Sultan rules by decree; elected Legislative Council dissolved. Emergency renewed every 2 years. The world's second-longest continuously active state of emergency.",
+      "legal_basis": "Emergency (Sultan's Powers) Order 1962; Constitution Art. 83(6)",
+      "scope": "National",
       "override": true
     },
     {
@@ -604,6 +796,30 @@
       ],
       "notes": "On 3 January 2026, the President of Venezuela, Nicolás Maduro, declared a state of emergency after strikes from the United Stateswere reported. Maduro was captured some time later.",
       "source_count": 1
+    },
+    {
+      "iso3": "HND",
+      "country": "Honduras",
+      "continent": "Americas",
+      "emergency_type": "governance",
+      "title": "State of exception for gang crackdown (extended ~17 times since Dec 2022)",
+      "declared_by": "",
+      "start_date": "2022-12-06",
+      "status": "active",
+      "confidence": 0.95,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "Estado de excepción declared for gang crackdown, extended approximately 17 times. UN High Commissioner for Human Rights called on Honduras to end the emergency. Suspension of constitutional guarantees in effect.",
+      "legal_basis": "Constitution Art. 187 (Suspensión de garantías)",
+      "scope": "National",
+      "override": true
     },
     {
       "iso3": "AUS",
@@ -902,6 +1118,54 @@
       "override": true
     },
     {
+      "iso3": "COD",
+      "country": "Democratic Republic of the Congo",
+      "continent": "Africa",
+      "emergency_type": "conflict",
+      "title": "State of siege in North Kivu and Ituri (extended since May 2021)",
+      "declared_by": "",
+      "start_date": "2021-05-06",
+      "status": "active",
+      "confidence": 0.9,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of siege declared in North Kivu and Ituri provinces due to ADF and M23 armed group violence. Repeatedly extended by Parliament. Military governors replace civilian administration. M23 conflict with Rwandan backing ongoing.",
+      "legal_basis": "Constitution Art. 85 (État de siège)",
+      "scope": "Regional (North Kivu, Ituri)",
+      "override": true
+    },
+    {
+      "iso3": "BFA",
+      "country": "Burkina Faso",
+      "continent": "Africa",
+      "emergency_type": "conflict",
+      "title": "State of emergency in multiple regions (jihadist insurgency under military junta)",
+      "declared_by": "",
+      "start_date": "2022-01-01",
+      "status": "active",
+      "confidence": 0.9,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of emergency in multiple northern and eastern regions due to escalating jihadist insurgency (JNIM, Islamic State Sahel Province). Military junta under Captain Traoré since Sept 2022. Epicenter of Sahel conflict with 55% of regional fatalities.",
+      "legal_basis": "Presidential decree under Transition Charter",
+      "scope": "Regional (Sahel, Est, Boucle du Mouhoun, Nord, Centre-Nord)",
+      "override": true
+    },
+    {
       "iso3": "MDA",
       "country": "Moldova",
       "continent": "Europe",
@@ -1000,6 +1264,30 @@
       "notes": "Veszélyhelyzet declared May 24, 2022, extended multiple times through 2025.",
       "source_count": 1,
       "legal_basis": "Fundamental Law Art. 53 (Veszélyhelyzet)",
+      "scope": "National",
+      "override": true
+    },
+    {
+      "iso3": "MLI",
+      "country": "Mali",
+      "continent": "Africa",
+      "emergency_type": "conflict",
+      "title": "State of emergency under military junta (JNIM insurgency)",
+      "declared_by": "",
+      "start_date": "2022-01-01",
+      "status": "active",
+      "confidence": 0.85,
+      "source_urls": [
+        {
+          "title": "Official source",
+          "url": "",
+          "date": ""
+        }
+      ],
+      "recent_events": [],
+      "source_count": 1,
+      "notes": "State of emergency under military junta. JNIM has blockaded Bamako fuel supply corridors and expanded across central and southern Mali. Alliance of Sahel States (AES) with Burkina Faso and Niger providing mutual military support. Russian Africa Corps present.",
+      "legal_basis": "Décret d'état d'urgence; Transition Charter",
       "scope": "National",
       "override": true
     },
